@@ -7,7 +7,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
 
-function add(data as IIngredient[double][IItemStack]) {
+function add(data as double[IIngredient][IItemStack]) {
 	for output, ingredients in data {
 		for item, xp in ingredients {
 			furnace.addRecipe(output, item, xp);
