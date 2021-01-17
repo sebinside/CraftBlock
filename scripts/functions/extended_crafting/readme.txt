@@ -4,7 +4,7 @@ How-to:
 - in jeder datei "import crafttweaker.item.IItemStack;" (ohne "")
 - je nach dem was benutzt wird, "import scripts.functions.extended_crafting." + combination/compression/ender/table (; nicht vergessen)
 - bei mehreren arrays pro Datei müssen die Namen der Arrays geändert werden
-- Beispiele zeigen immer ein Rezept, bei mehreren Rezepten ein , an Entsprechender Stelle setzen, bsp kann nach dem input eines Rezepten ein , wonach ein neues Input Array deklariert werden kann. Selbes geht auch nach Output oder Strom.
+- Beispiele zeigen immer ein Rezept, bei mehreren Rezepten ein , an Entsprechender Stelle setzen, bsp kann nach dem input eines Rezepten ein , wonach ein neues Input Array deklariert werden kann, mit dem Selben Output/Stromverbrauch. Selbes geht auch nach Output oder Strom.
 - vorlagen:
 
 	combination:
