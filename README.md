@@ -6,12 +6,12 @@ Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nac
 
 - Hearth Well lernen und Anpassungsmöglichkeiten identifizieren
 - Vanilla Tools deaktivieren
-- skateKAPPA Mod hinzufügen, Zenscript-Datei stilllegen
 - Lampenblöcke zu Lampenbögen umbenennen
 - Extended Crafting stark reduzieren (singularitäten, crafting core, catalysts, ultimate ingot, change black iron recipe, ender crafting, ...)
 - Electrum & Steel jeweils 1 version raus
 - Akashic Tome richtig einsetzen
 - Unique Crops, Tinkers Construct, IE, HW, Embers, OpenComputers nerfen
+- Pam's Gardens herstellbar machen
 - Extended Crafting sinnvoll im Early Game nutzen
 
 ## Vorgesehene Progression
