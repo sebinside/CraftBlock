@@ -67,6 +67,7 @@ Das Modpack besteht aktuell aus den folgenden Mods:
 - Botania Garden of Glass
 - CraftTweaker
 - ModTweaker
+- ContentTweaker
 - KleeSlabs
 - The One Probe
 - BetterFps
