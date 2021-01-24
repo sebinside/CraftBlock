@@ -14,7 +14,7 @@ recipes.addShaped("crushing_block", <hwell:crushing_block>, [[<minecraft:stone>,
 recipes.addShapeless("mysterious_sawdust", <contenttweaker:mysterious_sawdust> * 8, [<hwell:myst_log>, <bibliocraft:framingsaw>]);
 recipes.remove(<hwell:leaf_mesh>);
 recipes.addShapeless("mysterious_mixture", <hwell:leaf_mesh> * 2, 
-    [<hwell:dust>, <ore:dustCoal>, <hwell:myst_dust>, <contenttweaker:mysterious_sawdust>]);
+    [<harvestcraft:mixingbowlitem>, <hwell:dust>, <ore:dustCoal>, <hwell:myst_dust>, <contenttweaker:mysterious_sawdust>]);
 
 // Change crystal creation
 furnace.remove(<hwell:crystal_block>);
