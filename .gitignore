@@ -1,0 +1,23 @@
+# Ignore everything...
+*
+
+# except for the gitignore file
+!.gitignore
+
+# except the scripts folder
+
+!scripts
+!scripts/*
+
+# except the readme file
+!readme.md
+
+# except custom resources
+!resources
+!resources/contenttweaker
+!resources/contenttweaker/**/**
+
+# except changed config files (add manually)
+!config
+!config/blur.cfg
+!config/splash.properties

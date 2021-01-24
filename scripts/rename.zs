@@ -27,7 +27,7 @@ for item in blackIronItems {
 
 /*
 Deactivated for now, because we have the skateKAPPA mod!
-
+//mods.uniquecrops.SeedCrafting.addRecipe(<hwell:core_stone>, <ore:ingotBlackIron>, <ore:livingrock>, <ore:stone>);
 // This never gets old
 import crafttweaker.item.IItemStack;
 
