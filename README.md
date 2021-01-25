@@ -19,7 +19,7 @@ Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nac
 Die folgenden Mod-Progression ist vorgesehen:
 
 - Botania -> Astral Sorcery -> Embers
-- Hearh Well + Tinkers Construct -> TC Smeltery, Lava
+- Hearth Well + Tinkers Construct -> TC Smeltery, Lava
 - Immersive Engineering + Embers + OpenComputers -> *Jede andere Technik-Mod*
 - Unique Crops + Botania + Astral Sorcery -> *Jede andere Magie-Mod*
 - Storage Drawers + OC Early Game -> Refined Storage (ohne Autocrafting) + OC Late Game -> Applied Energistics
