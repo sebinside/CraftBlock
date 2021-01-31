@@ -5,6 +5,7 @@ Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nac
 ## Offene TODOs
 
 - Hearth Well lernen und Anpassungsmöglichkeiten identifizieren
+- Crafting Table ändern
 - Vanilla Tools deaktivieren
 - Lampenblöcke zu Lampenbögen umbenennen
 - Extended Crafting stark reduzieren (singularitäten, crafting core, catalysts, ultimate ingot, change black iron recipe, ender crafting, ...)
@@ -13,6 +14,7 @@ Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nac
 - Unique Crops, Tinkers Construct, IE, HW, Embers, OpenComputers nerfen
 - Pam's Gardens herstellbar machen
 - Extended Crafting sinnvoll im Early Game nutzen
+- Custom Advancements
 
 ## Vorgesehene Progression
 

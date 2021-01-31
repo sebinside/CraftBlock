@@ -23,6 +23,17 @@ for item in blackIronItems {
     item.displayName = newName;
 }
 
+// Rename nether crystal to toasted crystal
+val netherCrystalItems = [
+    <hwell:crystal_nether>,
+    <hwell:crystal_nether_block>,
+    <hwell:box_crystal_nether_block>
+] as IItemStack[];
+
+for item in netherCrystalItems {
+    val newName = item.displayName.replace("Nether", "Toasted");
+    item.displayName = newName;
+}
 
 
 /*

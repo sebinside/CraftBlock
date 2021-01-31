@@ -20,4 +20,5 @@
 # except changed config files (add manually)
 !config
 !config/blur.cfg
+!config/hwell.cfg
 !config/splash.properties

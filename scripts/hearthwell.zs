@@ -22,9 +22,6 @@ recipes.addShapeless("mysterious_mixture", <hwell:leaf_mesh> * 2,
 furnace.remove(<hwell:crystal_block>);
 mods.botania.ManaInfusion.addInfusion(<hwell:crystal>, <hwell:leaf_mesh>, 2000);
 
-// Change up core crafting
-
-
 // Change raw asul crafting
 recipes.remove(<hwell:raw_asul_block>);
 mods.astralsorcery.LightTransmutation.addTransmutation(<hwell:crystal_block>, <hwell:raw_asul_block>, 10);
@@ -58,3 +55,24 @@ recipes.addShapeless("mutationpaste", <hwell:mutation_paste> * 2,
 
 // Remove light crushing to glowstone
 mods.hwell.removeCrushingBlockRecipe(<hwell:locked_light>);
+
+// Nether crystal? HA! TOASTED CRYSTAL!
+mods.hwell.removeNetherPortalRecipe(<hwell:crystal>);
+moretweaker.cfb.KitchenAppliances.addToasterRecipe(<hwell:crystal_nether>, <hwell:crystal>);
+mods.jei.JEI.addDescription(<hwell:crystal_nether>, "Obtained by toasting a crystal using the Toaster. Anyone telling you otherwise is lying.");
+
+// Make charger harder
+recipes.remove(<hwell:charger>);
+recipes.addShaped("hwellcharger", <hwell:charger>, [[<ore:manaDiamond>, <ore:dustAstralStarmetal>, <ore:manaDiamond>], [<hwell:furnace_tube>, <hwell:asul_machine_case>, <hwell:furnace_tube>], [<hwell:smooth_onyx>, <hwell:smooth_onyx>, <hwell:smooth_onyx>]]);
+
+// Make slab lamp harder
+recipes.remove(<hwell:slab_lamp>);
+recipes.addShaped("hwellslab_lamp", <hwell:slab_lamp>, [[<hwell:heavy_ingot>, <hwell:locked_light>, <hwell:heavy_ingot>]]);
+
+// Make block player easier
+recipes.remove(<hwell:setter>);
+recipes.addShaped("hwellsetter", <hwell:setter>, [[<ore:ingotManasteel>, <minecraft:redstone_lamp>, <ore:ingotManasteel>], [<ore:ingotManasteel>, <ore:dustRedstone>, <ore:ingotManasteel>], [<ore:ingotManasteel>, <hwell:asul_machine_case>, <ore:ingotManasteel>]]);
+
+// Change light collector
+recipes.remove(<hwell:light_collector>);
+recipes.addShaped("hwelllight_collector", <hwell:light_collector>, [[<hwell:citrinic_sand>, <botania:managlasspane>, <hwell:citrinic_sand>], [<botania:managlasspane>, <astralsorcery:itemcraftingcomponent:3>, <botania:managlasspane>], [<hwell:citrinic_sand>, <botania:managlasspane>, <hwell:citrinic_sand>]]);
