@@ -9,6 +9,3 @@ mods.botania.Orechid.addOre("rockCrystal", 2000);
 
 // Marble
 mods.botania.ManaInfusion.addInfusion(<astralsorcery:blockmarble>, <botania:livingrock>, 1500);
-
-// Grindstone coal dust
-mods.astralsorcery.Grindstone.addRecipe(<minecraft:coal>, <jaopca:item_dustcoal>);

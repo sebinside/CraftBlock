@@ -1,4 +1,4 @@
-import crafttweaker.item.IItemStack;
+import scripts._base.disable;
 
 // heavy mix depends both on botania and astral sorcery
 recipes.remove(<hwell:heavy_mesh>);
@@ -27,11 +27,6 @@ recipes.remove(<hwell:raw_asul_block>);
 mods.astralsorcery.LightTransmutation.addTransmutation(<hwell:crystal_block>, <hwell:raw_asul_block>, 10);
 
 // Disable core crafting
-function disable(input as IItemStack) {
-	recipes.remove(input);
-	mods.jei.JEI.removeAndHide(input);
-}
-
 disable(<hwell:core_sentient>);
 disable(<hwell:core_green>);
 disable(<hwell:core_stone>);
