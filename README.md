@@ -4,17 +4,26 @@ Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nac
 
 ## Offene TODOs
 
-- Hearth Well lernen und Anpassungsmöglichkeiten identifizieren
-- Crafting Table ändern
-- Vanilla Tools deaktivieren
-- Lampenblöcke zu Lampenbögen umbenennen
+- Dirt craftbar machen
+- Crops von Ergebnissen von einander abhängig machen
+- Wheeping Bell Stalk Ghast Tear raus
+- Netherwart Crafting *3
+- Cave Illuminator -> Imprisioned Light
+- Netherwart Block 4 Netherwart
+- Moretwaker Update und Info raus
+- HearthWell Other Machines (z.B. Nourisher -> Botania & Crops) durchgehen
+- Was mit Loot Kits machen?
+- Precision Grinder benötigt Extreme Crafting und viele verschiedene Items aus Hearth Well Early Game, Botania und Astral Sorcery und Precision Seeds
+- vanilla tools deaktivieren
+- Lampenblöcke zu lampenbögen
 - Extended Crafting stark reduzieren (singularitäten, crafting core, catalysts, ultimate ingot, change black iron recipe, ender crafting, ...)
 - Electrum & Steel jeweils 1 version raus
 - Akashic Tome richtig einsetzen
-- Unique Crops, Tinkers Construct, IE, HW, Embers, OpenComputers nerfen
+- Tinkers Construct, IE, HW, Embers, OpenComputers nerfen
 - Pam's Gardens herstellbar machen
 - Extended Crafting sinnvoll im Early Game nutzen
 - Custom Advancements
+- Refine Storage mit aufnehmen und kürzen (Tier 2)
 
 ## Vorgesehene Progression
 
