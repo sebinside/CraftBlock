@@ -33,7 +33,7 @@ disable(<hwell:core_stone>);
 disable(<hwell:core_anima>);
 disable(<hwell:core_heat>);
 disable(<hwell:inert_seed>);
-disable(<hwell:heat_block>);
+//disable(<hwell:heat_block>);
 disable(<hwell:graft_anima>);
 disable(<hwell:stabiliser_light>);
 disable(<hwell:stabiliser>);
@@ -54,7 +54,8 @@ mods.hwell.removeCrushingBlockRecipe(<hwell:locked_light>);
 // Nether crystal? HA! TOASTED CRYSTAL!
 mods.hwell.removeNetherPortalRecipe(<hwell:crystal>);
 moretweaker.cfb.KitchenAppliances.addToasterRecipe(<hwell:crystal_nether>, <hwell:crystal>);
-mods.jei.JEI.addDescription(<hwell:crystal_nether>, "Obtained by toasting a crystal using the Toaster. Anyone telling you otherwise is lying.");
+moretweaker.jei.MoreJei.removeDescription(<hwell:crystal_nether>);
+moretweaker.jei.MoreJei.addDescription(<hwell:crystal_nether>, ["Obtained by toasting a crystal using the Toaster."]);
 
 // Make charger harder
 recipes.remove(<hwell:charger>);
@@ -66,8 +67,12 @@ recipes.addShaped("hwellslab_lamp", <hwell:slab_lamp>, [[<hwell:heavy_ingot>, <h
 
 // Make block player easier
 recipes.remove(<hwell:setter>);
-recipes.addShaped("hwellsetter", <hwell:setter>, [[<ore:ingotManasteel>, <minecraft:redstone_lamp>, <ore:ingotManasteel>], [<ore:ingotManasteel>, <ore:dustRedstone>, <ore:ingotManasteel>], [<ore:ingotManasteel>, <hwell:asul_machine_case>, <ore:ingotManasteel>]]);
+recipes.addShaped("hwellsetter", <hwell:setter>, [[<ore:ingotManasteel>, null, <ore:ingotManasteel>], [<ore:ingotManasteel>, <ore:dustRedstone>, <ore:ingotManasteel>], [<ore:ingotManasteel>, <hwell:asul_machine_case>, <ore:ingotManasteel>]]);
 
 // Change light collector
 recipes.remove(<hwell:light_collector>);
 recipes.addShaped("hwelllight_collector", <hwell:light_collector>, [[<hwell:citrinic_sand>, <botania:managlasspane>, <hwell:citrinic_sand>], [<botania:managlasspane>, <astralsorcery:itemcraftingcomponent:3>, <botania:managlasspane>], [<hwell:citrinic_sand>, <botania:managlasspane>, <hwell:citrinic_sand>]]);
+
+// Very creative freezer recipe
+recipes.remove(<hwell:freezer>);
+recipes.addShaped("hwell_freezer", <hwell:freezer>, [[<hwell:shard_ca>, <harvestcraft:mintcupcakeitem>, <hwell:shard_ca>], [<forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}), <cookingforblockheads:fridge>, <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000})], [<astralsorcery:itemcraftingcomponent:1>, <hwell:asul_machine_case>, <astralsorcery:itemcraftingcomponent:1>]]);

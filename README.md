@@ -4,16 +4,23 @@ Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nac
 
 ## Offene TODOs
 
-- Dirt craftbar machen
-- Crops von Ergebnissen von einander abhängig machen
-- Wheeping Bell Stalk Ghast Tear raus
-- Netherwart Crafting *3
-- Cave Illuminator -> Imprisioned Light
-- Netherwart Block 4 Netherwart
-- Moretwaker Update und Info raus
-- HearthWell Other Machines (z.B. Nourisher -> Botania & Crops) durchgehen
-- Was mit Loot Kits machen?
+- Ore Puller ausprobieren
+- Dann: Entweder Heat Block doch entfernen oder jedes einzelne Heat Core Rezept mit Unsinn überschreiben / entfernen
+
+- (Raw) repearing paste raus werfen
+- Alle Burst Seeds raus werfen
+- Graft + Grafting Tray raus werfen
+- Heat Furnace raus werfen
+- Nourisher -> Botania & Crops
+- Add disgusting smoothie (mit bowl)
+- Add mob smash (mortar und pestel)
+- Lootkit Producer Tier 2
+- Ore Puller Tier 2
+- Alle Loot Kits anpassen (Smoothie und Mob Smash)
 - Precision Grinder benötigt Extreme Crafting und viele verschiedene Items aus Hearth Well Early Game, Botania und Astral Sorcery und Precision Seeds
+
+
+
 - vanilla tools deaktivieren
 - Lampenblöcke zu lampenbögen
 - Extended Crafting stark reduzieren (singularitäten, crafting core, catalysts, ultimate ingot, change black iron recipe, ender crafting, ...)
