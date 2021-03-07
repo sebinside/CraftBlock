@@ -18,3 +18,6 @@ mods.uniquecrops.SeedCrafting.addRecipe(<uniquecrops:seedenderlily>, <minecraft:
 mods.uniquecrops.SeedCrafting.removeRecipe(<uniquecrops:seedweepingbells>);
 mods.uniquecrops.SeedCrafting.addRecipe(<uniquecrops:seedweepingbells>, <minecraft:poisonous_potato>, <uniquecrops:seedenderlily>, <minecraft:melon_seeds>);
 
+// Hourglass Alpha soon!
+recipes.remove(<uniquecrops:hourglass>);
+recipes.addShaped("uniquecrops_hourglass", <uniquecrops:hourglass>, [[<uniquecrops:generic:4>, <minecraft:gold_block>, <uniquecrops:generic:4>], [<minecraft:glass_pane>, <botania:hourglass>, <minecraft:glass_pane>], [<uniquecrops:generic:4>, <minecraft:gold_block>, <uniquecrops:generic:4>]]);

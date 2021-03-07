@@ -33,11 +33,13 @@ disable(<hwell:core_stone>);
 disable(<hwell:core_anima>);
 disable(<hwell:core_heat>);
 disable(<hwell:inert_seed>);
-//disable(<hwell:heat_block>);
 disable(<hwell:graft_anima>);
 disable(<hwell:stabiliser_light>);
 disable(<hwell:stabiliser>);
 disable(<hwell:stabiliser_heavy>);
+
+// Disable heat core crafting
+moretweaker.hwell.MoreCoring.removeCoring("core_heat", null);
 
 // Add new metaldiamond recipe
 mods.tconstruct.Casting.addTableRecipe(<hwell:metaldiamond>, <ore:manaDiamond>, <liquid:astral_starmetal>, 144, true);
@@ -76,3 +78,32 @@ recipes.addShaped("hwelllight_collector", <hwell:light_collector>, [[<hwell:citr
 // Very creative freezer recipe
 recipes.remove(<hwell:freezer>);
 recipes.addShaped("hwell_freezer", <hwell:freezer>, [[<hwell:shard_ca>, <harvestcraft:mintcupcakeitem>, <hwell:shard_ca>], [<forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}), <cookingforblockheads:fridge>, <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000})], [<astralsorcery:itemcraftingcomponent:1>, <hwell:asul_machine_case>, <astralsorcery:itemcraftingcomponent:1>]]);
+
+// Make protection block depend on embers because of ore puller
+recipes.remove(<hwell:heavy_protection_block>);
+recipes.addShaped("hwell_heavy_protection_block", <hwell:heavy_protection_block> * 4, [[<hwell:soulsteel_ingot>, <ore:ingotDawnstone>, <hwell:soulsteel_ingot>], [<ore:ingotDawnstone>, <hwell:heavy_block>, <ore:ingotDawnstone>], [<hwell:soulsteel_ingot>, <ore:ingotDawnstone>, <hwell:soulsteel_ingot>]]);
+
+// Remove reparing paste, grafting, heat furnace, and burst seeds
+disable(<hwell:repairing_paste>);
+disable(<hwell:raw_repairing_paste>);
+disable(<hwell:burst_seed_endstone>);
+disable(<hwell:burst_seed_crystal>);
+disable(<hwell:burst_seed_dirt>);
+disable(<hwell:burst_seed_snow>);
+disable(<hwell:burst_seed_netherrack>);
+disable(<hwell:burst_seed_quartz>);
+disable(<hwell:burst_seed_prismarine>);
+disable(<hwell:burst_seed_cobblestone>);
+disable(<hwell:burst_seed_gravel>);
+disable(<hwell:burst_seed_stone>);
+disable(<hwell:burst_seed_sand>);
+disable(<hwell:grafting_tray>);
+disable(<hwell:graft_stone>);
+disable(<hwell:graft_heat>);
+disable(<hwell:graft_sentient>);
+disable(<hwell:graft_green>);
+disable(<hwell:heat_furnace>);
+
+// Way better nourisher recipe
+recipes.remove(<hwell:nourisher>);
+recipes.addShaped("hwell_nourisher", <hwell:nourisher>, [[<botania:petal:*>, <botania:petal:*>, <botania:petal:*>], [<hwell:locked_light>, <ore:ingotTerrasteel>, <hwell:locked_light>], [<uniquecrops:oldgrass>, <hwell:asul_machine_case>, <uniquecrops:oldgrass>]]);
