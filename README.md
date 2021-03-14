@@ -4,13 +4,9 @@ Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nac
 
 ## Offene TODOs
 
-- Add disgusting smoothie (mit bowl)
-- Add mob smash (mortar und pestel)
 - Lootkit Producer Tier 2
 - Ore Puller Tier 2
-- Alle Loot Kits anpassen (Smoothie, Mob Smash, ein Ziel-Item)
 - Precision Grinder Tier 2 (Hearth Well Early Game, Botania und Astral Sorcery und Precision Seeds)
-
 
 
 - vanilla tools deaktivieren
@@ -29,7 +25,7 @@ Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nac
 Die folgenden Mod-Progression ist vorgesehen:
 
 - Botania -> Astral Sorcery -> Embers
-- Hearh Well + Tinkers Construct -> TC Smeltery, Lava
+- Hearth Well + Tinkers Construct -> TC Smeltery, Lava
 - Immersive Engineering + Embers + OpenComputers -> *Jede andere Technik-Mod*
 - Unique Crops + Botania + Astral Sorcery -> *Jede andere Magie-Mod*
 - Storage Drawers + OC Early Game -> Refined Storage (ohne Autocrafting) + OC Late Game -> Applied Energistics
@@ -135,3 +131,5 @@ Das Modpack besteht aktuell aus den folgenden Mods:
 - [Deep Mob Learning](https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning)
 - [Woot](https://www.curseforge.com/minecraft/mc-mods/woot)
 - [XNet](https://www.curseforge.com/minecraft/mc-mods/xnet)
+
+The license does currently not include splash.properties, lol
