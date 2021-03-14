@@ -4,15 +4,21 @@ Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nac
 
 ## Offene TODOs
 
-- Hearth Well lernen und Anpassungsmöglichkeiten identifizieren
-- Vanilla Tools deaktivieren
-- Lampenblöcke zu Lampenbögen umbenennen
+- Lootkit Producer Tier 2
+- Ore Puller Tier 2
+- Precision Grinder Tier 2 (Hearth Well Early Game, Botania und Astral Sorcery und Precision Seeds)
+
+
+- vanilla tools deaktivieren
+- Lampenblöcke zu lampenbögen
 - Extended Crafting stark reduzieren (singularitäten, crafting core, catalysts, ultimate ingot, change black iron recipe, ender crafting, ...)
 - Electrum & Steel jeweils 1 version raus
 - Akashic Tome richtig einsetzen
-- Unique Crops, Tinkers Construct, IE, HW, Embers, OpenComputers nerfen
+- Tinkers Construct, IE, HW, Embers, OpenComputers nerfen
 - Pam's Gardens herstellbar machen
 - Extended Crafting sinnvoll im Early Game nutzen
+- Custom Advancements
+- Refine Storage mit aufnehmen und kürzen (Tier 2)
 
 ## Vorgesehene Progression
 
@@ -125,3 +131,5 @@ Das Modpack besteht aktuell aus den folgenden Mods:
 - Deep Mob Learning
 - Woot
 - XNET
+
+The license does currently not include splash.properties, lol
