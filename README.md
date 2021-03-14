@@ -4,13 +4,9 @@ Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nac
 
 ## Offene TODOs
 
-- Add disgusting smoothie (mit bowl)
-- Add mob smash (mortar und pestel)
 - Lootkit Producer Tier 2
 - Ore Puller Tier 2
-- Alle Loot Kits anpassen (Smoothie, Mob Smash, ein Ziel-Item)
 - Precision Grinder Tier 2 (Hearth Well Early Game, Botania und Astral Sorcery und Precision Seeds)
-
 
 
 - vanilla tools deaktivieren
