@@ -131,3 +131,5 @@ Das Modpack besteht aktuell aus den folgenden Mods:
 - Deep Mob Learning
 - Woot
 - XNET
+
+The license does currently not include splash.properties, lol
