@@ -1,3 +1,5 @@
+import crafttweaker.item.IItemStack;
+
 // Gravel and Sand
 mods.botania.ManaInfusion.removeRecipe(<minecraft:sand>);
 mods.botania.ManaInfusion.addAlchemy(<minecraft:gravel>, <minecraft:cobblestone>, 50);
