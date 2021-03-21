@@ -147,3 +147,31 @@ createLootKitRecipe(<hwell:loot_spider>, <hwell:shard_p>, <hwell:shard_c>, <mine
 createLootKitRecipe(<hwell:loot_wither>, <hwell:shard_c>, <hwell:shard_c>, <tconstruct:materials:17>);
 createLootKitRecipe(<hwell:loot_zombie>, <hwell:shard_o>, <hwell:shard_n>, <minecraft:rotten_flesh>);
 createLootKitRecipe(<hwell:loot_guardian>, <hwell:shard_p>, <hwell:shard_o>, <minecraft:prismarine_crystals>);
+
+// Extended Crafting changes
+recipes.remove(<hwell:producer>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <hwell:producer>, [
+	[<ore:blockHearthWellNetherCrystal>, <botania:quartztypedark>, <forge:bucketfilled>.withTag({FluidName: "liquid_souls", Amount: 1000}), <botania:quartztypedark>, <ore:blockHearthWellNetherCrystal>], 
+	[<ore:blockMetaldiamond>, <botania:quartztypedark>, <botania:quartztypedark>, <botania:quartztypedark>, <ore:blockMetaldiamond>], 
+	[<ore:blockMetaldiamond>, <ore:blockHeavy>, <hwell:asul_machine_case>, <ore:blockHeavy>, <ore:blockMetaldiamond>], 
+	[<ore:blockMetaldiamond>, <ore:blockHeavy>, null, <ore:blockHeavy>, <ore:blockMetaldiamond>], 
+	[<ore:blockMetaldiamond>, <ore:blockHeavy>, null, <ore:blockHeavy>, <ore:blockMetaldiamond>]
+]);
+
+recipes.remove(<hwell:puller>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <hwell:puller>, [
+	[null, <ore:hardenedClay>, null, <ore:hardenedClay>, null], 
+	[<ore:hardenedClay>, <hwell:antigravity_block>, <hwell:antigravity_block>, <hwell:antigravity_block>, <ore:hardenedClay>], 
+	[<embers:mech_core>, <hwell:crystal_catalyst>, <hwell:crystal_catalyst>, <hwell:crystal_catalyst>, <embers:mech_core>], 
+	[<ore:hardenedClay>, <hwell:gravity_block>, <hwell:gravity_block>, <hwell:gravity_block>, <ore:hardenedClay>], 
+	[<immersiveengineering:metal_decoration0:5>, <hwell:furnace_tube>, <hwell:furnace_tube>, <hwell:furnace_tube>, <immersiveengineering:metal_decoration0:5>]
+]);
+
+recipes.remove(<hwell:precision_grinder_empty>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <hwell:precision_grinder_empty>, [
+	[null, null, null, null, null], 
+	[<ore:livingrock>, <astralsorcery:itemcrystalsword>, <ore:gemHearthWellCrystal>, <embers:sword_dawnstone>, <ore:livingrock>], 
+	[<astralsorcery:blockblackmarble>, <ore:gemHearthWellCrystal>, <uniquecrops:generic:8>, <ore:gemHearthWellCrystal>, <astralsorcery:blockblackmarble>], 
+	[<hwell:asul_machine_case>, <ore:gearCopper>, <ore:cropChilipepper>, <ore:gearCopper>, <hwell:asul_machine_case>], 
+	[<ore:livingrock>, <astralsorcery:blockblackmarble>, <ore:blockHeavy>, <astralsorcery:blockblackmarble>, <ore:livingrock>]
+]);

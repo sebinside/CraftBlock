@@ -31,6 +31,9 @@ recipes.addShaped(<minecraft:nether_wart_block>, [[<ore:cropNetherWart>, <ore:cr
 // Remove too easy snow crafting
 mods.botania.PureDaisy.removeRecipe(<minecraft:snow>);
 
+// Remove way to easy wither skull crafting
+mods.uniquecrops.SeedCrafting.removeRecipe(<minecraft:skull:1>);
+
 // Disable Vanilla Tools
 val vanillaTools = [<minecraft:wooden_hoe>, <minecraft:stone_hoe>, <minecraft:iron_hoe>, <minecraft:diamond_hoe>, <minecraft:golden_hoe>,
                     <minecraft:wooden_axe>, <minecraft:stone_axe>, <minecraft:iron_axe>, <minecraft:diamond_axe>, <minecraft:golden_axe>,
