@@ -39,5 +39,5 @@ val vanillaTools = [<minecraft:wooden_hoe>, <minecraft:stone_hoe>, <minecraft:ir
                     <minecraft:wooden_sword>, <minecraft:stone_sword>, <minecraft:iron_sword>, <minecraft:diamond_sword>, <minecraft:golden_sword>] as IItemStack[];
                     
 for tool in vanillaTools {
-  tool.maxDamage = 1;
+  tool.maxDamage = 0;
 }
