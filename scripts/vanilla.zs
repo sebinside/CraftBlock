@@ -28,3 +28,6 @@ recipes.addShaped(<minecraft:nether_wart_block>, [[<ore:cropNetherWart>, <ore:cr
 
 // Remove too easy snow crafting
 mods.botania.PureDaisy.removeRecipe(<minecraft:snow>);
+
+// Remove way to easy wither skull crafting
+mods.uniquecrops.SeedCrafting.removeRecipe(<minecraft:skull:1>);

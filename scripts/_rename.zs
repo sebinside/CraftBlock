@@ -34,3 +34,6 @@ for item in netherCrystalItems {
     val newName = item.displayName.replace("Nether", "Toasted");
     item.displayName = newName;
 }
+
+// Lampenboegen!
+<quark:lit_lamp>.displayName = "Lampenbogen";

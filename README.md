@@ -4,13 +4,9 @@ Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nac
 
 ## Offene TODOs
 
-- Lootkit Producer Tier 2
-- Ore Puller Tier 2
-- Precision Grinder Tier 2 (Hearth Well Early Game, Botania und Astral Sorcery und Precision Seeds)
-
-
+x Lampenblöcke zu lampenbögen
 - vanilla tools deaktivieren
-- Lampenblöcke zu lampenbögen
+
 - Extended Crafting stark reduzieren (singularitäten, crafting core, catalysts, ultimate ingot, change black iron recipe, ender crafting, ...)
 - Electrum & Steel jeweils 1 version raus
 - Akashic Tome richtig einsetzen
@@ -19,6 +15,7 @@ Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nac
 - Extended Crafting sinnvoll im Early Game nutzen
 - Custom Advancements
 - Refine Storage mit aufnehmen und kürzen (Tier 2)
+- Ember Bore Tier 2
 
 ## Vorgesehene Progression
 
