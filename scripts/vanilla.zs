@@ -1,5 +1,4 @@
 import crafttweaker.item.IItemStack;
-import crafttweaker.oredict.IOreDict;
 
 // Gravel and Sand
 mods.botania.ManaInfusion.removeRecipe(<minecraft:sand>);
