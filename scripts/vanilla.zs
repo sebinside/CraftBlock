@@ -39,4 +39,5 @@ val vanillaTools = [<minecraft:wooden_hoe>, <minecraft:stone_hoe>, <minecraft:ir
                     
 for tool in vanillaTools {
   tool.maxDamage = 1;
+  tool.withLore(["§cFor Crafting only!"]);
 }
