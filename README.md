@@ -4,18 +4,20 @@ Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nac
 
 ## Offene TODOs
 
-x Lampenblöcke zu lampenbögen
-- vanilla tools deaktivieren
-
-- Extended Crafting stark reduzieren (singularitäten, crafting core, catalysts, ultimate ingot, change black iron recipe, ender crafting, ...)
-- Electrum & Steel jeweils 1 version raus
-- Akashic Tome richtig einsetzen
-- Tinkers Construct, IE, HW, Embers, OpenComputers nerfen
-- Pam's Gardens herstellbar machen
+- Extended Crafting stark reduzieren (singularitäten, crafting core, catalysts, ultimate ingot, ender crafting, ...)
 - Extended Crafting sinnvoll im Early Game nutzen
-- Custom Advancements
+- "For Crafting only!" Tooltipp bei Vanilla Tools
+- Electrum & Steel jeweils 1 version raus (Tinkers Comp und Embers jeweils raus)
+- Akashic Tome richtig einsetzen
+- Pam's Gardens herstellbar machen
+
+- Tinkers Construct, IE (Tier 2), Embers (Ember Bore Tier 2), OpenComputers leicht nerfen / anpassen
 - Refine Storage mit aufnehmen und kürzen (Tier 2)
-- Ember Bore Tier 2
+- Custom Advancements
+- Skyblock Nether
+
+- Das letzte Geheimnis :)
+- Veröffentlichen!
 
 ## Vorgesehene Progression
 
@@ -23,9 +25,9 @@ Die folgenden Mod-Progression ist vorgesehen:
 
 - Botania -> Astral Sorcery -> Embers
 - Hearth Well + Tinkers Construct -> TC Smeltery, Lava
+- Storage Drawers + OC + IE -> Refined Storage (ohne Autocrafting) + OC Late Game -> Applied Energistics
 - Immersive Engineering + Embers + OpenComputers -> *Jede andere Technik-Mod*
 - Unique Crops + Botania + Astral Sorcery -> *Jede andere Magie-Mod*
-- Storage Drawers + OC Early Game -> Refined Storage (ohne Autocrafting) + OC Late Game -> Applied Energistics
 
 ## Installation
 

@@ -35,12 +35,8 @@ mods.botania.PureDaisy.removeRecipe(<minecraft:snow>);
 mods.uniquecrops.SeedCrafting.removeRecipe(<minecraft:skull:1>);
 
 // Disable Vanilla Tools
-val vanillaTools = [<minecraft:wooden_hoe>, <minecraft:stone_hoe>, <minecraft:iron_hoe>, <minecraft:diamond_hoe>, <minecraft:golden_hoe>,
-                    <minecraft:wooden_axe>, <minecraft:stone_axe>, <minecraft:iron_axe>, <minecraft:diamond_axe>, <minecraft:golden_axe>,
-                    <minecraft:wooden_pickaxe>, <minecraft:stone_pickaxe>, <minecraft:iron_pickaxe>, <minecraft:diamond_pickaxe>, <minecraft:golden_pickaxe>,
-                    <minecraft:wooden_shovel>, <minecraft:stone_shovel>, <minecraft:iron_shovel>, <minecraft:diamond_shovel>, <minecraft:golden_shovel>,
-                    <minecraft:wooden_sword>, <minecraft:stone_sword>, <minecraft:iron_sword>, <minecraft:diamond_sword>, <minecraft:golden_sword>] as IItemStack[];
+val vanillaTools = [<minecraft:wooden_hoe>, <minecraft:stone_hoe>, <minecraft:iron_hoe>, <minecraft:diamond_hoe>, <minecraft:golden_hoe>, <minecraft:wooden_axe>, <minecraft:stone_axe>, <minecraft:iron_axe>, <minecraft:diamond_axe>, <minecraft:golden_axe>, <minecraft:wooden_pickaxe>, <minecraft:stone_pickaxe>, <minecraft:iron_pickaxe>, <minecraft:diamond_pickaxe>, <minecraft:golden_pickaxe>, <minecraft:wooden_shovel>, <minecraft:stone_shovel>, <minecraft:iron_shovel>, <minecraft:diamond_shovel>, <minecraft:golden_shovel>, <minecraft:wooden_sword>, <minecraft:stone_sword>, <minecraft:iron_sword>, <minecraft:diamond_sword>, <minecraft:golden_sword>] as IItemStack[];
                     
 for tool in vanillaTools {
-  tool.maxDamage = 0;
+  tool.maxDamage = 1;
 }
