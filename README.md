@@ -4,9 +4,6 @@ Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nac
 
 ## Offene TODOs
 
-- Extended Crafting stark reduzieren (singularitäten, crafting core, catalysts, ultimate ingot, ender crafting, ...)
-- Extended Crafting sinnvoll im Early Game nutzen
-- "For Crafting only!" Tooltipp bei Vanilla Tools
 - Electrum & Steel jeweils 1 version raus (Tinkers Comp und Embers jeweils raus)
 - Akashic Tome richtig einsetzen
 - Pam's Gardens herstellbar machen
@@ -24,7 +21,7 @@ Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nac
 Die folgenden Mod-Progression ist vorgesehen:
 
 - Botania -> Astral Sorcery -> Embers
-- Hearth Well + Tinkers Construct -> TC Smeltery, Lava
+- Hearth Well + Tinkers Construct -> TC Smeltery (hier heavy items), Lava
 - Storage Drawers + OC + IE -> Refined Storage (ohne Autocrafting) + OC Late Game -> Applied Energistics
 - Immersive Engineering + Embers + OpenComputers -> *Jede andere Technik-Mod*
 - Unique Crops + Botania + Astral Sorcery -> *Jede andere Magie-Mod*

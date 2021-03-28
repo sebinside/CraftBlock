@@ -11,6 +11,5 @@ mods.botania.Orechid.addOre("rockCrystal", 2000);
 mods.botania.ManaInfusion.addInfusion(<astralsorcery:blockmarble>, <botania:livingrock>, 1500);
 
 // Change cave illuminator recipe
-//mods.astralsorcery.Altar.removeAltarRecipe(<astralsorcery:blockworldilluminator>, 0);
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/illuminator");
-mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/altar/illuminator", <astralsorcery:blockworldilluminator>, 200, 1600, [<astralsorcery:blockmarble:6>, <hwell:locked_light>, <astralsorcery:blockmarble:6>, <astralsorcery:itemcraftingcomponent>, null, <astralsorcery:itemcraftingcomponent>, <astralsorcery:blockmarble:6>, <hwell:locked_light>, <astralsorcery:blockmarble:6>]);
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/altar/illuminator", <astralsorcery:blockworldilluminator>, 200, 1600, [<astralsorcery:blockmarble:6>, <extendedcrafting:material:7>, <astralsorcery:blockmarble:6>, <astralsorcery:itemcraftingcomponent>, null, <astralsorcery:itemcraftingcomponent>, <astralsorcery:blockmarble:6>, <extendedcrafting:material:7>, <astralsorcery:blockmarble:6>]);
