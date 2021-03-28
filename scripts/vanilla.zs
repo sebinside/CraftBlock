@@ -39,4 +39,7 @@ val vanillaTools = [<minecraft:wooden_hoe>, <minecraft:stone_hoe>, <minecraft:ir
                     
 for tool in vanillaTools {
   tool.maxDamage = 1;
+  tool.addTooltip("§cFor Crafting only!");
+  tool.addShiftTooltip(format.gray("Your time with this tool will be limited..."), format.gray("Hold SHIFT for more info."));
+  //tool.addShiftTooltip(format.gray("Durability: "+tool.damage+"/"+tool.maxDamage), format.gray("Hold SHIFT for more info."));
 }
