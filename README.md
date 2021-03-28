@@ -4,9 +4,9 @@ Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nac
 
 ## Offene TODOs
 
-- Electrum & Steel jeweils 1 version raus (Tinkers Comp und Embers jeweils raus)
-- Akashic Tome richtig einsetzen
+- Akashic Tome richtig einsetzen (whitelist, nbt, startinventar)
 - Pam's Gardens herstellbar machen
+- Useless KAPPA
 
 - Tinkers Construct, IE (Tier 2), Embers (Ember Bore Tier 2), OpenComputers leicht nerfen / anpassen
 - Refine Storage mit aufnehmen und kürzen (Tier 2)
