@@ -1,5 +1,6 @@
 import crafttweaker.events.IEventManager;
 import crafttweaker.event.PlayerRightClickItemEvent;
+import crafttweaker.item.IItemStack;
 
 // "Create" own smoothie and mob smash which do not violate dumb terms of use
 var disgustingSmoothie = <harvestcraft:pearsmoothieitem>;
@@ -28,9 +29,8 @@ recipes.addShapeless("mob_smash", mobSmash, [<harvestcraft:mortarandpestleitem>,
 
 // Make gardens craftable
 mods.botania.Apothecary.addRecipe(<harvestcraft:shadedgarden>, [<ore:petalLime>, <ore:petalGreen>, <ore:petalLime>, <ore:petalGreen>]);
-mods.botania.ManaInfusion.addAlchemy(<harvestcraft:windygarden>, <harvestcraft:shadedgarden>, 50);
-mods.botania.ManaInfusion.addAlchemy(<harvestcraft:soggygarden>, <harvestcraft:windygarden>, 50);
-mods.botania.ManaInfusion.addAlchemy(<harvestcraft:tropicalgarden>, <harvestcraft:soggygarden>, 50);
-mods.botania.ManaInfusion.addAlchemy(<harvestcraft:aridgarden>, <harvestcraft:tropicalgarden>, 50);
-mods.botania.ManaInfusion.addAlchemy(<harvestcraft:frostgarden>, <harvestcraft:aridgarden>, 50);
-mods.botania.ManaInfusion.addAlchemy(<harvestcraft:shadedgarden>, <harvestcraft:frostgarden>, 50);
+
+val harvestCraftCycle = [<harvestcraft:shadedgarden>, <harvestcraft:windygarden>, <harvestcraft:soggygarden>, <harvestcraft:tropicalgarden>, <harvestcraft:aridgarden>, <harvestcraft:frostgarden>, <harvestcraft:shadedgarden>] as IItemStack[];
+for i, item in harvestCraftCycle {
+	mods.botania.ManaInfusion.addAlchemy(harvestCraftCycle[i--1], item, 50);
+}
