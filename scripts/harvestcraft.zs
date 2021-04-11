@@ -25,3 +25,12 @@ events.onPlayerRightClickItem(function(event as PlayerRightClickItemEvent) {
 
 recipes.addShapeless("disgusting_smoothie", disgustingSmoothie, [<ore:toolPot>, <harvestcraft:melonsmoothieitem>, <ore:listAllsmoothie>, <ore:listAllsmoothie>, <ore:itemSalt>]);
 recipes.addShapeless("mob_smash", mobSmash, [<harvestcraft:mortarandpestleitem>, <minecraft:bone>, <minecraft:spider_eye>, <minecraft:rotten_flesh>, <minecraft:feather>]);
+
+// Make gardens craftable
+mods.botania.Apothecary.addRecipe(<harvestcraft:shadedgarden>, [<ore:petalLime>, <ore:petalGreen>, <ore:petalLime>, <ore:petalGreen>]);
+mods.botania.ManaInfusion.addAlchemy(<harvestcraft:windygarden>, <harvestcraft:shadedgarden>, 50);
+mods.botania.ManaInfusion.addAlchemy(<harvestcraft:soggygarden>, <harvestcraft:windygarden>, 50);
+mods.botania.ManaInfusion.addAlchemy(<harvestcraft:tropicalgarden>, <harvestcraft:soggygarden>, 50);
+mods.botania.ManaInfusion.addAlchemy(<harvestcraft:aridgarden>, <harvestcraft:tropicalgarden>, 50);
+mods.botania.ManaInfusion.addAlchemy(<harvestcraft:frostgarden>, <harvestcraft:aridgarden>, 50);
+mods.botania.ManaInfusion.addAlchemy(<harvestcraft:shadedgarden>, <harvestcraft:frostgarden>, 50);

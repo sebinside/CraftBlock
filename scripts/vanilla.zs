@@ -42,3 +42,6 @@ for tool in vanillaTools {
   tool.addTooltip("§cFor Crafting only!");
   tool.addShiftTooltip(format.gray("Your time with this tool will be limited..."), format.gray("Hold SHIFT for more info."));
 }
+
+// skateKAPPA crafting
+recipes.addShaped("skateKAPPA", <contenttweaker:skate_kappa>, [[null, null, null], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<immersiveengineering:material:9>, null, <immersiveengineering:material:9>]]);

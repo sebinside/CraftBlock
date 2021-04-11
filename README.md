@@ -2,14 +2,12 @@
 
 Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nachfolge-Projekt. Das sind vor allem geänderte Konfigurationsdateien und Crafttweaker-Skripte.
 
+Progress: 60% [xxxxxx    ]
+
 ## Offene TODOs
 
-- Akashic Tome richtig einsetzen (whitelist, nbt, startinventar)
-- Pam's Gardens herstellbar machen
-- Useless KAPPA
-
-- Tinkers Construct, IE (Tier 2), Embers (Ember Bore Tier 2), OpenComputers leicht nerfen / anpassen
-- Refine Storage mit aufnehmen und kürzen (Tier 2)
+- Tinkers Construct (Vorsicht: Metaldiamond, also eher Ende Tier 1), IE (Tier 2), Embers (Ember Bore Tier 2), OpenComputers leicht nerfen / anpassen
+- Refine Storage kürzen, nur Kernfunktionalität (Tier 2)
 - Custom Advancements
 - Skyblock Nether
 
