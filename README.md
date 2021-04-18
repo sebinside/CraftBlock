@@ -90,6 +90,7 @@ Das Modpack besteht aktuell aus den folgenden Mods:
 ### Mögliche Mods zum späteren Hinzufügen
 
 - [Actually Additions](https://www.curseforge.com/minecraft/mc-mods/actually-additions)
+- [AIOT Botania](https://www.curseforge.com/minecraft/mc-mods/aiot-botania)
 - [Ender IO](https://www.curseforge.com/minecraft/mc-mods/ender-io)
 - [AE2 Stuff](https://www.curseforge.com/minecraft/mc-mods/ae2-stuff)
 - [Applied Energistics 2](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)
