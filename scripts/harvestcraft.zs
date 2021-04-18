@@ -32,5 +32,5 @@ mods.botania.Apothecary.addRecipe(<harvestcraft:shadedgarden>, [<ore:petalLime>,
 
 val harvestCraftCycle = [<harvestcraft:shadedgarden>, <harvestcraft:windygarden>, <harvestcraft:soggygarden>, <harvestcraft:tropicalgarden>, <harvestcraft:aridgarden>, <harvestcraft:frostgarden>, <harvestcraft:shadedgarden>] as IItemStack[];
 for i, item in harvestCraftCycle {
-	mods.botania.ManaInfusion.addAlchemy(harvestCraftCycle[i--1], item, 50);
+	mods.botania.ManaInfusion.addAlchemy(item, harvestCraftCycle[(i+1) % harvestCraftCycle.length], 50);
 }
