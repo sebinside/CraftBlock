@@ -2,24 +2,26 @@
 
 Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nachfolge-Projekt. Das sind vor allem geänderte Konfigurationsdateien und Crafttweaker-Skripte.
 
-Progress: 60% [xxxxxx    ]
+Progress: 65% [xxxxxx-   ]
 
 ## Offene TODOs
 
-- Tinkers Construct (Vorsicht: Metaldiamond, also eher Ende Tier 1), IE (Tier 2), Embers (Ember Bore Tier 2), OpenComputers leicht nerfen / anpassen
-- Refine Storage kürzen, nur Kernfunktionalität (Tier 2)
-- Custom Advancements
-- Skyblock Nether
+- [ ] Embers (Ember Bore Tier 2, z.B. via AS)
+- [ ] IE (Tier 2)
+- [ ] OpenComputers leicht nerfen / anpassen
+- [ ] Storage Drawers anschauen, Refine Storage kürzen, nur Kernfunktionalität (Tier 2)
+- [ ] Custom Advancements
+- [ ] Skyblock Nether
 
-- Das letzte Geheimnis :)
-- Veröffentlichen!
+- [ ] Das letzte Geheimnis :)
+- [ ] Veröffentlichen!
 
 ## Vorgesehene Progression
 
 Die folgenden Mod-Progression ist vorgesehen:
 
 - Botania -> Astral Sorcery -> Embers
-- Hearth Well + Tinkers Construct -> TC Smeltery (hier heavy items), Lava
+- Hearth Well + Tinkers Construct -> TC Smeltery
 - Storage Drawers + OC + IE -> Refined Storage (ohne Autocrafting) + OC Late Game -> Applied Energistics
 - Immersive Engineering + Embers + OpenComputers -> *Jede andere Technik-Mod*
 - Unique Crops + Botania + Astral Sorcery -> *Jede andere Magie-Mod*
