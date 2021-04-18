@@ -28,16 +28,10 @@ recipes.remove(<hwell:raw_asul_block>);
 mods.astralsorcery.LightTransmutation.addTransmutation(<hwell:crystal_block>, <hwell:raw_asul_block>, 10);
 
 // Disable core crafting
-disable(<hwell:core_sentient>);
-disable(<hwell:core_green>);
-disable(<hwell:core_stone>);
-disable(<hwell:core_anima>);
-disable(<hwell:core_heat>);
-disable(<hwell:inert_seed>);
-disable(<hwell:graft_anima>);
-disable(<hwell:stabiliser_light>);
-disable(<hwell:stabiliser>);
-disable(<hwell:stabiliser_heavy>);
+val coreList = [<hwell:core_sentient>, <hwell:core_green>, <hwell:core_stone>, <hwell:core_anima>, <hwell:core_heat>, <hwell:inert_seed>, <hwell:graft_anima>, <hwell:stabiliser_light>, <hwell:stabiliser>, <hwell:stabiliser_heavy>] as IItemStack[];
+for item in coreList {
+    disable(item);
+}
 
 // Disable heat core crafting
 moretweaker.hwell.MoreCoring.removeCoring("core_heat", null);
@@ -84,26 +78,29 @@ recipes.addShaped("hwell_freezer", <hwell:freezer>, [[<hwell:shard_ca>, <harvest
 recipes.remove(<hwell:heavy_protection_block>);
 recipes.addShaped("hwell_heavy_protection_block", <hwell:heavy_protection_block> * 4, [[<hwell:soulsteel_ingot>, <ore:ingotDawnstone>, <hwell:soulsteel_ingot>], [<ore:ingotDawnstone>, <hwell:heavy_block>, <ore:ingotDawnstone>], [<hwell:soulsteel_ingot>, <ore:ingotDawnstone>, <hwell:soulsteel_ingot>]]);
 
-// Remove reparing paste, grafting, heat furnace, and burst seeds
-disable(<hwell:repairing_paste>);
-disable(<hwell:raw_repairing_paste>);
-disable(<hwell:burst_seed_endstone>);
-disable(<hwell:burst_seed_crystal>);
-disable(<hwell:burst_seed_dirt>);
-disable(<hwell:burst_seed_snow>);
-disable(<hwell:burst_seed_netherrack>);
-disable(<hwell:burst_seed_quartz>);
-disable(<hwell:burst_seed_prismarine>);
-disable(<hwell:burst_seed_cobblestone>);
-disable(<hwell:burst_seed_gravel>);
-disable(<hwell:burst_seed_stone>);
-disable(<hwell:burst_seed_sand>);
-disable(<hwell:grafting_tray>);
-disable(<hwell:graft_stone>);
-disable(<hwell:graft_heat>);
-disable(<hwell:graft_sentient>);
-disable(<hwell:graft_green>);
-disable(<hwell:heat_furnace>);
+// Remove repairing paste, grafting, heat furnace, and burst seeds
+val repairList = [<hwell:repairing_paste>,       
+<hwell:raw_repairing_paste>,   
+<hwell:burst_seed_endstone>,   
+<hwell:burst_seed_crystal>,    
+<hwell:burst_seed_dirt>,       
+<hwell:burst_seed_snow>,       
+<hwell:burst_seed_netherrack>, 
+<hwell:burst_seed_quartz>,     
+<hwell:burst_seed_prismarine>, 
+<hwell:burst_seed_cobblestone>,
+<hwell:burst_seed_gravel>,     
+<hwell:burst_seed_stone>,      
+<hwell:burst_seed_sand>,       
+<hwell:grafting_tray>,         
+<hwell:graft_stone>,           
+<hwell:graft_heat>,            
+<hwell:graft_sentient>,        
+<hwell:graft_green>,           
+<hwell:heat_furnace>] as IItemStack[];
+for item in repairList {
+    disable(item);
+}
 
 // Way better nourisher recipe
 recipes.remove(<hwell:nourisher>);
