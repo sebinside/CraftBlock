@@ -45,3 +45,11 @@ for tool in vanillaTools {
 
 // skateKAPPA crafting
 recipes.addShaped("skateKAPPA", <contenttweaker:skate_kappa>, [[null, null, null], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<immersiveengineering:material:9>, null, <immersiveengineering:material:9>]]);
+
+// Hopper Hooper Minecart Stopper
+recipes.remove(<minecraft:hopper>);
+recipes.addShaped("hopper", <minecraft:hopper>,
+	[[<ore:ingotManasteel>, null, <ore:ingotManasteel>], 
+	[<ore:ingotManasteel>, <tconstruct:wooden_hopper>, <ore:ingotManasteel>], 
+	[null, <ore:ingotManasteel>, null]
+]);

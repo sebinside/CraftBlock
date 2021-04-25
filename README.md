@@ -6,7 +6,9 @@ Progress: 65% [xxxxxx-   ]
 
 ## Offene TODOs
 
-- [ ] Embers (Ember Bore Tier 2, z.B. via AS)
+- [ ] Hammer (beide, z.B. Immersive sehr viel schwächer mit .withTag({Damage:98}), 
+- [ ] Mechanical Core -> Steel
+- [ ] Ggf. weitere Embers Rezepte?
 - [ ] IE (Tier 2)
 - [ ] OpenComputers leicht nerfen / anpassen
 - [ ] Storage Drawers anschauen, Refine Storage kürzen, nur Kernfunktionalität (Tier 2)
