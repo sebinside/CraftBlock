@@ -14,7 +14,7 @@ Progress: 65% [xxxxxx-   ]
 - [ ] Storage Drawers anschauen, Refine Storage kürzen, nur Kernfunktionalität (Tier 2)
 - [ ] Custom Advancements
 - [ ] Skyblock Nether
-- [ ] Visit OS Sensors and BedrockCraft
+- [ ] Visit OC Sensors and BedrockCraft
 
 - [ ] Das letzte Geheimnis :)
 - [ ] Veröffentlichen!
