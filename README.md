@@ -21,6 +21,7 @@ Progress: 65% [xxxxxx-   ]
 - [ ] Storage Drawers anschauen, Refine Storage kürzen, nur Kernfunktionalität (Tier 2)
 - [ ] Custom Advancements
 - [ ] Skyblock Nether
+- [ ] Visit OC Sensors and BedrockCraft
 
 - [ ] Das letzte Geheimnis :)
 - [ ] Veröffentlichen!
@@ -137,5 +138,7 @@ Das Modpack besteht aktuell aus den folgenden Mods:
 - [Deep Mob Learning](https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning)
 - [Woot](https://www.curseforge.com/minecraft/mc-mods/woot)
 - [XNet](https://www.curseforge.com/minecraft/mc-mods/xnet)
+- [OC Sensors](https://www.curseforge.com/minecraft/mc-mods/oc-sensors)
+- [BedrockCraft](https://www.curseforge.com/minecraft/mc-mods/bedrockcraft)
 
 The license does currently not include splash.properties, lol
