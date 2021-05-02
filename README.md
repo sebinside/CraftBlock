@@ -6,7 +6,14 @@ Progress: 65% [xxxxxx-   ]
 
 ## Offene TODOs
 
-- [ ] Hammer (beide, z.B. Immersive sehr viel schwächer mit .withTag({Damage:98}), 
+- Pattern Chest hat Plate Cast
+- IE Hammer kann keine Plates herstellen
+- IE Hammer braucht schon plates zum craften
+- Embers Hammer braucht Stahl und anderen Hammer im Extreme Crafting
+- Coils brauchen dawnstone
+- Cinetic Dynamo braucht Stahl
+
+
 - [ ] Mechanical Core -> Steel
 - [ ] Ggf. weitere Embers Rezepte?
 - [ ] IE (Tier 2)
