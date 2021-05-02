@@ -56,3 +56,22 @@ recipes.addShapeless("caminiteHard", <embers:blend_caminite>, [<minecraft:clay_b
 
 mods.embers.Melter.add(<liquid:clay> * 144, <ore:clay>);
 mods.embers.Stamper.add(<embers:blend_caminite> * 4, <liquid:clay> * 144, <embers:stamp_flat>, <ore:sand>);
+
+// Embers hammer
+recipes.remove(<embers:tinker_hammer>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <embers:tinker_hammer>, [
+	[<ore:blockSheetmetalSteel>, <ore:blockSheetmetalSteel>, <ore:blockSheetmetalSteel>, <ore:blockSheetmetalSteel>, <ore:blockSheetmetalSteel>], 
+	[<ore:blockSheetmetalSteel>, <ore:blockSheetmetalSteel>, <tconstruct:tough_binding>.withTag({Material: "steel"}), <ore:blockSheetmetalSteel>, <ore:blockSheetmetalSteel>], 
+	[null, null, <ore:plankTreatedWood>, null, null], 
+	[null, null, <ore:plankTreatedWood>, null, null], 
+	[null, null, <ore:plankTreatedWood>, null, null]
+]);
+
+// Make core more hardcore!
+recipes.remove(<embers:mech_core>);
+<embers:mech_core>.displayName = "Mechanical Hardcore";
+recipes.addShaped(<embers:mech_core>, [
+	[<ore:ingotSteel>, <immersiveengineering:material:8>, <ore:ingotSteel>], 
+	[<immersiveengineering:material:8>, <ore:gearLead>, <immersiveengineering:material:8>], 
+	[<ore:ingotSteel>, <immersiveengineering:material:8>, <ore:ingotSteel>]
+]);

@@ -2,23 +2,17 @@
 
 Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nachfolge-Projekt. Das sind vor allem geänderte Konfigurationsdateien und Crafttweaker-Skripte.
 
-Progress: 65% [xxxxxx-   ]
+Progress: 70% [xxxxxxx   ]
 
 ## Offene TODOs
 
-- Pattern Chest hat Plate Cast
-- IE Hammer kann keine Plates herstellen
-- IE Hammer braucht schon plates zum craften
-- Embers Hammer braucht Stahl und anderen Hammer im Extreme Crafting
-- Coils brauchen dawnstone
-- Cinetic Dynamo braucht Stahl
-
-
-- [ ] Mechanical Core -> Steel
-- [ ] Ggf. weitere Embers Rezepte?
-- [ ] IE (Tier 2)
+- [ ] Engineers Workbench schwerer machen
+- [ ] IE Mechanical Components nur über Engineers Workbench
+- [ ] IE Blueprints komplett verändern (Lapis, Mana Steel, Extreme Crafting?)
 - [ ] OpenComputers leicht nerfen / anpassen
-- [ ] Storage Drawers anschauen, Refine Storage kürzen, nur Kernfunktionalität (Tier 2)
+- [ ] Storage Drawers anschauen
+- [ ] Refine Storage kürzen, nur Kernfunktionalität (Tier 2), außerdem quartz iron neu, core anders, etc.
+- [ ] Restliche Mods kurz durchgehen / sicherstellen
 - [ ] Custom Advancements
 - [ ] Skyblock Nether
 - [ ] Visit OC Sensors and BedrockCraft
