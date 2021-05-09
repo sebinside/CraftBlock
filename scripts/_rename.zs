@@ -37,3 +37,8 @@ for item in netherCrystalItems {
 
 // Lampenboegen!
 <quark:lit_lamp>.displayName = "Lampenbogen";
+
+// Rename graphics cards because lol
+<opencomputers:card:1>.displayName = "RTX 3070";
+<opencomputers:card:2>.displayName = "RTX 3080";
+<opencomputers:card:3>.displayName = "RTX 3090";
