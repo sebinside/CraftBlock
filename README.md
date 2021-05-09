@@ -2,13 +2,10 @@
 
 Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nachfolge-Projekt. Das sind vor allem geänderte Konfigurationsdateien und Crafttweaker-Skripte.
 
-Progress: 70% [xxxxxxx   ]
+Progress: 80% [xxxxxxxx  ]
 
 ## Offene TODOs
 
-- [ ] Engineers Workbench schwerer machen
-- [ ] IE Mechanical Components nur über Engineers Workbench
-- [ ] IE Blueprints komplett verändern (Lapis, Mana Steel, Extreme Crafting?)
 - [ ] OpenComputers leicht nerfen / anpassen
 - [ ] Storage Drawers anschauen
 - [ ] Refine Storage kürzen, nur Kernfunktionalität (Tier 2), außerdem quartz iron neu, core anders, etc.
