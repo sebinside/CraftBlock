@@ -12,7 +12,7 @@ Progress: 80% [xxxxxxxx  ]
     - [ ] Raw Circuit Board spannender (Botania Farbe, Crafting Components Blueprint im IE Table, Copper, Clay)
     - [ ] Cutting Wire vollständig entfernen
     - [ ] Diamond Chips über Crusher
-    - [ ] Discs über Embers Stamper Gear Stamp (Aluminium Plates + Molten Cobalt)
+    - [X] Discs über Embers Stamper Gear Stamp (Aluminium Plates + Molten Cobalt)
     - [ ] Transistor IE Table (8 Stück: Silicon, Iron, Gold Nugget, Redstone)
     - [ ] Grog ändern und dann Slime über Stamp und Grog
 - [ ] Storage Drawers anschauen
