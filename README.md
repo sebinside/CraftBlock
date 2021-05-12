@@ -18,7 +18,7 @@ Progress: 80% [xxxxxxxx  ]
 - [ ] Storage Drawers anschauen
     - [ ] Drawer Controller + Slave einfacher machen
     - [ ] Key = Drawer Upgrade mit Gold übergießen
-- [ ] Refine Storage kürzen, nur Kernfunktionalität (Tier 2), außerdem quartz iron neu, core anders, etc.
+- [ ] Refined Storage kürzen, nur Kernfunktionalität (Tier 2), außerdem quartz iron neu, core anders, etc.
 - [ ] Restliche Mods kurz durchgehen / sicherstellen
 - [ ] Custom Advancements
 - [ ] Skyblock Nether
