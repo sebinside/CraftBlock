@@ -2,12 +2,17 @@
 
 Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nachfolge-Projekt. Das sind vor allem geänderte Konfigurationsdateien und Crafttweaker-Skripte.
 
-Progress: 80% [xxxxxxxx  ]
+Modpack-Progress: 85% [xxxxxxxx- ]
+Map-Progress: 10% [x         ]
 
 ## Offene TODOs
 
+- [ ] Refine Storage (Tier 2, Drawer + OC + IE)
+  - [ ] Lösung für Cores und Prozessoren finden (wie? OC?)
+  - [ ] Quartz Iron neu (wie?)
+  - [ ] Controller: Tier 2 Crafting (wie?)
+  - [ ] Wirless Crafting: Tier 2 Crafting (wie?)
 - [ ] BoneMeal wie Saplings aus Leaves droppen
-- [ ] Refine Storage kürzen, nur Kernfunktionalität (Tier 2), außerdem quartz iron neu, core anders, etc.
 - [ ] Restliche Mods kurz durchgehen / sicherstellen
 - [ ] Custom Advancements
 - [ ] Skyblock Nether
