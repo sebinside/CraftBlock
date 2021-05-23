@@ -3,7 +3,7 @@
 Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nachfolge-Projekt. Das sind vor allem geänderte Konfigurationsdateien und Crafttweaker-Skripte.
 
 Modpack-Progress: 85% [xxxxxxxx- ]
-Map-Progress: 10% [x         ]
+Map-Progress: 20% [xx        ]
 
 ## Offene TODOs
 
