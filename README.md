@@ -75,6 +75,7 @@ Das Modpack besteht aktuell aus den folgenden Mods:
 - [CraftTweaker](https://www.curseforge.com/minecraft/mc-mods/crafttweaker)
 - [ModTweaker](https://www.curseforge.com/minecraft/mc-mods/modtweaker)
 - [ContentTweaker](https://www.curseforge.com/minecraft/mc-mods/contenttweaker)
+- [Dropt](https://www.curseforge.com/minecraft/mc-mods/dropt)
 - [KleeSlabs](https://www.curseforge.com/minecraft/mc-mods/kleeslabs)
 - [The One Probe](https://www.curseforge.com/minecraft/mc-mods/the-one-probe)
 - [BetterFps](https://www.curseforge.com/minecraft/mc-mods/betterfps)
