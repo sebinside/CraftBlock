@@ -53,3 +53,11 @@ recipes.addShaped("hopper", <minecraft:hopper>,
 	[<ore:ingotManasteel>, <tconstruct:wooden_hopper>, <ore:ingotManasteel>], 
 	[null, <ore:ingotManasteel>, null]
 ]);
+
+// More wood
+recipes.addShapeless("wood0", <minecraft:planks:0> * 7, [<bibliocraft:framingsaw>, <minecraft:log:0>]);
+recipes.addShapeless("wood1", <minecraft:planks:1> * 7, [<bibliocraft:framingsaw>, <minecraft:log:1>]);
+recipes.addShapeless("wood2", <minecraft:planks:2> * 7, [<bibliocraft:framingsaw>, <minecraft:log:2>]);
+recipes.addShapeless("wood3", <minecraft:planks:3> * 7, [<bibliocraft:framingsaw>, <minecraft:log:3>]);
+recipes.addShapeless("wood4", <minecraft:planks:4> * 7, [<bibliocraft:framingsaw>, <minecraft:log2:0>]);
+recipes.addShapeless("wood5", <minecraft:planks:5> * 7, [<bibliocraft:framingsaw>, <minecraft:log2:1>]);

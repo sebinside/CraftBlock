@@ -6,18 +6,7 @@ Progress: 80% [xxxxxxxx  ]
 
 ## Offene TODOs
 
-- [ ] OpenComputers leicht nerfen
-    - [ ] IE Circuit Board entfernen und durch OC Board ersetzen
-    - [ ] Toaster Printed Circuit Board (und umbenennen zu "Toasted")
-    - [ ] Raw Circuit Board spannender (Botania Farbe, Crafting Components Blueprint im IE Table, Copper, Clay)
-    - [ ] Cutting Wire vollständig entfernen
-    - [ ] Diamond Chips über Crusher
-    - [X] Discs über Embers Stamper Gear Stamp (Aluminium Plates + Molten Cobalt)
-    - [ ] Transistor IE Table (8 Stück: Silicon, Iron, Gold Nugget, Redstone)
-    - [ ] Grog ändern und dann Slime über Stamp und Grog
-- [ ] Storage Drawers anschauen
-    - [ ] Drawer Controller + Slave einfacher machen
-    - [ ] Key = Drawer Upgrade mit Gold übergießen
+- [ ] BoneMeal wie Saplings aus Leaves droppen
 - [ ] Refine Storage kürzen, nur Kernfunktionalität (Tier 2), außerdem quartz iron neu, core anders, etc.
 - [ ] Restliche Mods kurz durchgehen / sicherstellen
 - [ ] Custom Advancements
