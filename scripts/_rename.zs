@@ -42,3 +42,9 @@ for item in netherCrystalItems {
 <opencomputers:card:1>.displayName = "RTX 3070";
 <opencomputers:card:2>.displayName = "RTX 3080";
 <opencomputers:card:3>.displayName = "RTX 3090";
+
+// Rename Quartz Enriched Iron to Steel
+<refinedstorage:quartz_enriched_iron>.displayName = "Quartz Enriched Steel";
+
+// Rename Arc Furnace to Arken Furnace because I need attention
+<immersiveengineering:metal_multiblock:13>.displayName = "Arken Furnace";

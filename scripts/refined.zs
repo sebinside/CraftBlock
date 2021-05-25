@@ -18,3 +18,11 @@ var autocraftingItems = [
 for item in autocraftingItems {
     disable(item);
 }
+
+// Add new Quartz Enriched Iron recipe (inspired by Enriched Infused Wood recipe)
+recipes.remove(<refinedstorage:quartz_enriched_iron>);
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe("quartz_enriched", <refinedstorage:quartz_enriched_iron> * 8, 100, 10, [
+	null, <immersiveengineering:metal:8>, null, 
+	<immersiveengineering:metal:8>, <botania:quartz:4>, <immersiveengineering:metal:8>, 
+	null, <immersiveengineering:metal:8>, null
+]);
