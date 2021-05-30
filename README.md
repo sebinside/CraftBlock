@@ -53,6 +53,7 @@ Das Modpack besteht aktuell aus den folgenden Mods:
 - [Hearth Well](https://www.curseforge.com/minecraft/mc-mods/hearth-well)
 - [Embers Rekindled](https://www.curseforge.com/minecraft/mc-mods/embers-rekindled)
 - [OpenComputers](https://www.curseforge.com/minecraft/mc-mods/opencomputers)
+- [Refined Storage](https://www.curseforge.com/minecraft/mc-mods/refined-storage)
 
 ### Kleinere Content-Mods
 
@@ -76,6 +77,7 @@ Das Modpack besteht aktuell aus den folgenden Mods:
 - [ModTweaker](https://www.curseforge.com/minecraft/mc-mods/modtweaker)
 - [ContentTweaker](https://www.curseforge.com/minecraft/mc-mods/contenttweaker)
 - [Dropt](https://www.curseforge.com/minecraft/mc-mods/dropt)
+- [MoreTweaker](https://www.curseforge.com/minecraft/mc-mods/moretweaker)
 - [KleeSlabs](https://www.curseforge.com/minecraft/mc-mods/kleeslabs)
 - [The One Probe](https://www.curseforge.com/minecraft/mc-mods/the-one-probe)
 - [BetterFps](https://www.curseforge.com/minecraft/mc-mods/betterfps)
@@ -94,6 +96,7 @@ Das Modpack besteht aktuell aus den folgenden Mods:
 - [Ding](https://www.curseforge.com/minecraft/mc-mods/ding)
 - [Inventory Tweaks](https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks)
 - [JAOPCA](https://www.curseforge.com/minecraft/mc-mods/jaopca)
+- [Initial Inventory](https://www.curseforge.com/minecraft/mc-mods/initial-inventory)
 
 ### Mögliche Mods zum späteren Hinzufügen
 
@@ -110,7 +113,6 @@ Das Modpack besteht aktuell aus den folgenden Mods:
 - [Mekanism Generators](https://www.curseforge.com/minecraft/mc-mods/mekanism-generators)
 - [Mekanism Tools](https://www.curseforge.com/minecraft/mc-mods/mekanism-tools)
 - [OpenBlocks](https://www.curseforge.com/minecraft/mc-mods/openblocks)
-- [Refined Storage](https://www.curseforge.com/minecraft/mc-mods/refined-storage)
 - [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft)
 - [Thermal Dynamics](https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics)
 - [Thermal Expansion](https://www.curseforge.com/minecraft/mc-mods/thermal-expansion)
