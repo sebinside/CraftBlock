@@ -19,7 +19,6 @@ Map-Progress: 20% [xx        ]
   - [ ] Machine Casing aus Mechanical Hardcore + Quartz + x?
   - [ ] Controller: Extreme Crafting (Tier 2 PC, PC-Teile außer Internet-Card)
   - [ ] Wireless Grid: Extreme Crafting (Tier 3 PC, PC-Teile inkl. Internet-Card)
-- [ ] BoneMeal wie Saplings aus Leaves droppen
 - [ ] Restliche Mods kurz durchgehen / sicherstellen
 - [ ] Custom Advancements
 - [ ] Skyblock Nether
