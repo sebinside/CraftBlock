@@ -18,3 +18,9 @@ var autocraftingItems = [
 for item in autocraftingItems {
     disable(item);
 }
+
+// Way better quartz enriched iron lol
+<refinedstorage:quartz_enriched_iron>.displayName = "Quartz Enriched Metal";
+<refinedstorage:quartz_enriched_iron_block>.displayName = "Block of Quartz Enriched Metal";
+mods.botania.RuneAltar.addRecipe(<refinedstorage:quartz_enriched_iron_block>, [<ore:ingotAstralStarmetal>, <ore:ingotSteel>, <ore:ingotManasteel>, <ore:ingotElectrum>, <botania:quartztypeelf>], 7020);
+recipes.removeShaped(<refinedstorage:quartz_enriched_iron>);

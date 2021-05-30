@@ -7,11 +7,18 @@ Map-Progress: 20% [xx        ]
 
 ## Offene TODOs
 
-- [ ] Refine Storage (Tier 2, Drawer + OC + IE)
-  - [ ] Lösung für Cores und Prozessoren finden (wie? OC?)
-  - [ ] Quartz Iron neu (wie?)
-  - [ ] Controller: Tier 2 Crafting (wie?)
-  - [ ] Wirless Crafting: Tier 2 Crafting (wie?)
+- [ ] Refined Storage (Tier 2, Drawer + OC + IE)
+  - [ ] Cable aus OpenComputers Cable
+  - [ ] Raw Processors raus werfen (Binding Dings auch)
+  - [ ] Prozessoren aus Prozessoren + Mana + Catalyst (16/8/4)
+  - [ ] Alle Storage Blöcke entfernen
+  - [ ] Silicon aus Quartz Dust in Mana Pool
+  - [ ] Storage Housing entfernen
+  - [ ] Neue Disk Rezepte aus Disks kappaxd
+  - [ ] Disk Drive und Disc Manipulator (z.B. + Data Cards) basierend auf OC Disk Drive
+  - [ ] Machine Casing aus Mechanical Hardcore + Quartz + x?
+  - [ ] Controller: Extreme Crafting (Tier 2 PC, PC-Teile außer Internet-Card)
+  - [ ] Wireless Grid: Extreme Crafting (Tier 3 PC, PC-Teile inkl. Internet-Card)
 - [ ] BoneMeal wie Saplings aus Leaves droppen
 - [ ] Restliche Mods kurz durchgehen / sicherstellen
 - [ ] Custom Advancements

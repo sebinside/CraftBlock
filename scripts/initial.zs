@@ -4,3 +4,4 @@ mods.initialinventory.InvHandler.addStartingItem(tome);
 mods.initialinventory.InvHandler.addStartingItem(<contenttweaker:skate_kappa>);
 mods.initialinventory.InvHandler.addStartingItem(<harvestcraft:hamburgeritem>);
 mods.initialinventory.InvHandler.addStartingItem(<harvestcraft:coffeeitem>);
+mods.initialinventory.InvHandler.addStartingItem(<minecraft:light_blue_glazed_terracotta>.withTag({ench:[{id:-1,lvl:0}], display: {Name: "Shiny Dödel Block"}}) * 5);
