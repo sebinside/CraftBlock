@@ -7,7 +7,7 @@ Map-Progress: 20% [xx        ]
 
 ## Offene TODOs
 
-- [ ] Refine Storage (Tier 2, Drawer + OC + IE)
+- [ ] Refined Storage (Tier 2, Drawer + OC + IE)
   - [ ] Lösung für Cores und Prozessoren finden (wie? OC?)
   - [ ] Quartz Iron neu (wie?)
   - [ ] Controller: Tier 2 Crafting (wie?)
