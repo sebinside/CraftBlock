@@ -111,14 +111,29 @@ disable(<refinedstorage:fluid_storage_part:1>);
 disable(<refinedstorage:fluid_storage_part:2>);
 disable(<refinedstorage:fluid_storage_part:3>);
 
-mods.botania.RuneAltar.addRecipe(<refinedstorage:fluid_storage_disk:1> * 2, 
-[<refinedstorage:storage_disk:1> * 2, <minecraft:water_bucket>, <minecraft:lava_bucket>, <forge:bucketfilled>.withTag({FluidName: "iron", Amount: 1000}), <minecraft:milk_bucket>], 
-7020);
+mods.botania.RuneAltar.addRecipe(<refinedstorage:fluid_storage_disk:1> * 2, [
+    <refinedstorage:storage_disk:1>, 
+    <refinedstorage:storage_disk:1>, 
+    <minecraft:water_bucket>, 
+    <minecraft:lava_bucket>, 
+    <forge:bucketfilled>.withTag({FluidName: "iron", Amount: 1000}), 
+    <minecraft:milk_bucket>
+], 7020);
 
-mods.botania.RuneAltar.addRecipe(<refinedstorage:fluid_storage_disk:2> * 2, 
-[<refinedstorage:storage_disk:2> * 2, <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "copper", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "steel", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "obsidian", Amount: 1000})], 
-7020);
+mods.botania.RuneAltar.addRecipe(<refinedstorage:fluid_storage_disk:2> * 2, [
+    <refinedstorage:storage_disk:2>, 
+    <refinedstorage:storage_disk:2>, 
+    <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}), 
+    <forge:bucketfilled>.withTag({FluidName: "copper", Amount: 1000}), 
+    <forge:bucketfilled>.withTag({FluidName: "steel", Amount: 1000}), 
+    <forge:bucketfilled>.withTag({FluidName: "obsidian", Amount: 1000})
+], 7020);
 
-mods.botania.RuneAltar.addRecipe(<refinedstorage:fluid_storage_disk:3> * 2, 
-[<refinedstorage:storage_disk:3> * 2, <forge:bucketfilled>.withTag({FluidName: "astral_starmetal", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "gold", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "manyullyn", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "uranium", Amount: 1000})], 
-7020);
+mods.botania.RuneAltar.addRecipe(<refinedstorage:fluid_storage_disk:3> * 2, [
+    <refinedstorage:storage_disk:3>, 
+    <refinedstorage:storage_disk:3>, 
+    <forge:bucketfilled>.withTag({FluidName: "astral_starmetal", Amount: 1000}), 
+    <forge:bucketfilled>.withTag({FluidName: "gold", Amount: 1000}), 
+    <forge:bucketfilled>.withTag({FluidName: "manyullyn", Amount: 1000}), 
+    <forge:bucketfilled>.withTag({FluidName: "uranium", Amount: 1000})
+], 7020);
