@@ -5,9 +5,9 @@ recipes.remove(<opencomputers:material:12>);
 mods.embers.Stamper.add(<opencomputers:material:12>, <liquid:cobalt> * 12, <embers:stamp_gear>, <ore:plateAluminum>);
 
 // Toasted Circuit board lol
-var boardRaw = <opencomputers:material:2>;
-var boardToasted = <opencomputers:material:3>;
-var boardPrinted = <opencomputers:material:4>;
+val boardRaw = <opencomputers:material:2>;
+val boardToasted = <opencomputers:material:3>;
+val boardPrinted = <opencomputers:material:4>;
 mods.jei.JEI.addItem(boardToasted);
 
 boardRaw.displayName = "Raw Circuit Board (RCB)";
