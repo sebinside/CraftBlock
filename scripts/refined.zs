@@ -18,6 +18,7 @@ val itemsToRemove = [
     <refinedstorage:storage:2>,
     <refinedstorage:storage:3>,
     <refinedstorage:storage:4>,
+    <refinedstorage:fluid_storage_part:0>,
     <refinedstorage:fluid_storage:0>,
     <refinedstorage:fluid_storage:1>,
     <refinedstorage:fluid_storage:2>,
@@ -121,48 +122,55 @@ for i, drive in drives {
 }
 
 // Way cooler fluid disks
+
 val fluidDisks = [
     <refinedstorage:fluid_storage_disk:1>,
     <refinedstorage:fluid_storage_disk:2>,
     <refinedstorage:fluid_storage_disk:3>,
 ] as IItemStack[];
 
-for item in fluidDisks {
-    recipes.remove(item);
-}
-
 val fluidParts = [
-    <refinedstorage:fluid_storage_part:0>,
     <refinedstorage:fluid_storage_part:1>,
     <refinedstorage:fluid_storage_part:2>,
     <refinedstorage:fluid_storage_part:3>,
 ] as IItemStack[];
 
-for item in fluidParts {
-    disable(item);
+for i, disk in fluidDisks {
+    val fluidPart = fluidParts[i];
+    recipes.remove(fluidPart);
+    recipes.removeShaped(disk, [
+        [<ore:blockGlass>, <minecraft:redstone>, <ore:blockGlass>],
+        [<minecraft:redstone>, fluidPart, <minecraft:redstone>],
+        [<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>]
+    ]);
+    recipes.addShaped(disk, [
+        [<botania:bifrostperm>, <minecraft:redstone>, <botania:bifrostperm>],
+        [<minecraft:redstone>, fluidPart, <minecraft:redstone>],
+        [<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>]
+    ]);
 }
 
-mods.botania.RuneAltar.addRecipe(<refinedstorage:fluid_storage_disk:1> * 2, [
-    <refinedstorage:storage_disk:1>, 
-    <refinedstorage:storage_disk:1>, 
+mods.botania.RuneAltar.addRecipe(<refinedstorage:fluid_storage_part:1> * 2, [
+    <refinedstorage:storage_part:1>, 
+    <refinedstorage:storage_part:1>, 
     <minecraft:water_bucket>, 
     <minecraft:lava_bucket>, 
     <forge:bucketfilled>.withTag({FluidName: "iron", Amount: 1000}), 
     <minecraft:milk_bucket>
 ], 7020);
 
-mods.botania.RuneAltar.addRecipe(<refinedstorage:fluid_storage_disk:2> * 2, [
-    <refinedstorage:storage_disk:2>, 
-    <refinedstorage:storage_disk:2>, 
+mods.botania.RuneAltar.addRecipe(<refinedstorage:fluid_storage_part:2> * 2, [
+    <refinedstorage:storage_part:2>, 
+    <refinedstorage:storage_part:2>, 
     <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}), 
     <forge:bucketfilled>.withTag({FluidName: "copper", Amount: 1000}), 
     <forge:bucketfilled>.withTag({FluidName: "steel", Amount: 1000}), 
     <forge:bucketfilled>.withTag({FluidName: "obsidian", Amount: 1000})
 ], 7020);
 
-mods.botania.RuneAltar.addRecipe(<refinedstorage:fluid_storage_disk:3> * 2, [
-    <refinedstorage:storage_disk:3>, 
-    <refinedstorage:storage_disk:3>, 
+mods.botania.RuneAltar.addRecipe(<refinedstorage:fluid_storage_part:3> * 2, [
+    <refinedstorage:storage_part:3>, 
+    <refinedstorage:storage_part:3>, 
     <forge:bucketfilled>.withTag({FluidName: "astral_starmetal", Amount: 1000}), 
     <forge:bucketfilled>.withTag({FluidName: "gold", Amount: 1000}), 
     <forge:bucketfilled>.withTag({FluidName: "manyullyn", Amount: 1000}), 
