@@ -85,7 +85,7 @@ recipes.addShaped(<refinedstorage:storage_part:0>, [
 	[<refinedstorage:processor:3>, <refinedstorage:silicon>, <refinedstorage:processor:3>]
 ]);
 
-mods.astralsorcery.StarlightInfusion.addInfusion(<refinedstorage:storage_part:0>, <refinedstorage:storage_part:1>, false, 0.5, 200);
+mods.astralsorcery.StarlightInfusion.addInfusion(<refinedstorage:storage_part:0>, <refinedstorage:storage_part:1>, false, 0.03146, 100);
 
 recipes.addShaped(<refinedstorage:storage_part:2>, [
 	[<refinedstorage:processor:4>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:processor:4>],
