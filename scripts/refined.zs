@@ -2,7 +2,7 @@ import scripts._base.disable;
 import crafttweaker.item.IItemStack;
 
 // Remove autocrafting
-var itemsToRemove = [
+val itemsToRemove = [
     <refinedstorage:grid:2>,
     <refinedstorage:crafter>,
     <refinedstorage:interface>,
@@ -38,9 +38,9 @@ recipes.removeShaped(<refinedstorage:quartz_enriched_iron>);
 // New cables
 recipes.remove(<refinedstorage:cable>);
 recipes.addShaped(<refinedstorage:cable> * 12, [
-	[<refinedstorage:quartz_enriched_iron>, <ore:oc:cable>, <refinedstorage:quartz_enriched_iron>], 
-	[<refinedstorage:quartz_enriched_iron>, <ore:oc:cable>, <refinedstorage:quartz_enriched_iron>], 
-	[<refinedstorage:quartz_enriched_iron>, <ore:oc:cable>, <refinedstorage:quartz_enriched_iron>]
+    [<refinedstorage:quartz_enriched_iron>, <ore:oc:cable>, <refinedstorage:quartz_enriched_iron>], 
+    [<refinedstorage:quartz_enriched_iron>, <ore:oc:cable>, <refinedstorage:quartz_enriched_iron>], 
+    [<refinedstorage:quartz_enriched_iron>, <ore:oc:cable>, <refinedstorage:quartz_enriched_iron>]
 ]);
 
 // Processor crafting
@@ -65,7 +65,7 @@ mods.botania.ManaInfusion.addInfusion(<refinedstorage:silicon>, <jaopca:item_dus
 
 
 // Remove crafting of all disks
-var disks = [
+val disks = [
     <refinedstorage:storage_disk:1>,
     <refinedstorage:storage_disk:2>,
     <refinedstorage:storage_disk:3>,
@@ -77,39 +77,52 @@ var disks = [
 for item in disks {
     recipes.remove(item);
 }
+val disabledDisks = [
+    <refinedstorage:storage_housing>,
+    <refinedstorage:fluid_storage_disk:0>,
+    <refinedstorage:fluid_storage_disk:4>,
+    <refinedstorage:storage_disk:0>,
+    <refinedstorage:storage_disk:4>
+] as IItemStack[];
 
-disable(<refinedstorage:storage_housing>);
-disable(<refinedstorage:fluid_storage_disk:0>);
-disable(<refinedstorage:fluid_storage_disk:4>);
-disable(<refinedstorage:storage_disk:0>);
-disable(<refinedstorage:storage_disk:4>);
-
+for item in disabledDisks {
+    disable(item);
+}
 
 // I hate everything-themed storage disks
 mods.astralsorcery.Altar.addAttunementAltarRecipe("disk1", <refinedstorage:storage_disk:1> * 8, 500, 300, [
-			<botania:bifrostperm>, <ore:dustRedstone>, <botania:bifrostperm>,
-            <ore:dustRedstone>, <refinedstorage:storage_part:1>, <ore:dustRedstone>,
-            <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>,
-			<opencomputers:storage:2>, <opencomputers:storage:2>, <opencomputers:storage:2>, <opencomputers:storage:2>]);
+    <botania:bifrostperm>, <ore:dustRedstone>, <botania:bifrostperm>,
+    <ore:dustRedstone>, <refinedstorage:storage_part:1>, <ore:dustRedstone>,
+    <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>,
+    <opencomputers:storage:2>, <opencomputers:storage:2>, <opencomputers:storage:2>, <opencomputers:storage:2>
+]);
 
 mods.astralsorcery.Altar.addAttunementAltarRecipe("disk2", <refinedstorage:storage_disk:2> * 8, 500, 300, [
-			<botania:bifrostperm>, <ore:dustRedstone>, <botania:bifrostperm>,
-            <ore:dustRedstone>, <refinedstorage:storage_part:2>, <ore:dustRedstone>,
-            <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>,<refinedstorage:quartz_enriched_iron>,
-			<opencomputers:storage:3>, <opencomputers:storage:3>, <opencomputers:storage:3>, <opencomputers:storage:3>]);
+    <botania:bifrostperm>, <ore:dustRedstone>, <botania:bifrostperm>,
+    <ore:dustRedstone>, <refinedstorage:storage_part:2>, <ore:dustRedstone>,
+    <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>,<refinedstorage:quartz_enriched_iron>,
+    <opencomputers:storage:3>, <opencomputers:storage:3>, <opencomputers:storage:3>, <opencomputers:storage:3>
+]);
 
 mods.astralsorcery.Altar.addAttunementAltarRecipe("disk3", <refinedstorage:storage_disk:3> * 8, 500, 300, [
-			<botania:bifrostperm>, <ore:dustRedstone>, <botania:bifrostperm>,
-            <ore:dustRedstone>, <refinedstorage:storage_part:3>, <ore:dustRedstone>,
-            <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>,<refinedstorage:quartz_enriched_iron>,
-			<opencomputers:storage:4>, <opencomputers:storage:4>, <opencomputers:storage:4>, <opencomputers:storage:4>]);
+    <botania:bifrostperm>, <ore:dustRedstone>, <botania:bifrostperm>,
+    <ore:dustRedstone>, <refinedstorage:storage_part:3>, <ore:dustRedstone>,
+    <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>,<refinedstorage:quartz_enriched_iron>,
+    <opencomputers:storage:4>, <opencomputers:storage:4>, <opencomputers:storage:4>, <opencomputers:storage:4>
+]);
 
 
 // Way cooler fluid disks
-disable(<refinedstorage:fluid_storage_part:0>);
-disable(<refinedstorage:fluid_storage_part:1>);
-disable(<refinedstorage:fluid_storage_part:2>);
-disable(<refinedstorage:fluid_storage_part:3>);
+val disabledFluidParts = [
+    <refinedstorage:fluid_storage_part:0>,
+    <refinedstorage:fluid_storage_part:1>,
+    <refinedstorage:fluid_storage_part:2>,
+    <refinedstorage:fluid_storage_part:3>,
+] as IItemStack[];
+
+for item in disabledFluidParts {
+    disable(item);
+}
 
 mods.botania.RuneAltar.addRecipe(<refinedstorage:fluid_storage_disk:1> * 2, [
     <refinedstorage:storage_disk:1>, 

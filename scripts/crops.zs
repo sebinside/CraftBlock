@@ -20,4 +20,8 @@ mods.uniquecrops.SeedCrafting.addRecipe(<uniquecrops:seedweepingbells>, <minecra
 
 // Hourglass Alpha soon!
 recipes.remove(<uniquecrops:hourglass>);
-recipes.addShaped("uniquecrops_hourglass", <uniquecrops:hourglass>, [[<uniquecrops:generic:4>, <minecraft:gold_block>, <uniquecrops:generic:4>], [<minecraft:glass_pane>, <botania:hourglass>, <minecraft:glass_pane>], [<uniquecrops:generic:4>, <minecraft:gold_block>, <uniquecrops:generic:4>]]);
+recipes.addShaped("uniquecrops_hourglass", <uniquecrops:hourglass>, [
+    [<uniquecrops:generic:4>, <minecraft:gold_block>, <uniquecrops:generic:4>], 
+    [<minecraft:glass_pane>, <botania:hourglass>, <minecraft:glass_pane>], 
+    [<uniquecrops:generic:4>, <minecraft:gold_block>, <uniquecrops:generic:4>]
+]);

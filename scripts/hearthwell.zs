@@ -28,7 +28,18 @@ recipes.remove(<hwell:raw_asul_block>);
 mods.astralsorcery.LightTransmutation.addTransmutation(<hwell:crystal_block>, <hwell:raw_asul_block>, 10);
 
 // Disable core crafting
-val coreList = [<hwell:core_sentient>, <hwell:core_green>, <hwell:core_stone>, <hwell:core_anima>, <hwell:core_heat>, <hwell:inert_seed>, <hwell:graft_anima>, <hwell:stabiliser_light>, <hwell:stabiliser>, <hwell:stabiliser_heavy>] as IItemStack[];
+val coreList = [
+    <hwell:core_sentient>, 
+    <hwell:core_green>, 
+    <hwell:core_stone>,
+    <hwell:core_anima>, 
+    <hwell:core_heat>, 
+    <hwell:inert_seed>, 
+    <hwell:graft_anima>, 
+    <hwell:stabiliser_light>, 
+    <hwell:stabiliser>, 
+    <hwell:stabiliser_heavy>
+] as IItemStack[];
 for item in coreList {
     disable(item);
 }
@@ -41,9 +52,12 @@ mods.tconstruct.Casting.addTableRecipe(<hwell:metaldiamond>, <ore:manaDiamond>, 
 
 // Make mutator harder and add new mutation paste recipe
 recipes.remove(<hwell:mutator>);
-recipes.addShaped("mutator", <hwell:mutator>, [[<botania:fertilizer>, <hwell:crystal>, <hwell:myst_fertilizer>], [<ore:blockDawnstone>, <hwell:furnace_tube>, <ore:blockDawnstone>], [<ore:scaffoldingSteel>, <hwell:asul_machine_case>, <ore:scaffoldingSteel>]]);
-recipes.addShapeless("mutationpaste", <hwell:mutation_paste> * 2, 
-    [<harvestcraft:mixingbowlitem>, <ore:slimeball>, <botania:dye:*>, <botania:dye:*>, <botania:dye:*>, <botania:dye:*>]);
+recipes.addShaped("mutator", <hwell:mutator>, [
+    [<botania:fertilizer>, <hwell:crystal>, <hwell:myst_fertilizer>],
+    [<ore:blockDawnstone>, <hwell:furnace_tube>, <ore:blockDawnstone>],
+    [<ore:scaffoldingSteel>, <hwell:asul_machine_case>, <ore:scaffoldingSteel>]
+]);
+recipes.addShapeless("mutationpaste", <hwell:mutation_paste> * 2, [<harvestcraft:mixingbowlitem>, <ore:slimeball>, <botania:dye:*>, <botania:dye:*>, <botania:dye:*>, <botania:dye:*>]);
 
 // Remove light crushing to glowstone
 mods.hwell.removeCrushingBlockRecipe(<hwell:locked_light>);
@@ -56,27 +70,50 @@ moretweaker.jei.MoreJei.addDescription(<hwell:crystal_nether>, ["Obtained by toa
 
 // Make charger harder
 recipes.remove(<hwell:charger>);
-recipes.addShaped("hwellcharger", <hwell:charger>, [[<ore:manaDiamond>, <ore:dustAstralStarmetal>, <ore:manaDiamond>], [<hwell:furnace_tube>, <hwell:asul_machine_case>, <hwell:furnace_tube>], [<hwell:smooth_onyx>, <hwell:smooth_onyx>, <hwell:smooth_onyx>]]);
+recipes.addShaped("hwellcharger", <hwell:charger>, [
+    [<ore:manaDiamond>, <ore:dustAstralStarmetal>, <ore:manaDiamond>],
+    [<hwell:furnace_tube>, <hwell:asul_machine_case>, <hwell:furnace_tube>],
+    [<hwell:smooth_onyx>, <hwell:smooth_onyx>, <hwell:smooth_onyx>]
+]);
 
 // Make slab lamp harder
 recipes.remove(<hwell:slab_lamp>);
-recipes.addShaped("hwellslab_lamp", <hwell:slab_lamp>, [[<hwell:heavy_ingot>, <hwell:locked_light>, <hwell:heavy_ingot>]]);
+recipes.addShaped("hwellslab_lamp", <hwell:slab_lamp>, [
+    [<hwell:heavy_ingot>, <hwell:locked_light>, <hwell:heavy_ingot>]
+]);
 
 // Make block player easier
 recipes.remove(<hwell:setter>);
-recipes.addShaped("hwellsetter", <hwell:setter>, [[<ore:ingotManasteel>, null, <ore:ingotManasteel>], [<ore:ingotManasteel>, <ore:dustRedstone>, <ore:ingotManasteel>], [<ore:ingotManasteel>, <hwell:asul_machine_case>, <ore:ingotManasteel>]]);
+recipes.addShaped("hwellsetter", <hwell:setter>, [
+    [<ore:ingotManasteel>, null, <ore:ingotManasteel>],
+    [<ore:ingotManasteel>, <ore:dustRedstone>, <ore:ingotManasteel>],
+    [<ore:ingotManasteel>, <hwell:asul_machine_case>, <ore:ingotManasteel>]
+]);
 
 // Change light collector
 recipes.remove(<hwell:light_collector>);
-recipes.addShaped("hwelllight_collector", <hwell:light_collector>, [[<hwell:citrinic_sand>, <botania:managlasspane>, <hwell:citrinic_sand>], [<botania:managlasspane>, <astralsorcery:itemcraftingcomponent:3>, <botania:managlasspane>], [<hwell:citrinic_sand>, <botania:managlasspane>, <hwell:citrinic_sand>]]);
+recipes.addShaped("hwelllight_collector", <hwell:light_collector>, [
+    [<hwell:citrinic_sand>, <botania:managlasspane>, <hwell:citrinic_sand>], 
+    [<botania:managlasspane>, <astralsorcery:itemcraftingcomponent:3>, <botania:managlasspane>], 
+    [<hwell:citrinic_sand>, <botania:managlasspane>, <hwell:citrinic_sand>]
+]);
 
 // Very creative freezer recipe
+val liquidstarlightBucket = <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000});
 recipes.remove(<hwell:freezer>);
-recipes.addShaped("hwell_freezer", <hwell:freezer>, [[<hwell:shard_ca>, <harvestcraft:mintcupcakeitem>, <hwell:shard_ca>], [<forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}), <cookingforblockheads:fridge>, <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000})], [<astralsorcery:itemcraftingcomponent:1>, <hwell:asul_machine_case>, <astralsorcery:itemcraftingcomponent:1>]]);
+recipes.addShaped("hwell_freezer", <hwell:freezer>, [
+    [<hwell:shard_ca>, <harvestcraft:mintcupcakeitem>, <hwell:shard_ca>],
+    [liquidstarlightBucket, <cookingforblockheads:fridge>, liquidstarlightBucket], 
+    [<astralsorcery:itemcraftingcomponent:1>, <hwell:asul_machine_case>, <astralsorcery:itemcraftingcomponent:1>]
+]);
 
 // Make protection block depend on embers because of ore puller
 recipes.remove(<hwell:heavy_protection_block>);
-recipes.addShaped("hwell_heavy_protection_block", <hwell:heavy_protection_block> * 4, [[<hwell:soulsteel_ingot>, <ore:ingotDawnstone>, <hwell:soulsteel_ingot>], [<ore:ingotDawnstone>, <hwell:heavy_block>, <ore:ingotDawnstone>], [<hwell:soulsteel_ingot>, <ore:ingotDawnstone>, <hwell:soulsteel_ingot>]]);
+recipes.addShaped("hwell_heavy_protection_block", <hwell:heavy_protection_block> * 4, [
+    [<hwell:soulsteel_ingot>, <ore:ingotDawnstone>, <hwell:soulsteel_ingot>],
+    [<ore:ingotDawnstone>, <hwell:heavy_block>, <ore:ingotDawnstone>],
+    [<hwell:soulsteel_ingot>, <ore:ingotDawnstone>, <hwell:soulsteel_ingot>]
+]);
 
 // Remove repairing paste, grafting, heat furnace, and burst seeds
 val repairList = [<hwell:repairing_paste>,       
@@ -104,12 +141,16 @@ for item in repairList {
 
 // Way better nourisher recipe
 recipes.remove(<hwell:nourisher>);
-recipes.addShaped("hwell_nourisher", <hwell:nourisher>, [[<botania:petal:*>, <botania:petal:*>, <botania:petal:*>], [<hwell:locked_light>, <ore:ingotTerrasteel>, <hwell:locked_light>], [<uniquecrops:oldgrass>, <hwell:asul_machine_case>, <uniquecrops:oldgrass>]]);
+recipes.addShaped("hwell_nourisher", <hwell:nourisher>, [
+    [<botania:petal:*>, <botania:petal:*>, <botania:petal:*>],
+    [<hwell:locked_light>, <ore:ingotTerrasteel>, <hwell:locked_light>],
+    [<uniquecrops:oldgrass>, <hwell:asul_machine_case>, <uniquecrops:oldgrass>]
+]);
 
 // Update loot kits
 disable(<hwell:loot_witch>);
 
-var lootkits = [
+val lootkits = [
     <hwell:loot_blaze>,
     <hwell:loot_creeper>,
     <hwell:loot_enderman>,
@@ -128,8 +169,8 @@ for item in lootkits {
 }
 
 function createLootKitRecipe(lootkit as IItemStack, shardA as IItemStack, shardB as IItemStack, mobItem as IItemStack) {
-    var disgustingSmoothie = <harvestcraft:pearsmoothieitem>;
-    var mobSmash = <harvestcraft:mushroomrisottoitem>;
+    val disgustingSmoothie = <harvestcraft:pearsmoothieitem>;
+    val mobSmash = <harvestcraft:mushroomrisottoitem>;
 	recipes.addShapeless(lootkit, [shardA, mobItem, shardB, disgustingSmoothie, <hwell:loot_base>, mobSmash]);
 }
 
@@ -147,8 +188,9 @@ createLootKitRecipe(<hwell:loot_guardian>, <hwell:shard_p>, <hwell:shard_o>, <mi
 
 // Extended Crafting changes
 recipes.remove(<hwell:producer>);
+val liquidsoulsBucket = <forge:bucketfilled>.withTag({FluidName: "liquid_souls", Amount: 1000});
 mods.extendedcrafting.TableCrafting.addShaped(0, <hwell:producer>, [
-	[<ore:blockHearthWellNetherCrystal>, <botania:quartztypedark>, <forge:bucketfilled>.withTag({FluidName: "liquid_souls", Amount: 1000}), <botania:quartztypedark>, <ore:blockHearthWellNetherCrystal>], 
+	[<ore:blockHearthWellNetherCrystal>, <botania:quartztypedark>, liquidsoulsBucket, <botania:quartztypedark>, <ore:blockHearthWellNetherCrystal>], 
 	[<ore:blockMetaldiamond>, <botania:quartztypedark>, <botania:quartztypedark>, <botania:quartztypedark>, <ore:blockMetaldiamond>], 
 	[<ore:blockMetaldiamond>, <ore:blockHeavy>, <hwell:asul_machine_case>, <ore:blockHeavy>, <ore:blockMetaldiamond>], 
 	[<ore:blockMetaldiamond>, <ore:blockHeavy>, null, <ore:blockHeavy>, <ore:blockMetaldiamond>], 
