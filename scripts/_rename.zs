@@ -42,3 +42,6 @@ for item in netherCrystalItems {
 <opencomputers:card:1>.displayName = "RTX 3070";
 <opencomputers:card:2>.displayName = "RTX 3080";
 <opencomputers:card:3>.displayName = "RTX 3090";
+
+// Ung3Fridge
+<cookingforblockheads:fridge>.displayName = "ung3fridgen";

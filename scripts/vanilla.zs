@@ -91,3 +91,11 @@ recipes.addShapeless("wood2", <minecraft:planks:2> * 7, [<bibliocraft:framingsaw
 recipes.addShapeless("wood3", <minecraft:planks:3> * 7, [<bibliocraft:framingsaw>, <minecraft:log:3>]);
 recipes.addShapeless("wood4", <minecraft:planks:4> * 7, [<bibliocraft:framingsaw>, <minecraft:log2:0>]);
 recipes.addShapeless("wood5", <minecraft:planks:5> * 7, [<bibliocraft:framingsaw>, <minecraft:log2:1>]);
+
+// Ender chest
+recipes.remove(<minecraft:ender_chest>);
+recipes.addShaped("enderchest", <minecraft:ender_chest>, [
+	[null, <minecraft:ender_eye>, null], 
+	[<minecraft:ender_eye>, <ironchest:iron_chest:6>, <minecraft:ender_eye>], 
+	[null, <minecraft:ender_eye>, null]
+]);

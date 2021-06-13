@@ -176,3 +176,46 @@ mods.botania.RuneAltar.addRecipe(<refinedstorage:fluid_storage_part:3> * 2, [
     <forge:bucketfilled>.withTag({FluidName: "manyullyn", Amount: 1000}), 
     <forge:bucketfilled>.withTag({FluidName: "uranium", Amount: 1000})
 ], 7020);
+
+// New Core
+recipes.remove(<refinedstorage:machine_casing>);
+recipes.addShaped("rs_machine_casing", <refinedstorage:machine_casing>, [
+	[<refinedstorage:quartz_enriched_iron>, <ore:ingotBlackIron>, <refinedstorage:quartz_enriched_iron>], 
+	[<ore:ingotBlackIron>, <embers:mech_core>, <ore:ingotBlackIron>], 
+	[<refinedstorage:quartz_enriched_iron>, <ore:ingotBlackIron>, <refinedstorage:quartz_enriched_iron>]
+]);
+
+// New Disc Block recipes
+recipes.remove(<refinedstorage:disk_manipulator>);
+recipes.addShaped("rs_manipulator", <refinedstorage:disk_manipulator>, [
+	[<refinedstorage:quartz_enriched_iron>, <ore:oc:dataCard2>, <refinedstorage:quartz_enriched_iron>], 
+	[<refinedstorage:core:0>, <refinedstorage:machine_casing>, <refinedstorage:core:1>], 
+	[<refinedstorage:quartz_enriched_iron>, <storagedrawers:compdrawers>, <refinedstorage:quartz_enriched_iron>]
+]);
+
+recipes.remove(<refinedstorage:disk_drive>);
+recipes.addShaped("rs_drive", <refinedstorage:disk_drive>, [
+	[<refinedstorage:quartz_enriched_iron>, <ore:oc:dataCard1>, <refinedstorage:quartz_enriched_iron>], 
+	[<ore:drawerBasic>, <refinedstorage:machine_casing>, <ore:drawerBasic>], 
+	[<refinedstorage:quartz_enriched_iron>, <ore:oc:diskDrive>, <refinedstorage:quartz_enriched_iron>]
+]);
+
+// Controller
+recipes.remove(<refinedstorage:controller>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <refinedstorage:controller>.withTag({Energy: 0}), [
+	[<refinedstorage:quartz_enriched_iron_block>, <uniquecrops:dyedbonemeal:12>, <uniquecrops:dyedbonemeal:12>, <uniquecrops:dyedbonemeal:12>, <refinedstorage:quartz_enriched_iron_block>], 
+	[<uniquecrops:dyedbonemeal:12>, <refinedstorage:core>, <ore:oc:materialAcid>, <refinedstorage:core:1>, <uniquecrops:dyedbonemeal:12>], 
+	[<uniquecrops:dyedbonemeal:12>, <ore:oc:dataCard3>, <refinedstorage:machine_casing>, <ore:oc:graphicsCard3>, <uniquecrops:dyedbonemeal:12>], 
+	[<uniquecrops:dyedbonemeal:12>, <storagedrawers:controller>, <ore:oc:cpu3>, <ore:oc:case2>, <uniquecrops:dyedbonemeal:12>], 
+	[<refinedstorage:quartz_enriched_iron_block>, <storagedrawers:upgrade_redstone>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_status>, <refinedstorage:quartz_enriched_iron_block>]
+]);
+
+// Wireless grid
+recipes.remove(<refinedstorage:wireless_grid>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <refinedstorage:wireless_grid>, [
+	[null, null, <botania:spark>, null, null], 
+	[<refinedstorage:quartz_enriched_iron>, <ore:ingotTerrasteel>, <ore:oc:wlanCard2>, <ore:ingotTerrasteel>, <refinedstorage:quartz_enriched_iron>], 
+	[<refinedstorage:quartz_enriched_iron>, <ore:oc:screen2>, <ore:oc:screen2>, <ore:oc:screen2>, <refinedstorage:quartz_enriched_iron>], 
+	[<refinedstorage:quartz_enriched_iron>, <refinedstorage:grid>, <extendedcrafting:table_advanced>, <ore:chestEnder>, <refinedstorage:quartz_enriched_iron>], 
+	[<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>]
+]);

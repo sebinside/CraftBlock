@@ -72,6 +72,6 @@ recipes.remove(<embers:mech_core>);
 <embers:mech_core>.displayName = "Mechanical Hardcore";
 recipes.addShaped(<embers:mech_core>, [
     [<ore:ingotSteel>, <immersiveengineering:material:8>, <ore:ingotSteel>], 
-    [<immersiveengineering:material:8>, <ore:gearLead>, <immersiveengineering:material:8>], 
+    [<immersiveengineering:material:8>, <hwell:asul_machine_case>, <immersiveengineering:material:8>], 
     [<ore:ingotSteel>, <immersiveengineering:material:8>, <ore:ingotSteel>]
 ]);
