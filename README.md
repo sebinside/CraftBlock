@@ -9,7 +9,6 @@ Map-Progress: 20% [xx        ]
 
 - [ ] Refined Storage (Tier 2, Drawer + OC + IE)
   - [ ] Irgendwie Drawer ins Crafting mit rein bringen, komplett vergessen, lol
-  - [ ] Shift rechtsklick mit disk housing und part deaktivieren
   - [ ] Disk Drive und Disc Manipulator (z.B. + Data Cards) basierend auf OC Disk Drive
   - [ ] Machine Casing aus Mechanical Hardcore + Quartz + x?
   - [ ] Controller: Extreme Crafting (Tier 2 PC, PC-Teile außer Internet-Card)
