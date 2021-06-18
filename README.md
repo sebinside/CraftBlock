@@ -15,6 +15,7 @@ Map-Progress: 20% [xx        ]
 - [ ] HatStand craftbar machen
 - [ ] Blur config bzw. optifine deaktivieren testen
 - [ ] TC, AC, UC World Gen Config ändern
+- [ ] Astral Sorcery Beginnner Rezepte (ohne die generierten Sachen kommt man sonst nicht an den ersten Table (glaub ich))
 - [ ] Visit OC Sensors and BedrockCraft
 - [ ] Custom Advancements
 - [ ] Arbeit an der Map beginnen...
