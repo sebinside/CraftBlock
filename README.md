@@ -4,16 +4,11 @@ Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nac
 
 Direkt zu Curseforge: https://www.curseforge.com/minecraft/modpacks/craftblock
 
-Modpack-Progress: 90% [xxxxxxxxx ]
+Modpack-Progress: 95% [xxxxxxxxx-]
 Map-Progress: 20% [xx        ]
 
 ## Offene TODOs
 
-- [ ] Extreme Crafting noch mehr Items raus lol
-- [ ] Waystones leicht nerfen (z.B. Botania, Bibliocraft)
-- [ ] Waystones XP und cooldown aus
-- [ ] HatStand craftbar machen
-- [ ] Blur config bzw. optifine deaktivieren testen
 - [ ] TC, AC, UC World Gen Config ändern
 - [ ] Visit OC Sensors and BedrockCraft
 - [ ] Custom Advancements

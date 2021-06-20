@@ -94,8 +94,4 @@ recipes.addShapeless("wood5", <minecraft:planks:5> * 7, [<bibliocraft:framingsaw
 
 // Ender chest
 recipes.remove(<minecraft:ender_chest>);
-recipes.addShaped("enderchest", <minecraft:ender_chest>, [
-	[null, <minecraft:ender_eye>, null], 
-	[<minecraft:ender_eye>, <ironchest:iron_chest:6>, <minecraft:ender_eye>], 
-	[null, <minecraft:ender_eye>, null]
-]);
+recipes.addShapeless("enderchest", <minecraft:ender_chest>, [<ironchest:iron_chest:6>, <waystones:warp_stone>]);

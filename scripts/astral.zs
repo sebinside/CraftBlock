@@ -20,3 +20,22 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/
 
 // Remove diamond daschd
 mods.astralsorcery.Grindstone.removeRecipe(<jaopca:item_dustdiamond>);
+
+// Make papers way easier bc early game
+mods.botania.ManaInfusion.addInfusion(<astralsorcery:itemconstellationpaper>, <astralsorcery:itemcraftingcomponent:5>, 25000);
+
+// Alternative recipes for first early game recipes
+recipes.remove(<astralsorcery:blockaltar>);
+recipes.addShaped("astralaltar", <astralsorcery:blockaltar>, [
+	[<ore:stoneMarble>, <astralsorcery:blockblackmarble>, <ore:stoneMarble>], 
+	[<ore:stoneMarble>, <ore:gemAquamarine>, <ore:stoneMarble>], 
+	[<ore:stoneMarble>, <botania:runealtar>, <ore:stoneMarble>]
+]);
+
+recipes.remove(<astralsorcery:itemwand>);
+recipes.addShaped("astralwand", <astralsorcery:itemwand>.withTag({astralsorcery: {}}), [
+	[null, <ore:gemAquamarine>, <ore:manaPearl>], 
+	[null, <botania:twigwand>, <ore:gemAquamarine>], 
+	[<quark:marble_speleothem>, null, null]
+]);
+

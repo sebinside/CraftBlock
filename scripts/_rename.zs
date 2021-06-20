@@ -45,3 +45,8 @@ for item in netherCrystalItems {
 
 // Ung3Fridge
 <cookingforblockheads:fridge>.displayName = "ung3fridgen";
+
+// Ultimate Ingot -> RGB Ingot
+<extendedcrafting:material:32>.displayName = "RGB Ingot";
+<extendedcrafting:material:33>.displayName = "RGB Nugget";
+<extendedcrafting:storage:4>.displayName = "Block of RGB";
