@@ -35,3 +35,7 @@
 !config/immersiveengineering.cfg
 !config/Waystones.cfg
 !config/hats.cfg
+
+# advancements folder
+!advancements
+!advancements/*

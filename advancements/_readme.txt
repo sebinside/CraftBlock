@@ -1,0 +1,1 @@
+Workflow: Edit advancements and then add them to the CraftBlockAdvancements.jar in order to be loaded!

@@ -10,9 +10,13 @@ Map-Progress: 20% [xx        ]
 ## Offene TODOs
 
 - [ ] Custom Advancements
+- [ ] Hidden advancements
+    - [ ] Ice Ice Baby, kappa123, wtf did you just do?, ready to mine bitcoin, don't you dare..., call me CoffeeCrafter
 - [ ] Visit OC Sensors and BedrockCraft
 - [ ] Arbeit an der Map beginnen...
 - [ ] Veröffentlichen!
+
+![Advancements concept](advancements.png)
 
 ## Vorgesehene Progression
 

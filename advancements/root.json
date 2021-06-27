@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "title": "Root Advancement",
+        "description": "Automatisch gegranted",
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "item": {
+            "trigger": "minecraft:tick",
+            "conditions": {}
+        }
+    }
+}

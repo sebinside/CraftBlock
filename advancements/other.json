@@ -1,0 +1,22 @@
+{
+    "parent": "craftblock_advancements:craftblock/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:dirt"
+        },
+        "title": "Other Advancement",
+        "description": "Vorlage by noeppi"
+    },
+    "criteria": {
+        "item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dirt"
+                    }
+                ]
+            }
+        }
+    }
+}
