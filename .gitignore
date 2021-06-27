@@ -16,6 +16,8 @@
 !resources
 !resources/contenttweaker
 !resources/contenttweaker/**/**
+!resources/waystones
+!resources/waystones/**
 
 # except changed config files (add manually)
 !config
