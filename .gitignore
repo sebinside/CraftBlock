@@ -11,6 +11,7 @@
 
 # except the readme file
 !readme.md
+!advancements.png
 
 # except custom resources
 !resources
