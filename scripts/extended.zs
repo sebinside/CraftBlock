@@ -60,3 +60,14 @@ val items = [
 for item in items {
     disable(item);
 }
+
+// Better Ultimate Ingot
+mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:material:32>, [
+	[<minecraft:dye:5>, <minecraft:dye:6>, <minecraft:dye:7>, <minecraft:dye:8>, <minecraft:dye:9>, <minecraft:dye:10>, <minecraft:dye:12>], 
+	[<botania:dye:9>, <botania:dye:10>, <botania:dye:11>, <botania:dye:12>, <botania:dye:13>, <botania:dye:14>, <minecraft:dye:13>], 
+	[<botania:dye:8>, <hwell:asul_ingot>, <tconstruct:ingots>, <tconstruct:ingots:1>, <tconstruct:ingots:2>, <botania:dye:15>, <minecraft:dye:14>], 
+	[<botania:dye:7>, <embers:ingot_dawnstone>, <minecraft:yellow_flower>, <minecraft:red_flower>, <embers:ingot_silver>, <botania:manaresource:23>, <quark:root_dye>], 
+	[<botania:dye:6>, <botania:manaresource>, <minecraft:red_flower:1>, <minecraft:red_flower:8>, <embers:ingot_nickel>, <harvestcraft:cocoapowderitem>, <quark:root_dye:1>], 
+	[<botania:dye:5>, <botania:manaresource:4>, <botania:manaresource:7>, <minecraft:gold_ingot>, <minecraft:iron_ingot>, <harvestcraft:currypowderitem>, <quark:root_dye:2>], 
+	[<botania:dye:4>, <botania:dye:3>, <botania:dye:2>, <botania:dye:1>, <botania:dye>, <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust>]
+]);
