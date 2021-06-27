@@ -62,7 +62,7 @@ for item in items {
 }
 
 // Better Ultimate Ingot
-mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:material:32>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:storage:4>, [
 	[<minecraft:dye:5>, <minecraft:dye:6>, <minecraft:dye:7>, <minecraft:dye:8>, <minecraft:dye:9>, <minecraft:dye:10>, <minecraft:dye:12>], 
 	[<botania:dye:9>, <botania:dye:10>, <botania:dye:11>, <botania:dye:12>, <botania:dye:13>, <botania:dye:14>, <minecraft:dye:13>], 
 	[<botania:dye:8>, <hwell:asul_ingot>, <tconstruct:ingots>, <tconstruct:ingots:1>, <tconstruct:ingots:2>, <botania:dye:15>, <minecraft:dye:14>], 

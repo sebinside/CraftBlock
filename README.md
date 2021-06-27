@@ -9,9 +9,8 @@ Map-Progress: 20% [xx        ]
 
 ## Offene TODOs
 
-- [ ] TC, AC, UC World Gen Config ändern
-- [ ] Visit OC Sensors and BedrockCraft
 - [ ] Custom Advancements
+- [ ] Visit OC Sensors and BedrockCraft
 - [ ] Arbeit an der Map beginnen...
 - [ ] Veröffentlichen!
 
