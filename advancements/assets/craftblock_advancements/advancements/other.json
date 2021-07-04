@@ -1,5 +1,5 @@
 {
-    "parent": "craftblock_advancements:craftblock/root",
+    "parent": "craftblock_advancements:root",
     "display": {
         "icon": {
             "item": "minecraft:dirt"

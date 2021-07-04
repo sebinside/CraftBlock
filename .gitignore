@@ -39,4 +39,4 @@
 
 # advancements folder
 !advancements
-!advancements/*
+!advancements/**
