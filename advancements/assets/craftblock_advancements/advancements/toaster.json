@@ -1,0 +1,22 @@
+{
+    "parent": "craftblock_advancements:orechid",
+    "display": {
+        "icon": {
+            "item": "cookingforblockheads:toaster"
+        },
+        "title": "Don't call it furnace",
+        "description": "Toasting is the new smelting."
+    },
+    "criteria": {
+        "item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "cookingforblockheads:toaster"
+                    }
+                ]
+            }
+        }
+    }
+}

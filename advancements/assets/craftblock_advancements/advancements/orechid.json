@@ -1,0 +1,24 @@
+{
+    "parent": "craftblock_advancements:root",
+    "display": {
+        "icon": {
+            "item": "botania:specialFlower",
+            "nbt": "{\"type\": \"orechid\"}"
+        },
+        "title": "Who needs sieving anyway?",
+        "description": "Your primary way of resource gathering."
+    },
+    "criteria": {
+        "item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "botania:specialFlower",
+                        "nbt": "{\"type\": \"orechid\"}"
+                    }
+                ]
+            }
+        }
+    }
+}

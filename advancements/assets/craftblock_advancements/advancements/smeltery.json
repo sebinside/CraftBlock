@@ -1,11 +1,11 @@
 {
-    "parent": "craftblock_advancements:root",
+    "parent": "craftblock_advancements:orechid",
     "display": {
         "icon": {
-            "item": "minecraft:dirt"
+            "item": "tconstruct:smeltery_controller"
         },
-        "title": "Other Advancement",
-        "description": "Vorlage by noeppi"
+        "title": "Like a bigger, better toaster",
+        "description": "Ah sh*t, here we go again..."
     },
     "criteria": {
         "item": {
@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:dirt"
+                        "item": "tconstruct:smeltery_controller"
                     }
                 ]
             }

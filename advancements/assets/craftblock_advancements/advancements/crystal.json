@@ -1,0 +1,22 @@
+{
+    "parent": "craftblock_advancements:orechid",
+    "display": {
+        "icon": {
+            "item": "hwell:crystal_catalyst"
+        },
+        "title": "It's not a drug. It's a feature.",
+        "description": "Well... better consider Hearth Well."
+    },
+    "criteria": {
+        "item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "hwell:crystal_catalyst"
+                    }
+                ]
+            }
+        }
+    }
+}

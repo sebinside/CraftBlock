@@ -1,0 +1,22 @@
+{
+    "parent": "craftblock_advancements:orechid",
+    "display": {
+        "icon": {
+            "item": "uniquecrops:seedferoxia"
+        },
+        "title": "Flower Power",
+        "description": "Crop Crafting is so cool!"
+    },
+    "criteria": {
+        "item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "uniquecrops:seedferoxia"
+                    }
+                ]
+            }
+        }
+    }
+}

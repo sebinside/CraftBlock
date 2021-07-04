@@ -1,0 +1,22 @@
+{
+    "parent": "craftblock_advancements:smeltery",
+    "display": {
+        "icon": {
+            "item": "extendedcrafting:table_advanced"
+        },
+        "title": "A new block to craft",
+        "description": "Nice, you just finished the tutorial!"
+    },
+    "criteria": {
+        "item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "extendedcrafting:table_advanced"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "parent": "craftblock_advancements:orechid",
+    "display": {
+        "icon": {
+            "item": "astralsorcery:itemcraftingcomponent",
+            "data": 1
+        },
+        "title": "Starlight Express",
+        "description": "Don't tell Mario..."
+    },
+    "criteria": {
+        "item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "astralsorcery:itemcraftingcomponent",
+                        "data": 1
+                    }
+                ]
+            }
+        }
+    }
+}
