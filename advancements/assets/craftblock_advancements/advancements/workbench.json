@@ -1,0 +1,24 @@
+{
+    "parent": "craftblock_advancements:advancedtable",
+    "display": {
+        "icon": {
+            "item": "immersiveengineering:wooden_device0",
+            "data": 2
+        },
+        "title": "TODO",
+        "description": "TODO"
+    },
+    "criteria": {
+        "item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "immersiveengineering:wooden_device0",
+                        "data": 2
+                    }
+                ]
+            }
+        }
+    }
+}

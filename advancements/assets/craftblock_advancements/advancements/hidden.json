@@ -1,0 +1,23 @@
+{
+    "parent": "craftblock_advancements:root",
+    "display": {
+        "icon": {
+            "item": "contenttweaker:skate_kappa"
+        },
+        "title": "And by the way...",
+        "description": "...there is also hidden stuff in here!",
+        "hidden": true
+    },
+    "criteria": {
+        "item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crafting_table"
+                    }
+                ]
+            }
+        }
+    }
+}

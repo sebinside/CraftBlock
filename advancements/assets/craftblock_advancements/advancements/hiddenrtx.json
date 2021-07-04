@@ -1,0 +1,25 @@
+{
+    "parent": "craftblock_advancements:hidden",
+    "display": {
+        "icon": {
+            "item": "opencomputers:card",
+            "data": 3
+        },
+        "title": "TODO",
+        "description": "TODO",
+        "hidden": true
+    },
+    "criteria": {
+        "item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "opencomputers:card",
+                        "data": 3
+                    }
+                ]
+            }
+        }
+    }
+}

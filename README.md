@@ -12,7 +12,6 @@ Map-Progress: 20% [xx        ]
 - [ ] Custom Advancements
 - [ ] Hidden advancements
     - [ ] Ice Ice Baby, kappa123, wtf did you just do?, ready to mine bitcoin, don't you dare..., call me CoffeeCrafter
-- [ ] Visit OC Sensors and BedrockCraft
 - [ ] Arbeit an der Map beginnen...
 - [ ] Veröffentlichen!
 
@@ -57,6 +56,7 @@ Das Modpack besteht aktuell aus den folgenden Mods:
 - [Extended Crafting](https://www.curseforge.com/minecraft/mc-mods/extended-crafting)
 - [Storage Drawers](https://www.curseforge.com/minecraft/mc-mods/storage-drawers)
 - [Iron Chests](https://www.curseforge.com/minecraft/mc-mods/iron-chests)
+- [OC Sensors](https://www.curseforge.com/minecraft/mc-mods/oc-sensors)
 - [Pam's HarvestCraft](https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft)
 - [Pam's Cookables](https://www.curseforge.com/minecraft/mc-mods/pams-cookables)
 - [Cooking for Blockheads](https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads)

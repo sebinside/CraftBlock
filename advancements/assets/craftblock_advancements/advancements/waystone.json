@@ -1,0 +1,22 @@
+{
+    "parent": "craftblock_advancements:advancedtable",
+    "display": {
+        "icon": {
+            "item": "waystones:waystone"
+        },
+        "title": "TODO",
+        "description": "TODO"
+    },
+    "criteria": {
+        "item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "waystones:waystone"
+                    }
+                ]
+            }
+        }
+    }
+}

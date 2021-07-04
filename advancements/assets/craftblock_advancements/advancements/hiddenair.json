@@ -1,0 +1,25 @@
+{
+    "parent": "craftblock_advancements:hidden",
+    "display": {
+        "icon": {
+            "item": "botania:manaresource",
+            "data": 15
+        },
+        "title": "There is something in the air...",
+        "description": "It smells. And is kinda impolite.",
+        "hidden": true
+    },
+    "criteria": {
+        "item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "botania:manaresource",
+                        "data": 15
+                    }
+                ]
+            }
+        }
+    }
+}

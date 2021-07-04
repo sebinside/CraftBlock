@@ -1,0 +1,22 @@
+{
+    "parent": "craftblock_advancements:refined",
+    "display": {
+        "icon": {
+            "item": "extendedcrafting:table_elite"
+        },
+        "title": "TODO",
+        "description": "TODO"
+    },
+    "criteria": {
+        "item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "extendedcrafting:table_elite"
+                    }
+                ]
+            }
+        }
+    }
+}

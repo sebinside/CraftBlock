@@ -1,0 +1,24 @@
+{
+    "parent": "craftblock_advancements:advancedtable",
+    "display": {
+        "icon": {
+            "item": "opencomputers:component",
+            "data": 2
+        },
+        "title": "TODO",
+        "description": "TODO"
+    },
+    "criteria": {
+        "item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "opencomputers:component",
+                        "data": 2
+                    }
+                ]
+            }
+        }
+    }
+}
