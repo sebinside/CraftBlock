@@ -39,3 +39,10 @@ recipes.addShaped("astralwand", <astralsorcery:itemwand>.withTag({astralsorcery:
 	[<quark:marble_speleothem>, null, null]
 ]);
 
+// Astral Starmetal via tinkers construct so it doesn't require a floating crystal 
+mods.tconstruct.Alloy.addRecipe(<liquid:astral_starmetal> * 144, [
+	<liquid:iron> * 144, 
+	<liquid:astralsorcery.liquidstarlight> * 1000
+]);
+// TODO: Should original recipe be disabled?
+//mods.astralsorcery.LightTransmutation.removeTransmutation(<astralsorcery:blockcustomore:1>, false);
