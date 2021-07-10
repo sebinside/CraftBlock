@@ -39,3 +39,6 @@ recipes.addShaped("astralwand", <astralsorcery:itemwand>.withTag({astralsorcery:
 	[<quark:marble_speleothem>, null, null]
 ]);
 
+// Astral Starmetal via tinkers construct so it doesn't require a floating crystal 
+mods.tconstruct.Casting.addBasinRecipe(<astralsorcery:blockcustomore:1>, <ore:oreIron>, <liquid:astralsorcery.liquidstarlight>, 1000, true, 100);
+mods.astralsorcery.LightTransmutation.removeTransmutation(<astralsorcery:blockcustomore:1>, false);
