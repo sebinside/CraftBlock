@@ -1,0 +1,16 @@
+{
+    "parent": "craftblock_advancements:hidden",
+    "display": {
+        "icon": {
+            "item": "opencomputers:keyboard"
+        },
+        "title": "Is this snake on a keyboard?",
+        "description": "noeppi_noeppi is proud!"
+    },
+    "criteria": {
+        "item": {
+            "trigger": "skatekappa:logisnake",
+            "conditions": {}
+        }
+    }
+}
