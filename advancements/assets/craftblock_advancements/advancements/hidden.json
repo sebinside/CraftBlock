@@ -1,23 +1,17 @@
 {
-    "parent": "craftblock_advancements:root",
     "display": {
         "icon": {
-            "item": "contenttweaker:skate_kappa"
+            "item": "harvestcraft:coffeeitem"
         },
-        "title": "And by the way...",
+        "title": "Craft[Hidden]Block",
         "description": "...there is also hidden stuff in here!",
-        "hidden": true
+        "background": "craftblock_advancements:textures/gui/advancements/backgrounds/sky.png"
     },
     "criteria": {
         "item": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:crafting_table"
-                    }
-                ]
-            }
+            "trigger": "minecraft:tick",
+            "conditions": {}
         }
     }
+  
 }

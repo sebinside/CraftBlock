@@ -2,7 +2,8 @@
     "parent": "craftblock_advancements:hidden",
     "display": {
         "icon": {
-            "item": "minecraft:wool"
+            "item": "minecraft:wool",
+            "data": 7
         },
         "title": "TODO",
         "description": "TODO",
@@ -10,14 +11,7 @@
     },
     "criteria": {
         "item": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:wool"
-                    }
-                ]
-            }
+            "trigger": "skatekappa:dernik_sheep"
         }
     }
 }
