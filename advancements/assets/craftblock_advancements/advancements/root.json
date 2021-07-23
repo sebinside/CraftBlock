@@ -5,7 +5,7 @@
         },
         "title": "CraftBlock",
         "description": "Good luck, buddy...",
-        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+        "background": "craftblock_advancements:textures/gui/advancements/backgrounds/sky.png"
     },
     "criteria": {
         "item": {
