@@ -5,7 +5,8 @@
             "item": "opencomputers:keyboard"
         },
         "title": "Is this snake on a keyboard?",
-        "description": "noeppi_noeppi is proud!"
+        "description": "noeppi_noeppi is proud!",
+        "hidden": true
     },
     "criteria": {
         "item": {
