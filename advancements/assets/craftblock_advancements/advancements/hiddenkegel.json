@@ -1,0 +1,16 @@
+{
+    "parent": "craftblock_advancements:hidden",
+    "display": {
+        "icon": {
+            "item": "harvestcraft:netherwingsitem"
+        },
+        "title": "Is it Satan? Is it the devil?",
+        "description": "No it is kegelsknight!",
+        "hidden": true
+    },
+    "criteria": {
+        "item": {
+            "trigger": "skatekappa:nether66"
+        }
+    }
+}
