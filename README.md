@@ -9,11 +9,9 @@ Map-Progress: 20% [xx        ]
 
 ## Offene TODOs
 
-- [ ] Fix issue #36: Astral Sorcery Crystals
-- [ ] Custom Advancements
-- [ ] Hidden advancements
-    - [ ] Ice Ice Baby, kappa123, wtf did you just do?, ready to mine bitcoin, don't you dare..., call me CoffeeCrafter
-- [ ] Arbeit an der Map beginnen...
+- [ ] Add blaze rod info
+- [ ] Fix issue: Clay
+- [ ] Map fertigstellen
 - [ ] Veröffentlichen!
 
 ![Advancements concept](advancements.png)
