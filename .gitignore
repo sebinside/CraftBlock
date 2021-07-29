@@ -40,3 +40,7 @@
 # advancements folder
 !advancements
 !advancements/**
+
+# Gradle
+/advancements/.gradle
+/advancements/build
