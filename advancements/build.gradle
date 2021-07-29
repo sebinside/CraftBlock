@@ -59,7 +59,7 @@ task build {
 task assemble { dependsOn buildJar }
 
 curseforge {
-    apiKey = 'kfdospfkdposfkds' //System.getenv('CURSE_AUTH')
+    apiKey = System.getenv('CURSE_AUTH')
     project {
         id = '12345' // TODO insert real project id
         releaseType = 'release'
