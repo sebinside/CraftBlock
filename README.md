@@ -14,8 +14,6 @@ Map-Progress: 42%
 - [ ] Map einbinden via https://www.curseforge.com/minecraft/mc-mods/lockdown
 - [ ] Veröffentlichen!
 
-![Advancements concept](advancements.png)
-
 ## Vorgesehene Progression
 
 Die folgenden Mod-Progression ist vorgesehen:
