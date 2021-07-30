@@ -1,0 +1,23 @@
+{
+    "parent": "craftblock_advancements:hidden",
+    "display": {
+        "icon": {
+            "item": "uniquecrops:hourglass"
+        },
+        "title": "Aua! Glas!",
+        "description": "Still a better lovestory than Team Shrimp.",
+        "hidden": true
+    },
+    "criteria": {
+        "item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "uniquecrops:hourglass"
+                    }
+                ]
+            }
+        }
+    }
+}
