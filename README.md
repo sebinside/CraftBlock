@@ -11,7 +11,7 @@ Map-Progress: 42%
 
 - [ ] CraftBlock-Advancements Mod richtig einbinden
 - [ ] Map fertigstellen
-- [ ] Map einbinden
+- [ ] Map einbinden via https://www.curseforge.com/minecraft/mc-mods/lockdown
 - [ ] Veröffentlichen!
 
 ![Advancements concept](advancements.png)
