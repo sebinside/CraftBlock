@@ -40,3 +40,7 @@
 # advancements folder
 !advancements
 !advancements/**
+
+# map template
+!template
+!template/**
