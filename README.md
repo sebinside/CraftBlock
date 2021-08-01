@@ -4,19 +4,15 @@ Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nac
 
 Direkt zu Curseforge: https://www.curseforge.com/minecraft/modpacks/craftblock
 
-Modpack-Progress: 95% [xxxxxxxxx-]
-Map-Progress: 20% [xx        ]
+Modpack-Progress: 98%
+Map-Progress: 42%
 
 ## Offene TODOs
 
-- [ ] Fix issue #36: Astral Sorcery Crystals
-- [ ] Custom Advancements
-- [ ] Hidden advancements
-    - [ ] Ice Ice Baby, kappa123, wtf did you just do?, ready to mine bitcoin, don't you dare..., call me CoffeeCrafter
-- [ ] Arbeit an der Map beginnen...
+- [ ] CraftBlock-Advancements Mod richtig einbinden
+- [ ] Map fertigstellen
+- [ ] Map einbinden via https://www.curseforge.com/minecraft/mc-mods/lockdown
 - [ ] Veröffentlichen!
-
-![Advancements concept](advancements.png)
 
 ## Vorgesehene Progression
 

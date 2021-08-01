@@ -3,10 +3,10 @@
     "display": {
         "icon": {
             "item": "minecraft:wool",
-            "data": 7
+            "data": 5
         },
-        "title": "TODO",
-        "description": "TODO",
+        "title": "Don't you dare...",
+        "description": "Blame Niklas!",
         "hidden": true
     },
     "criteria": {

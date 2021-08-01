@@ -5,8 +5,8 @@
             "item": "opencomputers:component",
             "data": 2
         },
-        "title": "TODO",
-        "description": "TODO"
+        "title": "Quick maths",
+        "description": "2 + 2 = 4 - 1 = 3"
     },
     "criteria": {
         "item": {

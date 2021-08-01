@@ -2,10 +2,10 @@
     "parent": "craftblock_advancements:hidden",
     "display": {
         "icon": {
-            "item": "hwell:crystal_nether"
+            "item": "uniquecrops:hourglass"
         },
-        "title": "WTF did you just do?",
-        "description": "Which dumb modpack would use toasters for crafting?!",
+        "title": "Aua! Glas!",
+        "description": "Still a better lovestory than Team Shrimp.",
         "hidden": true
     },
     "criteria": {
@@ -14,7 +14,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "hwell:crystal_nether"
+                        "item": "uniquecrops:hourglass"
                     }
                 ]
             }
