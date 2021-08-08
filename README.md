@@ -5,13 +5,14 @@ Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nac
 Direkt zu Curseforge: https://www.curseforge.com/minecraft/modpacks/craftblock
 
 Modpack-Progress: 98%
-Map-Progress: 42%
+Map-Progress: 99%
 
 ## Offene TODOs
 
 - [ ] CraftBlock-Advancements Mod richtig einbinden
-- [ ] Map fertigstellen
-- [ ] Map einbinden via https://www.curseforge.com/minecraft/mc-mods/lockdown
+- [X] Map fertigstellen
+- [X] Map einbinden via https://www.curseforge.com/minecraft/mc-mods/lockdown
+- [ ] Map besichtigen & testen
 - [ ] Veröffentlichen!
 
 ## Vorgesehene Progression
