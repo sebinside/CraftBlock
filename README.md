@@ -10,9 +10,6 @@ Map-Progress: 99%
 ## Offene TODOs
 
 - [ ] CraftBlock-Advancements Mod richtig einbinden
-- [X] Map fertigstellen
-- [X] Map einbinden via https://www.curseforge.com/minecraft/mc-mods/lockdown
-- [ ] Map besichtigen & testen
 - [ ] Veröffentlichen!
 
 ## Vorgesehene Progression
