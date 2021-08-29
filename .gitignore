@@ -1,46 +1,74 @@
-# Ignore everything...
-*
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
 
-# except for the gitignore file
-!.gitignore
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
 
-# except the scripts folder
+# gradle
+build
+.gradle
 
-!scripts
-!scripts/*
+# other
+eclipse
+run
 
-# except the readme file
-!readme.md
-!advancements.png
+# Files from Forge MDK
+forge*changelog.txt
+/run*
+/src
 
-# except custom resources
-!resources
-!resources/contenttweaker
-!resources/contenttweaker/**/**
-!resources/waystones
-!resources/waystones/**
-
-# except changed config files (add manually)
-!config
-!config/blur.cfg
-!config/hwell.cfg
-#!config/splash.properties
-!config/uniquecrops.cfg
-!config/extendedcrafting.cfg
-!config/akashictome.cfg
-!config/opencomputers/
-!config/opencomputers/settings.conf
-!config/tconstruct.cfg
-!config/astralsorcery.cfg
-!config/theoneprobe.cfg
-!config/immersiveengineering.cfg
-!config/Waystones.cfg
-!config/hats.cfg
-
-# advancements folder
-!advancements
-!advancements/**
-
-# Gradle
-/advancements/.gradle
-/advancements/build
+## Ignore everything...
+#*
+#
+## except for the gitignore file
+#!.gitignore
+#
+## except the scripts folder
+#
+#!scripts
+#!scripts/*
+#
+## except the readme file
+#!readme.md
+#!advancements.png
+#
+## except custom resources
+#!resources
+#!resources/contenttweaker
+#!resources/contenttweaker/**/**
+#!resources/waystones
+#!resources/waystones/**
+#
+## except changed config files (add manually)
+#!config
+#!config/blur.cfg
+#!config/hwell.cfg
+##!config/splash.properties
+#!config/uniquecrops.cfg
+#!config/extendedcrafting.cfg
+#!config/akashictome.cfg
+#!config/opencomputers/
+#!config/opencomputers/settings.conf
+#!config/tconstruct.cfg
+#!config/astralsorcery.cfg
+#!config/theoneprobe.cfg
+#!config/immersiveengineering.cfg
+#!config/Waystones.cfg
+#!config/hats.cfg
+#
+## advancements folder
+#!advancements
+#!advancements/**
+#
+## Gradle
+#/advancements/.gradle
+#/advancements/build
