@@ -47,6 +47,6 @@
 !template
 !template/**
 
-# Gradle
+# gradle
 /advancements/.gradle
 /advancements/build
