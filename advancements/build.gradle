@@ -19,7 +19,7 @@ version = {
         commandLine = [ 'git', 'rev-parse', '--short', 'HEAD' ]
         standardOutput = out;
     }
-    return out.toString()
+    return out.toString().trim()
 }()
 
 apply plugin: 'com.matthewprenger.cursegradle'
@@ -61,7 +61,7 @@ task assemble { dependsOn buildJar }
 curseforge {
     apiKey = System.getenv('CURSE_AUTH')
     project {
-        id = '12345' // TODO insert real project id
+        id = '521830'
         releaseType = 'release'
         changelog = "Updated advancements to *${project.version}*"
         changelogType = 'markdown'
@@ -75,7 +75,7 @@ curseforge {
         }
     }
     options {
-        debug = true // TODO remove when tested (this prevents that files are actually uploaded)
+        debug = false
         javaIntegration = false
         javaVersionAutoDetect = false
     }

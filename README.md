@@ -4,17 +4,16 @@ Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nac
 
 Direkt zu Curseforge: https://www.curseforge.com/minecraft/modpacks/craftblock
 
-Modpack-Progress: 95% [xxxxxxxxx-]
-Map-Progress: 20% [xx        ]
+Modpack-Progress: 98%
+Map-Progress: 100%
 
 ## Offene TODOs
 
-- [ ] Add blaze rod info
-- [ ] Fix issue: Clay
-- [ ] Map fertigstellen
-- [ ] Veröffentlichen!
-
-![Advancements concept](advancements.png)
+- [ ] PRs mergen
+- [ ] Nether raus
+- [ ] v1.0.0 veröffentlichen
+- [ ] CraftBlock-Advancements Mod richtig einbinden
+- [ ] v1.1.0 veröffentlichen
 
 ## Vorgesehene Progression
 

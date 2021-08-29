@@ -1,0 +1,110 @@
+{
+    "parent": "craftblock_advancements:hidden",
+    "display": {
+        "icon": {
+            "item": "minecraft:skull",
+            "data": 3,
+            "nbt": "{\"SkullOwner\": {\"Id\": \"78a049a7-e802-4b26-a8d7-8021052e637f\", \"Properties\": {\"textures\": [{\"Signature\": \"SqPpqxgARCACroJdowpGF9L+B8o7QrI6DCcrSX6JLnIApkbOeczmqt/UeIRh6jC15N9um/2oeHlteWcLtzJRYE9scyvYqD2fSx4LH/nNOVL18DTP+zJu1CCXlsC0Q642K3aD2cuyaAfRMAaSYosQAeTfyct9t8WCujk4+K4GusztJ2QYNddHy6oX6IX+bn+It3oJgT7fQQEUg2+j/tU8RS7ztWjhIHdzu0mbtvcsYMF525tjNOCG5iM+GbTu8iFm7EZpjuLWn5hThyjsxpDjrWB4C376uonuGvCt5ni2MBJ/bcbNjNEpjMXzDskGUf1CiYHzWO57XMgQgJ1FxFvdhjeQGMnSKBWdRYHngCt2sy6gA1igIBSyEGmOU0rTno231ndVslHXEIpVoPJtmRb56G8yK4BrvxJVRZfhSdL04nbiPAqWaZa5PIc5z4e+vMtnMo1023Ok7TSYt48bOcdhDooL+KS/kH1xRrPcWKxWUaI7F+0iBQG/d8fddZ0W3jnwTZdDPF+gyvAgJFpNb65xTLQ83FHYxMyA1kca9uxDqqaowAGr7cLVjkPbuBoomkbnMwCahSFdiFwYbybjnI1pMGwmtKKuofTLTdnDLF9RgDmgq8/mEt5KMjuLtfSb1evFxOF/DnOXNQsf4gXjNN+/5RwXIdyj1nfDzKvAbYP1tAY=\", \"Value\": \"ewogICJ0aW1lc3RhbXAiIDogMTYyNzgxMjUxMTY2NCwKICAicHJvZmlsZUlkIiA6ICI3OGEwNDlhN2U4MDI0YjI2YThkNzgwMjEwNTJlNjM3ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJza2F0ZTcwMiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80ZTFhMWRkOTUwZDllZDg4ZWVhMzU1NWQyYWI1ZDZiODY0ZWYyOGU0ZjhiMGI3NjJlZTMxZjhkYjg5MmRkNWIzIgogICAgfQogIH0KfQ==\"}]}, \"Name\": \"skate702\"}}"
+        },
+        "title": "Head Hunter",
+        "description": "Gotta catch 'em all!"
+    },
+    "criteria": {
+        "skate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+                        "data": 3,
+                        "nbt": "{\"SkullOwner\": {\"Id\": \"78a049a7-e802-4b26-a8d7-8021052e637f\", \"Properties\": {\"textures\": [{\"Signature\": \"SqPpqxgARCACroJdowpGF9L+B8o7QrI6DCcrSX6JLnIApkbOeczmqt/UeIRh6jC15N9um/2oeHlteWcLtzJRYE9scyvYqD2fSx4LH/nNOVL18DTP+zJu1CCXlsC0Q642K3aD2cuyaAfRMAaSYosQAeTfyct9t8WCujk4+K4GusztJ2QYNddHy6oX6IX+bn+It3oJgT7fQQEUg2+j/tU8RS7ztWjhIHdzu0mbtvcsYMF525tjNOCG5iM+GbTu8iFm7EZpjuLWn5hThyjsxpDjrWB4C376uonuGvCt5ni2MBJ/bcbNjNEpjMXzDskGUf1CiYHzWO57XMgQgJ1FxFvdhjeQGMnSKBWdRYHngCt2sy6gA1igIBSyEGmOU0rTno231ndVslHXEIpVoPJtmRb56G8yK4BrvxJVRZfhSdL04nbiPAqWaZa5PIc5z4e+vMtnMo1023Ok7TSYt48bOcdhDooL+KS/kH1xRrPcWKxWUaI7F+0iBQG/d8fddZ0W3jnwTZdDPF+gyvAgJFpNb65xTLQ83FHYxMyA1kca9uxDqqaowAGr7cLVjkPbuBoomkbnMwCahSFdiFwYbybjnI1pMGwmtKKuofTLTdnDLF9RgDmgq8/mEt5KMjuLtfSb1evFxOF/DnOXNQsf4gXjNN+/5RwXIdyj1nfDzKvAbYP1tAY=\", \"Value\": \"ewogICJ0aW1lc3RhbXAiIDogMTYyNzgxMjUxMTY2NCwKICAicHJvZmlsZUlkIiA6ICI3OGEwNDlhN2U4MDI0YjI2YThkNzgwMjEwNTJlNjM3ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJza2F0ZTcwMiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80ZTFhMWRkOTUwZDllZDg4ZWVhMzU1NWQyYWI1ZDZiODY0ZWYyOGU0ZjhiMGI3NjJlZTMxZjhkYjg5MmRkNWIzIgogICAgfQogIH0KfQ==\"}]}, \"Name\": \"skate702\"}}"
+                    }
+                ]
+            }
+        },
+        "cast": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+                        "data": 3,
+                        "nbt": "{\"SkullOwner\": {\"Id\": \"459dbcee-d3ea-4abc-903c-fdcae3065dd3\", \"Properties\": {\"textures\": [{\"Signature\": \"NPI87BIIJQ3eJP0YcaMEx8NorJx7ZaaCFNQwRUAwNdcMdIK55fJ/ZMYLF43m0VNvRXCBAE66FUVmsT3BCM3Fut2HoSn/W6FWnBB4nUlhbi1J7/Wfiz3pqm+87B5AZcpRsfHGsUgLMd017SpYERKCsbNPKGhAjZ3Qs1PPK+B2M4D2cr9+K6UC3wYSizvaKRYH9R4aMycgnh8F2g4FWgjibkHBzWiQyS+zS/1cpbZGKVVCv6rcwsuLU6P+h6/PUieHn/aiCnoV68QcSYwGEvMRMvpcDQ0sRDsC3Etz5Geoo2BOsC7/Ijj3x9Nrqr7hNDVdFuk3KqD1y9SlZiKOLGt8CRe8Z8QNIiVdG/9J3QCnRTsByY1I89NlawqyaXWIYGJBBYt3zLPzHnOjAEPbg8DXQzVk2igyQ25sZ4j3DTLP+knnmHlYqopaoo1d3tCvnAddbDZVukkjndUJ1d1Au9K5BDMVcm7YxLFVdfnJUUpH7ZL6fRLAn+0hPyKwfokiqVVE76ZmSmHO08MAIcCCQKu+SytbDbmQlBzwo/jw7HVgRvPMd4p9B5tNFRXVM2J5/4k0n+uPbv/t8KdqBoNV8WofFDEXmPm7EuFjZgKPvzE+UIZvSD7b0VyI/Nq8cVvqD/lgKmsbUujVLqrkEEY2Zk7SoQ2WZy0MWYv8P9yoFmQs7qQ=\", \"Value\": \"ewogICJ0aW1lc3RhbXAiIDogMTYyNzgxMjUzNDA1NywKICAicHJvZmlsZUlkIiA6ICI0NTlkYmNlZWQzZWE0YWJjOTAzY2ZkY2FlMzA2NWRkMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXN0Q3JhZnRlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80Njc4NmVmNmVjN2UxNDlmZjJmMTcwYmZhYTE3NDc2OGIyZDAxOWQ3OGM0MzEwZTIzYjY0YWVhM2ViZTFjYTcyIgogICAgfQogIH0KfQ==\"}]}, \"Name\": \"CastCrafter\"}}"
+                    }
+                ]
+            }
+        },
+        "jlg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+                        "data": 3,
+                        "nbt": "{\"SkullOwner\": {\"Id\": \"cdf3ff1b-3824-446d-9b47-fbfbf360df8c\", \"Properties\": {\"textures\": [{\"Signature\": \"ZO5RNKRvLarmcvBgyYKO1QeBbeKBnMVuwxaLDOHCUl45VJbOwp1olXWupeBQdlrVSfjNg50WiBEpmmwD2LpEnEGQvT2bDjx9Mpx3WH9+5PMtjVOyQj5btaSgu2H4xpQtfQcA+4wfTNSG01NPAPC6FLI68Sq7mjpZtYbnPQj9bBcL6MaM3s1GG5sXMU3pMsLlS1lMs3X0+5v/erdqJ9nuvHn6fPzmg8XRAhWqS/hqvQ6PCWF9dVG/NzFbYJXtlK5WiCB3nJi2zlxOgS6Pd4Xrg481CyCVVtI1SMUYkSQ7qHFJSJET792tfV5G+A39ego64G/UIE8Ue5PBY5qd4UaB8ORWL/1kWJYj+rUrABgK7PK1f6DvxORM7R3I1mCZ7plJrHTf52IkdWo8/QXp8wFwPI461g+WDy4FAP10e90SPZtdXaAdD4eMdvug5HcDZvLo44ruXnUMZZz6jvnXKZUVuaOi3BFKyELpRGyqtY+1IwHKtn+9Sr4aEd5TADcrEG/l/uTcfLWC9wT9ufc1CBSv0dy9FlzEG0y+pAUlEMVhbUJEQMtoCCj3Td2VhHdTPuvjz5QhS8c7QKDHFPEZwQDrBoLzsmJLg4b76YWuASHzcjepnxI91LYSbqvhLPI2KMyT08qJzPBg94TAsxkiH79vYYh9eVMVNP6/29GGQ2USA1E=\", \"Value\": \"ewogICJ0aW1lc3RhbXAiIDogMTYyNzgxNjQ3MzE5OCwKICAicHJvZmlsZUlkIiA6ICJjZGYzZmYxYjM4MjQ0NDZkOWI0N2ZiZmJmMzYwZGY4YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJqZWx1Z3UiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzJmOGIyODlkMDA1MjVmMThiYWY5NTUxMjNjZDY3YjY5MWNkOWZiODQyZWI2ZGRlNTlkYWNhZmIzNTYzZTZhNCIKICAgIH0KICB9Cn0=\"}]}, \"Name\": \"jelugu\"}}"
+                    }
+                ]
+            }
+        },
+        "liketech": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+                        "data": 3,
+                        "nbt": "{\"SkullOwner\": {\"Id\": \"eff78405-90b1-4a03-ba09-476ee240afb4\", \"Properties\": {\"textures\": [{\"Signature\": \"jopiSPmImGNbhFzdxq5wQWUmiYCKhTQDbeRAxpGavkLz0dKckFMi7U1ry+AJNR34Hjm68uVPv1tlr9iExjTLIF3RjvsM7R//Ime8SEJsRRVxFUeL0wzX0/JRae51quLwxbOUxvLwQiEa5qhJYxvNbhoprkPAPUeJRtrcxR5UFBvA+XzPZC/Mou5T+mjLQ3hWiDhOkIQRRTmKyiASOy4Yhq8wTXlpuNfOMavAWoDKx+4mb5H6xuDGSepVJyf/wY4heOK+xFl4onv0RdWy8lFETHPHDYCLtAmEC7tVsOwSDK+7w5MpY6CY1IleaGORvHb5jqOBO2YyaF14ApQ1QyAtHRbHrwBXPq54g5TOLJSpnbPemyZ/HVJg9F6Lk1YZ4NVs7g8Q3OiyQtl8PzGYob8uBPMFwiBL8OGYmwSmwo7o6/kZUzg76FTsAeuHvMlMUvoh89bjoNpa1w3X2r3aLTvWAp0SG6jHZTnfeXOXG+YQRtLdCSINZObeZ1TmK5CX1p5PyCJ4vhKAaRp7Jo9pEN9pPVImYA+cXawP0zu7/r3JaTDSlDD3xVQBuak294US1MeQVsWmG3sUD+B2rUyqV7Psqb5jIMUcw+L+Oxtci72k1Dyj38pEv+QIw8osx+UUMHl0hugR4S3RPh/P11NOww4/IZidLBZjFmDOg/jbdhXDzU4=\", \"Value\": \"ewogICJ0aW1lc3RhbXAiIDogMTYyNzgxODkyMTQ3NiwKICAicHJvZmlsZUlkIiA6ICJlZmY3ODQwNTkwYjE0YTAzYmEwOTQ3NmVlMjQwYWZiNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJsaWtldGVjaG5pazIwMDAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg5YTEzZGEyYmRlNjQ2Mjk2ODVmZjE4MjQzNDAxY2ZkNDA4ZTIwZWI1MjM2YmExZTY0MjMxZDkxMTM2ZGQ2OSIKICAgIH0KICB9Cn0=\"}]}, \"Name\": \"liketechnik2000\"}}"
+                    }
+                ]
+            }
+        },
+        "noeppi": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+                        "data": 3,
+                        "nbt": "{\"SkullOwner\": {\"Id\": \"3358ddae-3a41-4ba0-bdfa-ee54b6c55cf5\", \"Properties\": {\"textures\": [{\"Signature\": \"wgB5DaLA+DuD77eCXlt7aya/xK3P9+gns8qU76xetkpPcS0hnCfzwP+wuimTQ9qYEjLiKn4YN8QT8AfFKQVDjnzplEj3pcwA8Jwme5wvWutfq6CvKN4usjgtr0kfyGQ7TmfrcsPyQgsofxatWpRntT90kQr2TK8/ffxdEHK4hkSMYv68/qNvX99cj9DZCkLuNBE9yC09BZ8EiUSw5Oh+RnHy/2WJh/DHBrH2Y2GjnxCoQwUNzgN4gBWlpXNuigxDO454kl5Zp1lBGHVsYJ1+30glHNayECQ82ZMqtd0Q5O/GaIyghQ2NSxogqH3nij0LPRw8Dfi7xGKhf5TUlJC/dCyxS0Xs2nXXy/hPpAu2XOf2qzcbf5qSKaOC1Pl2kOGyxHxW6jrIIp7iT57dktl2fFV5IQXnG8ERs/lLPDw+nMSRXgilEdkL3rWeWoBp+zM0TLtrSc5nqF+SW7S1gB8AGna6xVZuGxPNmqwu5eXaWx6MIr6QmnhaAxM9Q3215eqBLo5Hko52tfKi2NUSutvmL5hVXCrsC4pgkfyeuXdispeLJ2tp4EWh0B3Y9hAvJPJqSzffUGgeXBT+WaC1x6B0pNUYQ9eriUHt6Unn02Rbap0DDBPt7PWj+N68PHYHemmafFpVii/sb5WQ7xr34IL8PTTsOndnBkBOB5RC85jPHiE=\", \"Value\": \"ewogICJ0aW1lc3RhbXAiIDogMTYyNzgxNjQ4OTk4NiwKICAicHJvZmlsZUlkIiA6ICIzMzU4ZGRhZTNhNDE0YmEwYmRmYWVlNTRiNmM1NWNmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJub2VwcGlfbm9lcHBpIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNkZWRmNDFlOTlmZDZkNmNlODg1ZDM2ZThlMzc3OWIxZWZlNTQwOGRjYTA4MjNiMzRjZjU5ODhkODZhODNiOWUiCiAgICB9CiAgfQp9\"}]}, \"Name\": \"noeppi_noeppi\"}}"
+                    }
+                ]
+            }
+        },
+        "ruvoti": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+                        "data": 3,
+                        "nbt": "{\"SkullOwner\": {\"Id\": \"1857420c-6154-433f-b881-52eceae527e4\", \"Properties\": {\"textures\": [{\"Signature\": \"dO/yu6Bn1GvlQJgbQsqPUotW9d4GyBG4ByMmp6vQP7h22znZnLOkK2xrCv5wNqhlOyDeeiFTOAyUO4dWFjkHSX03taA3HfeCd8FWTtXwIs1LiGUUlkgGmjEhK+eQpKR2gsF38gkFVFTOE31OYWGDL0ptCKeAvtrD8U1YG6L8MjIr+Ls0Pqi/KShjKVYc+JLfbhxqt0QpcqasSu4d2dD+6lcAqpe9JnxywxaF0X6LJ5CUBnp/Wd+h7Gr2eQcsAbCMvLM8XvzfF7Nt2CJUk5oGoCqX4SDxcd8sA7dGWjhyZGIpPdjUQ1HsbecXZBcqcrKCpj0UtDx+2VUo99AGQH3rF2qQIgZopnOwYkrTzfp3TWZ38wlE26FwKBydrkq1ucL+O9SseYHKArnfvYO0Brq4xg8pig+sBE7LiG2643qv79nBCTj7e8+/ewjCi3k4Td9Im5HziaaKyMEGqRJwb1fc5XIbNx34Wrs4xfZZFPvr19OB6hQGd0KgzTgXlLr0QRj/7rumlKrZofKz1W1qPrTChNHLDdWDIIWFSXiPz9pwpLLEiAROlSGilYy8VOSsabPVA/Rsdx0k2lHwIm3WIlKPIxO1D4dLuJODpZS+01g6Lgcb8jqO16hU67mzyAwPmOtrcS00SPqntnCsJciKgbJDxgwpGslGDyO0dp9L6Z1WdYk=\", \"Value\": \"ewogICJ0aW1lc3RhbXAiIDogMTYyNzgxNzcwMTc4NywKICAicHJvZmlsZUlkIiA6ICIxODU3NDIwYzYxNTQ0MzNmYjg4MTUyZWNlYWU1MjdlNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJydXZvdGkxMyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xZDgwMDhlOWZjMDY5OTc0NTE3OWQ3MjJmYzU3MWI5Yzg3ZDZmMzkzYzkxZDJhZGRkMjQyZDc0ZDgyNTA4MDg3IgogICAgfQogIH0KfQ==\"}]}, \"Name\": \"ruvoti13\"}}"
+                    }
+                ]
+            }
+        },
+        "sync": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+                        "data": 3,
+                        "nbt": "{\"SkullOwner\": {\"Id\": \"b58be578-8927-4914-9d83-5b491c83770c\", \"Properties\": {\"textures\": [{\"Signature\": \"n+c9qyaLQEv414K+3X68cL4rc3ut7NrgJuKFvYCwJ8mLb0msUZX4DS6lD/KEgkVR3Nlo/jRX43EcJtmuGalyi8wAsIZ5/YxFzv7irjm/VBvW2a9PHQqo2PIMOm3kZ/Hj2rkY0Xjc74cmqQmJzOD55zaWzPf2iNQEVw8hjLVjPm7Glw5B+DnHtOjmdplBzXN1UtGAcBisx8HLKXcMqbck8sj46L0el8QBn84IBqYy+Gsv7GH9rLG0bqOb4JaneKlvNvGahrs5JGlg6+Yw43ilCAjBDOoI+/I541WVTMAbzyEeJkABXlmop5N22xSYO5OETaPRiiKycM0cCkpKN9ggbJbhfZJnL309T3HeQ6BWDUG111Z9eeBJlRztqKYJG2Q8vAq2mI2r0I1OYl4Swqo78sjSpWi8BYRGNhLqVoLpHTSXCkGLMEvClLpQM/ta9EJ+2bxHjbAV7sYc1jIM1dlQnyd5gQc4iF5BGkwlk6hERVJ6fToKSyZ/mwi2bw/hG2DGEpXjIW1HZaiO7kONh4lscCs2+OchIgvQhZzEQSzMhNVxGA8rxo/e2XokcTcutuAiPHX4UcXR17AoVGbTZiz/ZWQsr5oNjQLTgjruqn2Aj3XToCPXVa+ZaB0NkZ4+cXGD+Q2d/cPL98znK5c/T8jx4uijVdiU9HOz35E9EfK+CRM=\", \"Value\": \"ewogICJ0aW1lc3RhbXAiIDogMTYyNzgxNDYzNzYwNSwKICAicHJvZmlsZUlkIiA6ICJiNThiZTU3ODg5Mjc0OTE0OWQ4MzViNDkxYzgzNzcwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJzeW5jb3BzdGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmYwZGFhNDY5ZDJmN2NhZmI1Yzg2NzlmNzM3MTg3MzRiZmU2MGI4OWU5MmY2OTQ4ZTc2MWUwODQwNGNiOWE0NiIKICAgIH0KICB9Cn0=\"}]}, \"Name\": \"syncopsta\"}}"
+                    }
+                ]
+            }
+        },
+        "unge": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+                        "data": 3,
+                        "nbt": "{\"SkullOwner\": {\"Id\": \"73f1c254-c097-4863-96b4-406b2109f19a\", \"Properties\": {\"textures\": [{\"Signature\": \"xJ4bVckBEQ8qUu+c3Lr2bdMH/GTKm4xNH/z1Avy8m4/cTDBybcavRiKuzfd8qpPEN+wbcjdaULJseeoCZiedw7CbTm8p/DvdIWEqhe5hnJGhjfD/U0RoC7iH5nsKzaCKkfOSfk6MwnYG6Nq+F2qjcBi8gBd72AdBCOJ7ZNCnK7L02s7ghI4B9eDUFf6B/nxhZDPIOtpfjfNo7mhDerFmgUO2IeOUY6xdBbnAa4PFJPin+k4D7x/HQps15bJmsgKl73tcRh/dTG0UcpE/XxFg1BjLxkAs1/9UosTz8XKbLGoJ2VP03BLdoEHrNTfieDpLhb2WegcvHvelX603wiJCEKHTgt0KFABJHDPxcz/Jm9DNjJMTD4O7OvME1sLQfbtnxRI/8ilZzcZtPFVviHa6uQ2+oQW0B1iWrVi2bpuR6aIiIeb/ifvPkUEYrRHS9TOWKcfTD2UPgsyb+vSLHfRAInuiDgFNVum41fWabCx1oR6xbGvzU8gt54x2BK9EBtYteiZEH8gMWLnHMqDnDp9C9+HSyfr1SMN7SdbBCygH3XPVGXhICEfz9OE9HJT3TtdAK9t8k4DhFRTuOd1cCeDw0u2+PltlnnZE3GFkHFog8z4bnrejcOMtgL/Eb0k2OvXvDCOHtwDjMm2EJJm6VGggX51ZdZDXLZBrbunER33Hzes=\", \"Value\": \"ewogICJ0aW1lc3RhbXAiIDogMTYyNzgxNDUwMjk1NiwKICAicHJvZmlsZUlkIiA6ICI3M2YxYzI1NGMwOTc0ODYzOTZiNDQwNmIyMTA5ZjE5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ1bmdlZnJvcmVuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE0NmRkN2UxNGRjZGU4MGQ2ZjUzNjFkOWY1ZDAzYmQ2YTUwYjJkMDk5ZTFjMDc4OWZhY2FiMWRiZWRmYjg2NSIKICAgIH0KICB9Cn0=\"}]}, \"Name\": \"ungefroren\"}}"
+                    }
+                ]
+            }
+        }
+    }
+}

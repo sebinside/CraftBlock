@@ -99,3 +99,6 @@ recipes.addShaped("enderchest", <minecraft:ender_chest>, [
 	[<minecraft:ender_eye>, <ironchest:iron_chest:6>, <minecraft:ender_eye>], 
 	[null, <minecraft:ender_eye>, null]
 ]);
+
+// Blaze rod info
+moretweaker.jei.MoreJei.addDescription(<minecraft:blaze_rod>, ["Spoiler: Empty rod + powder"]);
