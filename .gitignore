@@ -45,3 +45,7 @@
 # map template
 !template
 !template/**
+
+# Gradle
+/advancements/.gradle
+/advancements/build
