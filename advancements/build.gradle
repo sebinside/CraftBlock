@@ -1,0 +1,83 @@
+import java.nio.file.Files
+
+buildscript {
+    repositories {
+        maven { url = 'https://plugins.gradle.org/m2/' }
+    }
+    dependencies {
+        classpath 'gradle.plugin.com.matthewprenger:CurseGradle:1.4.0'
+    }
+}
+
+group = 'craftblock.advancements'
+
+// Get current commit as version so we get unique
+// versions on curse
+version = {
+    def out = new ByteArrayOutputStream()
+    exec {
+        commandLine = [ 'git', 'rev-parse', '--short', 'HEAD' ]
+        standardOutput = out;
+    }
+    return out.toString().trim()
+}()
+
+apply plugin: 'com.matthewprenger.cursegradle'
+
+task buildJar(type: Jar) {
+    
+    from('sources')
+    from(fileTree(dir: '.', include: 'assets/**'))
+    
+    destinationDirectory = file('build')
+    archiveBaseName = project.name
+    archiveVersion = project.version
+    
+    // Mod should have set these properties
+    manifest {
+        attributes([
+                'Specification-Title': 'craftblock_advancements',
+                'Specification-Version': '1',
+                "Implementation-Title": project.name,
+                "Implementation-Version": project.version,
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
+                // Just in case someone tries to use it with modules
+                "Automatic-Module-Name": "mcmods.craftblock_advancements"
+        ])
+    }
+}
+
+task build {
+    dependsOn buildJar
+    doFirst {
+        Files.createDirectories(file('../mods').toPath())
+        Files.copy(buildJar.archiveFile.get().getAsFile().toPath(), file('../mods/CraftBlockAdvancements.jar').toPath())
+    }
+}
+
+// CurseForge plugin requires a task named like this
+task assemble { dependsOn buildJar }
+
+curseforge {
+    apiKey = System.getenv('CURSE_AUTH')
+    project {
+        id = '521830'
+        releaseType = 'release'
+        changelog = "Updated advancements to *${project.version}*"
+        changelogType = 'markdown'
+        addGameVersion '1.12.2'
+        addGameVersion 'Forge'
+        addGameVersion 'Java 8'
+        mainArtifact(buildJar) {
+            relations {
+                requiredDependency "skatekappa"
+            }
+        }
+    }
+    options {
+        debug = false
+        javaIntegration = false
+        javaVersionAutoDetect = false
+    }
+}
+project.tasks.getByName('curseforge').dependsOn(buildJar)

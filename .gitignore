@@ -37,6 +37,7 @@
 !config/Waystones.cfg
 !config/hats.cfg
 !config/lockdown.cfg
+!config/voidislandcontrol.cfg
 !config/harvestcraft.cfg
 !config/quark.cfg
 
@@ -47,3 +48,7 @@
 # map template
 !template
 !template/**
+
+# gradle
+/advancements/.gradle
+/advancements/build
