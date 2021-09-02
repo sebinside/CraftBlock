@@ -4,16 +4,7 @@ Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nac
 
 Direkt zu Curseforge: https://www.curseforge.com/minecraft/modpacks/craftblock
 
-Modpack-Progress: 98%
-Map-Progress: 100%
-
-## Offene TODOs
-
-- [ ] PRs mergen
-- [ ] Nether raus
-- [ ] v1.0.0 veröffentlichen
-- [ ] CraftBlock-Advancements Mod richtig einbinden
-- [ ] v1.1.0 veröffentlichen
+Achievement Mod: https://www.curseforge.com/minecraft/mc-mods/somanycoolandfunnyadvancements
 
 ## Vorgesehene Progression
 
@@ -27,9 +18,9 @@ Die folgenden Mod-Progression ist vorgesehen:
 
 ## Installation
 
-Um das Modpack selbst zu spielen oder damit zu entwickeln, stelle dir ein 1.12.2-Modpack mit allen Content-Mods zusammen oder lade dir meine Version von CurseForge herunter.
+Link zu CurseForge: https://www.curseforge.com/minecraft/modpacks/craftblock
 
-Link zu CurseForge: *Folgt, sobald die initiale Version fertigstellt und nach dem Ende von FTB Skyblock veröffentlicht wurde*
+Installation ganz einfach über den CurseForge-Launcher (schlecht) oder Multi MC (besser).
 
 Um die aktuellste Version der **Override-Dateien** zu nutzen, ladet oder klont anschließend dieses Repository und ersetzt die Dateien im Modpack-Verzeichnis.
 
@@ -133,5 +124,3 @@ Das Modpack besteht aktuell aus den folgenden Mods:
 - [XNet](https://www.curseforge.com/minecraft/mc-mods/xnet)
 - [OC Sensors](https://www.curseforge.com/minecraft/mc-mods/oc-sensors)
 - [BedrockCraft](https://www.curseforge.com/minecraft/mc-mods/bedrockcraft)
-
-The license does currently not include splash.properties, lol
