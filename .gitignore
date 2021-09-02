@@ -38,6 +38,8 @@
 !config/hats.cfg
 !config/lockdown.cfg
 !config/voidislandcontrol.cfg
+!config/harvestcraft.cfg
+!config/quark.cfg
 
 # advancements folder
 !advancements
