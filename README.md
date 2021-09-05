@@ -18,7 +18,7 @@ Some examples for the planed progression:
 
 ## Installation
 
-To play the modpack just use CurseForge version: https://www.curseforge.com/minecraft/modpacks/craftblock
+To play the modpack just use CurseForge version: https://www.curseforge.com/minecraft/modpacks/craftblock. Alternatively, you can find the release zip files also in [releases](https://github.com/sebinside/CraftBlock/releases).
 
 This can be installed using the [CurseForge-Launcher](https://download.curseforge.com/) (bad) or [MultiMC](https://multimc.org/) (better).
 
