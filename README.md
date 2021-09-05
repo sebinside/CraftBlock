@@ -24,7 +24,7 @@ This can be installed using the [CurseForge-Launcher](https://download.curseforg
 
 In order to use the current version of the **override files** or to help in development, just clone and override the files in the modpack folder afterwards.
 
-## Mod-Liste
+## List of Mods
 
 The modpack contains the following mods:
 
