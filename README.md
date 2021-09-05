@@ -28,7 +28,7 @@ In order to use the current version of the **override files** or to help in deve
 
 See [here](./contribute.md)
 
-## Mod-Liste
+## List of Mods
 
 The modpack contains the following mods:
 
