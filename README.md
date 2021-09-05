@@ -1,34 +1,34 @@
 # CraftBlock
 
-Dieses Repository enthält alle **Override-Dateien** für das "FTB Skyblock"-Nachfolge-Projekt CraftBlock. Das sind vor allem geänderte Konfigurationsdateien und Crafttweaker-Skripte.
+This repository contains all **override files** for the [CraftBlock](https://www.curseforge.com/minecraft/modpacks/craftblock)-modpack and also the files for the [SoManyCoolAndFunnyAdvancements](https://www.curseforge.com/minecraft/mc-mods/somanycoolandfunnyadvancements)-mod.
 
-Direkt zu Curseforge: https://www.curseforge.com/minecraft/modpacks/craftblock
+CraftBlock stands for Craft Attack 3 Skyblock and is an expert skyblock modpack like FTB Infinity Evolved Skyblock. That means you will have to play through many different mods, there will be way harder recipes but - this one is important - it's not too grindy.
 
-Achievement Mod: https://www.curseforge.com/minecraft/mc-mods/somanycoolandfunnyadvancements
+Please see below on how to install and use the modpack to play or to develop.
 
-## Vorgesehene Progression
+## Modpack Progression
 
-Die folgenden Mod-Progression ist vorgesehen:
+Some examples for the planed progression:
 
 - Botania -> Astral Sorcery -> Embers
 - Hearth Well + Tinkers Construct -> TC Smeltery
-- Storage Drawers + OC + IE -> Refined Storage (ohne Autocrafting) + OC Late Game -> Applied Energistics
-- Immersive Engineering + Embers + OpenComputers -> *Jede andere Technik-Mod*
-- Unique Crops + Botania + Astral Sorcery -> *Jede andere Magie-Mod*
+- Storage Drawers + OC + IE -> Refined Storage (without auto crafting) + OC Late Game -> Applied Energistics (with auto crafting)
+- Immersive Engineering + Embers + OpenComputers -> *Every other tech mod*
+- Unique Crops + Botania + Astral Sorcery -> *Every other magic mod*
 
 ## Installation
 
-Link zu CurseForge: https://www.curseforge.com/minecraft/modpacks/craftblock
+To play the modpack just use CurseForge version: https://www.curseforge.com/minecraft/modpacks/craftblock
 
-Installation ganz einfach über den CurseForge-Launcher (schlecht) oder Multi MC (besser).
+This can be installed using the [CurseForge-Launcher](https://download.curseforge.com/) (bad) or [MultiMC](https://multimc.org/) (better).
 
-Um die aktuellste Version der **Override-Dateien** zu nutzen, ladet oder klont anschließend dieses Repository und ersetzt die Dateien im Modpack-Verzeichnis.
+In order to use the current version of the **override files** or to help in development, just clone and override the files in the modpack folder afterwards.
 
 ## Mod-Liste
 
-Das Modpack besteht aktuell aus den folgenden Mods:
+The modpack contains the following mods:
 
-### Größere Content-Mods
+### Big Content Mods
 
 - [Botania](https://www.curseforge.com/minecraft/mc-mods/botania)
 - [Astral Sorcery](https://www.curseforge.com/minecraft/mc-mods/astral-sorcery)
@@ -40,7 +40,7 @@ Das Modpack besteht aktuell aus den folgenden Mods:
 - [OpenComputers](https://www.curseforge.com/minecraft/mc-mods/opencomputers)
 - [Refined Storage](https://www.curseforge.com/minecraft/mc-mods/refined-storage)
 
-### Kleinere Content-Mods
+### Small Content Mods
 
 - [Extended Crafting](https://www.curseforge.com/minecraft/mc-mods/extended-crafting)
 - [Storage Drawers](https://www.curseforge.com/minecraft/mc-mods/storage-drawers)
@@ -56,7 +56,7 @@ Das Modpack besteht aktuell aus den folgenden Mods:
 - [Hats](https://www.curseforge.com/minecraft/mc-mods/hats)
 - [Hat Stand](https://www.curseforge.com/minecraft/mc-mods/hat-stand)
 
-### Utility-Mods
+### Utility Mods
 
 - [Botania: Garden of Glass](https://www.curseforge.com/minecraft/mc-mods/botania-garden-of-glass)
 - [CraftTweaker](https://www.curseforge.com/minecraft/mc-mods/crafttweaker)
@@ -83,8 +83,9 @@ Das Modpack besteht aktuell aus den folgenden Mods:
 - [Inventory Tweaks](https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks)
 - [JAOPCA](https://www.curseforge.com/minecraft/mc-mods/jaopca)
 - [Initial Inventory](https://www.curseforge.com/minecraft/mc-mods/initial-inventory)
+- [SoManyCoolAndFunnyAdvancements](https://www.curseforge.com/minecraft/mc-mods/somanycoolandfunnyadvancements)
 
-### Mögliche Mods zum späteren Hinzufügen
+### Options for future mods to be included in the modpack
 
 - [Actually Additions](https://www.curseforge.com/minecraft/mc-mods/actually-additions)
 - [AIOT Botania](https://www.curseforge.com/minecraft/mc-mods/aiot-botania)
