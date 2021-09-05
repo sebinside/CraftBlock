@@ -5,6 +5,12 @@ mods.botania.ManaInfusion.removeRecipe(<minecraft:sand>);
 mods.botania.ManaInfusion.addAlchemy(<minecraft:gravel>, <minecraft:cobblestone>, 50);
 mods.botania.ManaInfusion.addAlchemy(<minecraft:sand>, <minecraft:gravel>, 50);
 
+//Red Sand & Terracotta
+mods.tconstruct.Casting.removeBasinRecipe(<minecraft:sand:1>);
+mods.tconstruct.Casting.addBasinRecipe(<minecraft:sand:1>, <minecraft:sand:0>, <liquid:blood>, 5, true, 20);
+mods.botania.ManaInfusion.removeRecipe(<minecraft:hardened_clay>);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:hardened_clay>, <minecraft:sand:1>, 50);
+
 // podzol -> mycelium
 mods.astralsorcery.LightTransmutation.addTransmutation(<minecraft:dirt:2>, <minecraft:mycelium>, 20);
 
