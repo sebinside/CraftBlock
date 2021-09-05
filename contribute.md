@@ -14,3 +14,9 @@ Overrides should go in `data/side` where side is one of
   * `common`: Overrides for client and dedicated server side
   * `client`: Overrides for client side
   * `server`: Overrides for only dedicated server side
+
+## Advancements
+
+Custom advancements are added through a standalone mod inside [advancements](./advancements). These can be built with `gradle build` in the advancements folder. To upload the advancements mod to CurseForge, run `gradle curseforge` **after** committing.
+
+Advancements can be added to [this](advancements/assets/craftblock_advancements/advancements) folder.
