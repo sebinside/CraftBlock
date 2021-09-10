@@ -8,7 +8,7 @@ mods.botania.ManaInfusion.addAlchemy(<minecraft:sand>, <minecraft:gravel>, 50);
 //Red Sand & Terracotta
 mods.tconstruct.Casting.removeBasinRecipe(<minecraft:sand:1>);
 mods.tconstruct.Casting.addBasinRecipe(<minecraft:sand:1>, <minecraft:sand:0>, <liquid:blood>, 5, true, 20);
-mods.botania.ManaInfusion.removeRecipe(<minecraft:hardened_clay>);
+mods.botania.ManaInfusion.removeRecipe(<minecraft:sand:1>);
 mods.botania.ManaInfusion.addAlchemy(<minecraft:hardened_clay>, <minecraft:sand:1>, 50);
 
 // podzol -> mycelium
@@ -108,3 +108,6 @@ recipes.addShaped("enderchest", <minecraft:ender_chest>, [
 
 // Blaze rod info
 moretweaker.jei.MoreJei.addDescription(<minecraft:blaze_rod>, ["Spoiler: Empty rod + powder"]);
+
+// Rainbow wool info
+moretweaker.jei.MoreJei.addDescription(<skatekappa:rainbow_wool>, ["Legends are told that naming sheep 'derNiklaas' makes them go full rainbow."]);

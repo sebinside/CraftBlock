@@ -2,8 +2,7 @@
     "parent": "craftblock_advancements:hidden",
     "display": {
         "icon": {
-            "item": "minecraft:wool",
-            "data": 5
+            "item": "skatekappa:rainbow_wool"
         },
         "title": "Don't you dare...",
         "description": "Blame Niklas!",
