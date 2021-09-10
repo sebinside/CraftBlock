@@ -39,3 +39,21 @@ recipes.addShaped("astralwand", <astralsorcery:itemwand>.withTag({astralsorcery:
 	[<quark:marble_speleothem>, null, null]
 ]);
 
+
+// Insane recipe for Ritual Pedestal
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/ritualpedestal");
+mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/altar/ritualpedestal", <astralsorcery:blockritualpedestal>, 4500, 200, [
+
+    <astralsorcery:blockmarble:4>, <astralsorcery:blockcelestialcollectorcrystal>.withTag({astralsorcery:{collectorType:1}}), <astralsorcery:blockmarble:4>,
+    <astralsorcery:blockmarble:2>, <liquid:astralsorcery.liquidstarlight>, <astralsorcery:blockmarble:2>,
+    <astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>,
+    
+    <ore:ingotGold>, <ore:ingotGold>, <astralsorcery:blockmarble:2>, <astralsorcery:blockmarble:2>,
+    null, null, null, null, 
+    null, null, null, null,
+    null, null, null, null,
+    
+    //Outer Items, indices 25+
+    <uniquecrops:oldgold>, <ore:eternalLifeEssence>, <ore:dustDiamond>, <hwell:loot_enderman>
+
+], "astralsorcery.constellation.horologium");
