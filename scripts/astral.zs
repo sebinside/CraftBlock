@@ -39,7 +39,6 @@ recipes.addShaped("astralwand", <astralsorcery:itemwand>.withTag({astralsorcery:
 	[<quark:marble_speleothem>, null, null]
 ]);
 
-
 // Insane recipe for Ritual Pedestal
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/ritualpedestal");
 mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/altar/ritualpedestal", <astralsorcery:blockritualpedestal>, 4500, 200, [
@@ -57,3 +56,17 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/alta
     <uniquecrops:oldgold>, <ore:eternalLifeEssence>, <ore:dustDiamond>, <hwell:loot_enderman>
 
 ], "astralsorcery.constellation.horologium");
+
+// Nerved Tree Beacon with Botania mixed in
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/treebeacon");
+mods.astralsorcery.Altar.addConstellationAltarRecipe("mypackname:shaped/internal/altar/treebeacon", <astralsorcery:blocktreebeacon>, 2500, 500, [
+    <ore:treeLeaves>, <astralsorcery:itemcraftingcomponent:4>, <ore:treeLeaves>,
+    <botania:lens:18>, <liquid:astralsorcery.liquidstarlight>, <botania:lens:7>,
+    <astralsorcery:blockinfusedwood>, <botania:storage:1>, <astralsorcery:blockinfusedwood>,
+
+    <botania:specialflower>.withTag({type: "agricarnation"}), <botania:specialflower>.withTag({type: "hopperhock"}),
+    <botania:specialflower>.withTag({type: "rannuncarpus"}), <botania:specialflower>.withTag({type: "agricarnation"}),
+
+    <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>,
+    <astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>
+]);
