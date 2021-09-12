@@ -52,3 +52,7 @@
 # gradle
 /advancements/.gradle
 /advancements/build
+
+# server pack
+!server
+!server/**
