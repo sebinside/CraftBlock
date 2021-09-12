@@ -78,8 +78,11 @@ install:
       - 333760 # Splash Logo Color Fix
       - 237701 # ReAuth
       - 231275 # Ding
-      # - 226447 # Resource Loader
+      - 226447 # Resource Loader
       - 60089 # Mouse Tweaks
+      - 240630 # Just Enough Resources (JER)
+      - 267939 # Just Enough HarvestCraft (JEHC)
+      - 244019 # Lockdown
 
   # The base path where the server should be installed to, ~ for current path
   baseInstallPath: ~
