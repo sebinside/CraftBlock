@@ -1,5 +1,8 @@
 # CraftBlock
 
+[![CurseForge](http://cf.way2muchnoise.eu/full_491420_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/craftblock)
+[![Curseforge](http://cf.way2muchnoise.eu/versions/Game%20Version_491420_latest.svg)](https://www.curseforge.com/minecraft/modpacks/craftblock)
+
 This repository contains all **override files** for the [CraftBlock](https://www.curseforge.com/minecraft/modpacks/craftblock)-modpack and also the files for the [SoManyCoolAndFunnyAdvancements](https://www.curseforge.com/minecraft/mc-mods/somanycoolandfunnyadvancements)-mod.
 
 CraftBlock stands for Craft Attack 3 Skyblock and is an expert skyblock modpack like FTB Infinity Evolved Skyblock. That means you will have to play through many different mods, there will be way harder recipes but - this one is important - it's not too grindy.
