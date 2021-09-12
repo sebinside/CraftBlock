@@ -58,3 +58,5 @@
 !server/server-setup-config.yaml
 !server/startserver.bat
 !server/startserver.sh
+!server/world/
+!server/world/**
