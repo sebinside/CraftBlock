@@ -75,3 +75,15 @@ recipes.addShaped(<embers:mech_core>, [
     [<immersiveengineering:material:8>, <hwell:asul_machine_case>, <immersiveengineering:material:8>], 
     [<ore:ingotSteel>, <immersiveengineering:material:8>, <ore:ingotSteel>]
 ]);
+
+// Remove kappa tools
+val kappaTools = [
+    <embers:pickaxe_copper>,
+    <embers:axe_copper>,
+    <embers:shovel_copper>,
+    <embers:hoe_copper>,
+    <embers:sword_copper>
+] as IItemStack[];
+for item in kappaTools {
+    disable(item);
+}
