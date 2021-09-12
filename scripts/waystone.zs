@@ -2,7 +2,7 @@
 
 val eversioShiftingStar = <astralsorcery:itemshiftingstar>.withTag({
 	astralsorcery:{
-		starAttunement: "astralsorcery.constellation.evorsio"
+		starAttunement: "astralsorcery.constellation.vicio"
 	}
 });
 recipes.remove(<waystones:warp_stone>);
