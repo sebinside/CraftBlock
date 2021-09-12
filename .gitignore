@@ -54,5 +54,7 @@
 /advancements/build
 
 # server pack
-!server
-!server/**
+!server/
+!server/server-setup-config.yaml
+!server/startserver.bat
+!server/startserver.sh
