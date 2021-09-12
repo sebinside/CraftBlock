@@ -185,7 +185,7 @@ launch:
   # For Forge 1.12-: "forge-{{@mcversion@}}-{{@loaderversion@}}-universal.jar"
   # For Forge 1.13+: "forge-{{@mcversion@}}-{{@loaderversion@}}.jar"
   # For Fabric: "fabric-server-launch.jar"
-  startFile: forge-{{@mcversion@}}-{{@loaderversion@}}-universal.jar
+  startFile: forge-{{@mcversion@}}-{{@loaderversion@}}.jar
 
   # In case you have multiple javas installed you can add a absolute path to it here
   # if the value is "", null, or ~ then 'java' from PATH is going to be used
