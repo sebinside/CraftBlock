@@ -32,7 +32,15 @@ jobs:
           sed -i 's#modpackplaceholderurl#https://github.com/sebinside/CraftBlock/releases/download/${{ steps.tag.outputs.version }}/CraftBlock-${{ steps.tag.outputs.version }}.zip#g' server/server-setup-config.yaml
           zip -r craftBlockServer.zip server/
 
-      - uses: actions/upload-artifact@v2
+      # - uses: actions/upload-artifact@v2
+      #   with:
+      #     name: CraftBlock-Server-${{ steps.tag.outputs.version }}
+      #     path: server/
+
+      - name: Upload file to GitHub release
+        uses: svenstaro/upload-release-action@2.2.1
         with:
-          name: CraftBlock-Server-${{ steps.tag.outputs.version }}.zip
-          path: server/
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: craftBlockServer.zip
+          asset_name: CraftBlock-Server-${{ steps.tag.outputs.version }}
+          tag: ${{ github.ref }}
