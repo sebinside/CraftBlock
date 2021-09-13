@@ -33,6 +33,13 @@ jobs:
           cd server/
           zip -r ../craftBlockServer.zip *
 
+      - name: Gets latest created release info
+        id: latest_release_info
+        uses: jossef/action-latest-release-info@v1.1.0
+
+      - name: Test
+        run: echo ${{ steps.latest_release_info.outputs.upload_url }}
+
       - name: Upload file to GitHub release
         uses: svenstaro/upload-release-action@2.2.1
         with:
