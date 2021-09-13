@@ -123,9 +123,9 @@ install:
   # For often there are config which the user wants to change, here is the place to put the local path to configs, jars or whatever
   # You can copy files or folders:
   #
-  localFiles:
-    - from: template/
-      to: world/
+  # localFiles:
+  #   - from: OLD_TO_DELETE/config/disfabric.json5
+  #     to: config/disfabric.json5
   #   - from: OLD_TO_DELETE/config/charm.toml
   #     to: config/charm.toml
   #   - from: OLD_TO_DELETE/config/hypnos.json
