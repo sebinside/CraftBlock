@@ -33,9 +33,6 @@ jobs:
           cd server/
           zip -r ../craftBlockServer.zip *
 
-      - name: Test
-        run: echo ${{ steps.latest_release_info.outputs.upload_url }}
-
       - name: Upload file to GitHub release
         uses: svenstaro/upload-release-action@2.2.1
         with:
