@@ -29,7 +29,7 @@ jobs:
         run: |
           cp -r template/ server/world/
           cp LICENSE server/LICENSE
-          sed -i 's#modpackplaceholderurl#https://github.com/sebinside/CraftBlock/releases/download/${{ steps.tag.outputs.version }}/CraftBlock-${{ steps.tag.outputs.version }}.zip#g' server/server-setup-config.yaml
+          sed -i 's#modpackplaceholderurl#https://github.com/${{ github.repository }}/releases/download/${{ steps.tag.outputs.version }}/CraftBlock-${{ steps.tag.outputs.version }}.zip#g' server/server-setup-config.yaml
           cd server/
           zip -r ../craftBlockServer.zip *
 
