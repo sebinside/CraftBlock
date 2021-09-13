@@ -1,8 +1,10 @@
 # Ignore everything...
 *
 
-# except for the gitignore file
+# except for git files
 !.gitignore
+!.github/
+!.github/**
 
 # except the scripts folder
 
