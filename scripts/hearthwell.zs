@@ -47,6 +47,16 @@ for item in coreList {
 // Disable heat core crafting
 moretweaker.hwell.MoreCoring.removeCoring("core_heat", null);
 
+// Disable Seeds 
+val seeds = [
+    <hwell:seed_of_life>,
+    <hwell:seed_of_the_nether>,
+    <hwell:seed_of_the_end>
+] as IItemStack[];
+for item in seeds {
+    disable(item);
+}
+
 // Add new metaldiamond recipe
 mods.tconstruct.Casting.addTableRecipe(<hwell:metaldiamond>, <ore:manaDiamond>, <liquid:astral_starmetal>, 144, true);
 
