@@ -27,7 +27,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Collect files for server pack
         run: |
-          cp -r template/ server/world/
           cp LICENSE server/LICENSE
           sed -i 's#modpackplaceholderurl#https://github.com/${{ github.repository }}/releases/download/${{ steps.tag.outputs.version }}/CraftBlock-${{ steps.tag.outputs.version }}.zip#g' server/server-setup-config.yaml
           cd server/
