@@ -20,15 +20,19 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: Extract tag name
+        id: tag
+        run: echo ::set-output name=version::${GITHUB_REF/refs\/tags\//}
+
       # Runs a set of commands using the runners shell
       - name: Collect files for server pack
         run: |
           cp -r template/ server/world/
           cp LICENSE server/LICENSE
-          sed -i 's#modpackplaceholderurl#https://github.com/sebinside/CraftBlock/releases/download/v1.2.0/CraftBlock-1.2.0.zip#g' server/server-setup-config.yaml
+          sed -i 's#modpackplaceholderurl#https://github.com/sebinside/CraftBlock/releases/download/${{ steps.tag.outputs.version }}/CraftBlock-${{ steps.tag.outputs.version }}.zip#g' server/server-setup-config.yaml
           zip -r craftBlockServer.zip server/
 
       - uses: actions/upload-artifact@v2
         with:
-          name: CraftBlock-Server-${{ github.ref }}.zip
+          name: CraftBlock-Server-${{ steps.tag.outputs.version }}.zip
           path: server/
