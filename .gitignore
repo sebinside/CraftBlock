@@ -1,8 +1,10 @@
 # Ignore everything...
 *
 
-# except for the gitignore file
+# except for git files
 !.gitignore
+!.github/
+!.github/**
 
 # except the scripts folder
 
@@ -52,3 +54,9 @@
 # gradle
 /advancements/.gradle
 /advancements/build
+
+# server pack
+!server/
+!server/server-setup-config.yaml
+!server/startserver.bat
+!server/startserver.sh
