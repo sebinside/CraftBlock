@@ -111,3 +111,10 @@ moretweaker.jei.MoreJei.addDescription(<minecraft:blaze_rod>, ["Spoiler: Empty r
 
 // Rainbow wool info
 moretweaker.jei.MoreJei.addDescription(<skatekappa:rainbow_wool>, ["Legends are told that naming sheep 'derNiklaas' makes them go full rainbow."]);
+
+// Stained Glass to Glass
+for i in 0 to 16 {
+    //each variant must be individually defined (ask @VazkiiMods why :\ ) 
+    mods.botania.ManaInfusion.addAlchemy(<minecraft:glass_pane>, <minecraft:stained_glass_pane>.withDamage(i), 50);
+    mods.botania.ManaInfusion.addAlchemy(<minecraft:glass>, <minecraft:stained_glass>.withDamage(i), 50);
+}
