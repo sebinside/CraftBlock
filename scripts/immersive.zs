@@ -17,6 +17,16 @@ for entry in plateRecipes {
     recipes.removeByRecipeName(recipeName);
 }
 
+//Blast Furnance Advanced Crafting
+recipes.remove(<immersiveengineering:stone_decoration:1>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:stone_decoration:1> * 27, [
+	[<quark:sandstone_new:5>, <hwell:heat_block>, <quark:sandstone_new:5>, <hwell:heat_block>, <quark:sandstone_new:5>], 
+	[<hwell:heat_block>, <ore:stoneOnyxSmooth>, <botania:thornchakram:1>, <ore:stoneOnyxSmooth>, <hwell:heat_block>], 
+	[<quark:sandstone_new:5>, <ore:powderBlaze>, <botania:rune:15>.reuse(), <ore:powderBlaze>, <quark:sandstone_new:5>], 
+	[<hwell:heat_block>, <ore:rodBlaze>, <astralsorcery:itemperkgem:1>, <ore:rodBlaze>, <hwell:heat_block>], 
+	[<quark:sandstone_new:5>, <hwell:heat_block>, <quark:sandstone_new:5>, <hwell:heat_block>, <quark:sandstone_new:5>]
+]);
+
 // Make dynamo harder
 recipes.remove(<immersiveengineering:metal_device1:2>);
 recipes.addShaped("immersiveengineeringDynamo", <immersiveengineering:metal_device1:2>, [
