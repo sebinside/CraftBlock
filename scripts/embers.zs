@@ -52,7 +52,7 @@ recipes.addShaped("emberActivator", <embers:ember_activator>, [
 
 // Two new caminite recipes
 recipes.remove(<embers:blend_caminite>);
-recipes.addShapeless("caminiteHard", <embers:blend_caminite>, [<minecraft:clay_ball>, <minecraft:clay_ball>, <ore:itemSlag>, <ore:itemSlag>, <minecraft:sand>]);
+recipes.addShapeless("caminiteHard", <embers:blend_caminite> * 3, [<minecraft:clay_ball>, <minecraft:clay_ball>, <ore:itemSlag>, <ore:itemSlag>, <minecraft:sand>]);
 
 mods.embers.Melter.add(<liquid:clay> * 144, <ore:clay>);
 mods.embers.Stamper.add(<embers:blend_caminite> * 4, <liquid:clay> * 144, <embers:stamp_flat>, <ore:sand>);
