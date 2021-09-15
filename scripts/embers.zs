@@ -50,6 +50,14 @@ recipes.addShaped("emberActivator", <embers:ember_activator>, [
     [<embers:stairs_caminite_brick>, <ore:scaffoldingSteel>, <embers:stairs_caminite_brick>]
 ]);
 
+// Pressure Refinery is just harder activator
+recipes.remove(<embers:boiler>);
+recipes.addShaped("emberBoiler", <embers:boiler>, [
+	[<embers:block_caminite_brick>, <embers:aspectus_dawnstone>, <embers:block_caminite_brick>], 
+	[<ore:blockSteel>, <embers:ember_activator>, <ore:blockSteel>], 
+	[<embers:block_caminite_brick>, <ore:blockConstantan>, <embers:block_caminite_brick>]
+]);
+
 // Two new caminite recipes
 recipes.remove(<embers:blend_caminite>);
 recipes.addShapeless("caminiteHard", <embers:blend_caminite>, [<minecraft:clay_ball>, <minecraft:clay_ball>, <ore:itemSlag>, <ore:itemSlag>, <minecraft:sand>]);
