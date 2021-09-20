@@ -8,3 +8,7 @@ sawdust.register();
 // skateKAPPA
 val kappa = VanillaFactory.createItem("skate_kappa");
 kappa.register();
+
+// Morphing Rod
+val morph = VanillaFactory.createItem("morph_rod");
+morph.register();
