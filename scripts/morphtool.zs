@@ -44,3 +44,15 @@ recipes.addShaped(<morphtool:tool> as IItemStack, [
             }
         });
 } as IRecipeFunction, null);
+
+# Add description how to use the Morphing Tool
+moretweaker.jei.MoreJei.addDescription(<morphtool:tool>, [
+    "The Morphing Tool can mimic any tool, wand, wrench or hammer you throw at it!",
+    " ",
+    "Manually select which tool it should mimic by scrolling while you sneak."
+]);
+moretweaker.jei.MoreJei.addDescription(<morphtool:tool>, [
+    "Add additional tools by crafting them together with the tool.",
+    " ",
+    "While the tool is morphed, sneak and drop it to remove the attached tool."
+]);
