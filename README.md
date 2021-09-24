@@ -58,6 +58,7 @@ The modpack contains the following mods:
 - [Akashic Tome](https://www.curseforge.com/minecraft/mc-mods/akashic-tome)
 - [Hats](https://www.curseforge.com/minecraft/mc-mods/hats)
 - [Hat Stand](https://www.curseforge.com/minecraft/mc-mods/hat-stand)
+- [Morph-o-Tool](https://www.curseforge.com/minecraft/mc-mods/morph-o-tool)
 
 ### Utility Mods
 
