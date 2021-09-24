@@ -69,6 +69,14 @@ recipes.addShaped("mutator", <hwell:mutator>, [
 ]);
 recipes.addShapeless("mutationpaste", <hwell:mutation_paste> * 2, [<harvestcraft:mixingbowlitem>, <ore:slimeball>, <botania:dye:*>, <botania:dye:*>, <botania:dye:*>, <botania:dye:*>]);
 
+//Additional mutation recepies
+mods.hwell.addMutationPasteRecipe([
+    <minecraft:dye:6>,  <minecraft:dye:4>,  <minecraft:dye:5>, <minecraft:dye:13>,
+    <minecraft:dye:9>,  <minecraft:dye:15>, <minecraft:dye:7>, <minecraft:dye:8>,
+    <minecraft:dye:0>,  <minecraft:dye:3>,  <minecraft:dye:1>, <minecraft:dye:14>,
+    <minecraft:dye:11>, <minecraft:dye:10>, <minecraft:dye:2>, <minecraft:dye:12>
+]);
+
 // Remove light crushing to glowstone
 mods.hwell.removeCrushingBlockRecipe(<hwell:locked_light>);
 
