@@ -22,16 +22,6 @@ mods.embers.Stamper.add(<immersiveengineering:metal:7>, <liquid:electrum> * 144,
 mods.embers.Stamper.remove(<embers:plate_electrum>);
 mods.embers.Stamper.add(<immersiveengineering:metal:37>, <liquid:electrum> * 144, <embers:stamp_plate>);
 
-val electrumTools = [
-    <embers:pickaxe_electrum>,
-    <embers:shovel_electrum>,
-    <embers:sword_electrum>,
-    <embers:axe_electrum>
-] as IItemStack[];
-for item in electrumTools {
-    mods.embers.DawnstoneAnvil.blacklistBreakdown(item);
-}
-
 // Ember bore Tier 2
 recipes.remove(<embers:ember_bore>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <embers:ember_bore>, [
@@ -76,14 +66,58 @@ recipes.addShaped(<embers:mech_core>, [
     [<ore:ingotSteel>, <immersiveengineering:material:8>, <ore:ingotSteel>]
 ]);
 
-// Remove kappa tools
-val kappaTools = [
-    <embers:pickaxe_copper>,
+// Remove bad tools
+val tools = [
+    //kappa
+    <embers:pickaxe_copper>, 
     <embers:axe_copper>,
     <embers:shovel_copper>,
     <embers:hoe_copper>,
-    <embers:sword_copper>
+    <embers:sword_copper>,
+    //aluminium
+    <embers:pickaxe_aluminum>,
+    <embers:axe_aluminum>,
+    <embers:shovel_aluminum>,
+    <embers:hoe_aluminum>,
+    <embers:sword_aluminum>,
+    //nickel
+    <embers:pickaxe_nickel>,
+    <embers:axe_nickel>,
+    <embers:shovel_nickel>,
+    <embers:hoe_nickel>,
+    <embers:sword_nickel>,
+    //tin
+    <embers:pickaxe_tin>,
+    <embers:axe_tin>,
+    <embers:shovel_tin>,
+    <embers:hoe_tin>,
+    <embers:sword_tin>,
+    //silver
+    <embers:pickaxe_silver>,
+    <embers:axe_silver>,
+    <embers:shovel_silver>,
+    <embers:hoe_silver>,
+    <embers:sword_silver>,
+    //lead
+    <embers:pickaxe_lead>,
+    <embers:axe_lead>,
+    <embers:shovel_lead>,
+    <embers:hoe_lead>,
+    <embers:sword_lead>,
+    //bronze
+    <embers:pickaxe_bronze>,
+    <embers:axe_bronze>,
+    <embers:shovel_bronze>,
+    <embers:hoe_bronze>,
+    <embers:sword_bronze>,
+    //electrum
+    <embers:pickaxe_electrum>,
+    <embers:axe_electrum>,
+    <embers:shovel_electrum>,
+    <embers:hoe_electrum>,
+    <embers:sword_electrum>
 ] as IItemStack[];
-for item in kappaTools {
+for item in tools {
+    mods.embers.DawnstoneAnvil.blacklistRepair(item);
     disable(item);
 }
