@@ -1,4 +1,6 @@
-val tome = <akashictome:tome>.withTag({
+import crafttweaker.item.IItemStack;
+
+static tome as IItemStack = <akashictome:tome>.withTag({
     "akashictome:is_morphing":1 as byte,
     "akashictome:data":{
         tconstruct:{
