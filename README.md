@@ -93,6 +93,7 @@ The modpack contains the following mods:
 
 ### Options for future mods to be included in the modpack
 
+- [Simple Storage Network](https://www.curseforge.com/minecraft/mc-mods/simple-storage-network)
 - [Actually Additions](https://www.curseforge.com/minecraft/mc-mods/actually-additions)
 - [AIOT Botania](https://www.curseforge.com/minecraft/mc-mods/aiot-botania)
 - [Ender IO](https://www.curseforge.com/minecraft/mc-mods/ender-io)
