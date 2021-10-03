@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
 // Gravel and Sand
 mods.botania.ManaInfusion.removeRecipe(<minecraft:sand>);
@@ -121,7 +122,11 @@ for i in 0 to 16 {
 
 // Akashic Tome easy recipe
 recipes.remove(<akashictome:tome>);
-recipes.addShaped("tome", scripts.initial.tome, [
-    [<minecraft:dye:15>, <minecraft:dye:15>], 
-    [<minecraft:dye:15>, <tconstruct:pattern>]
+val sign_head = <tconstruct:sign_head>.withTag({Material: "paper"})
+              | <tconstruct:sign_head>.withTag({Material: "sponge"})
+              | <tconstruct:sign_head>.withTag({Material: "flint"})
+              | <tconstruct:sign_head>.withTag({Material: "bone"})
+            as IIngredient;
+recipes.addShapeless("tome", scripts.initial.tome, [
+    sign_head, <ore:dyeBlack>, <ore:feather>, <ore:leather>
 ]);
