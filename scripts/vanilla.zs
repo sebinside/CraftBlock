@@ -109,6 +109,9 @@ recipes.addShaped("enderchest", <minecraft:ender_chest>, [
 // Blaze rod info
 moretweaker.jei.MoreJei.addDescription(<minecraft:blaze_rod>, ["Spoiler: Empty rod + powder"]);
 
+//Blaze powder info
+mods.jei.JEI.addDescription(<minecraft:blaze_powder>, ["Build a blazing friend from two Iron Bars and a Fel Pumpkin"]);
+
 // Rainbow wool info
 moretweaker.jei.MoreJei.addDescription(<skatekappa:rainbow_wool>, ["Legends are told that naming sheep 'derNiklaas' makes them go full rainbow."]);
 
