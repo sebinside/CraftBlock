@@ -50,3 +50,6 @@ for item in netherCrystalItems {
 <extendedcrafting:material:32>.displayName = "RGB Ingot";
 <extendedcrafting:material:33>.displayName = "RGB Nugget";
 <extendedcrafting:storage:4>.displayName = "Block of RGB";
+
+// Water Bucket -> MLF Bucket
+<minecraft:water_bucket>.displayName = "MLG Bucket";
