@@ -1,0 +1,20 @@
+{
+    "name": "Master Corporea Spark",
+    "category": "patchouli:1_items",
+    "icon": "botania:corporeaspark:1",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "botania:corporeaspark:1",
+            "text": "This modified version of the $(l:1_items/spark)&1Corporea Spark&0$(/l) is the master entity of any &4Corporea network&0 - exactly one is required to be placed on an inventory for a network to form.<br>Unlike the standard &1Corporea Spark&0 it does &4not&0 provide access to the items inside the inventory."
+        },
+        {
+            "type": "crafting",
+            "recipe": "botania:corporeaspark_1",
+            "title": "Crafting Recipe",
+            "text": "&oLove-coloured"
+        }
+    ],
+    "read_by_default": true,
+    "sortnum": 1
+}

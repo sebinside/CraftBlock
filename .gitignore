@@ -21,6 +21,8 @@
 !resources/contenttweaker/**/**
 !resources/waystones
 !resources/waystones/**
+!resources/patchouli
+!resources/patchouli/**
 
 # except changed config files (add manually)
 !config
@@ -43,6 +45,10 @@
 !config/harvestcraft.cfg
 !config/quark.cfg
 !config/morphtool.cfg
+
+# Patchouli books folder
+!patchouli_books
+!patchouli_books/**
 
 # advancements folder
 !advancements

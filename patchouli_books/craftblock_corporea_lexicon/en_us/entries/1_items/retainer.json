@@ -1,0 +1,28 @@
+{
+    "name": "Corporea Retainer",
+    "category": "patchouli:1_items",
+    "icon": "botania:corporearetainer",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "botania:corporearetainer",
+            "text": "The &1Corporea Retainer&0 is an addon of sorts to the $(l:1_items/interceptor)&1Corporea Interceptor&0$(/l).<br>Placing one of these adjacent to an interceptor allows for the interceptor to pass along to it the original corporea request, if it's intercepted.<br>When this happens, the retainer remembers which corporea object in the network    initiated the request"
+        },
+        {
+            "type": "text",
+            "text": "as well as the contents of said request.<br>Once the &1Corporea Retainer&0 receives a redstone signal after it's been informed of a request, it'll have the original requestor redo the exact same request.<br>For example, a funnel might request &1Wooden Planks&0 from the network.<br>An interceptor intercepts the request and passes a signal along to craft the planks.<br>The retainer then gets a signal, allowing for the original funnel to redo the "
+        },
+        {
+            "type": "text",
+            "text": "request and get its planks.<br>As the &1Corporea Retainer&0 acts as an addon to the interceptor, it can use it to interact with the network, thus not needing a spark itself.<br>The retainer can only hold on to one request at a time, and will not accept another until the last one is fulfilled.<br>A &1Redstone Comparator&0 can read if there's a request to be done or not."
+        },
+        {
+            "type": "crafting",
+            "recipe": "botania:corporearetainer",
+            "title": "Crafting Recipe",
+            "text": "&oThe nemesis of a goldfish"
+        }
+    ],
+    "read_by_default": true,
+    "sortnum": 6
+}

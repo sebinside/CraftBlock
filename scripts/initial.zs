@@ -33,6 +33,23 @@ val tome = <akashictome:tome>.withTag({
             },
             Damage:0 as short
         },
+        patchouli:{
+            ForgeCaps:{
+                "astralsorcery:cap_item_amulet_holder":{
+
+                }
+            },
+            id:"patchouli:guide_book",
+            Count:1 as byte,
+            tag:{
+                "akashictome:displayName": "Lexica Corporea",
+                "akashictome:is_morphing":1 as byte,
+                display:{
+                    Name:"§rAkashic Tome (§aLexica Corporea§r)"
+                },
+                "patchouli:book": "patchouli:craftblock_corporea_lexicon"
+            },
+        },
         astralsorcery:{
             ForgeCaps:{
                 "astralsorcery:cap_item_amulet_holder":{

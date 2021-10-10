@@ -1,0 +1,28 @@
+{
+    "name": "Corporea Interceptor",
+    "category": "patchouli:1_items",
+    "icon": "botania:corporeainterceptor",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "botania:corporeainterceptor",
+            "text": "The &1Corporea Interceptor&0 does exactly as the name suggests, it intercepts corporea requests.<br>First and foremost, &1Item Frames&0 with items need be attached around the block, these define what items will trigger the interceptor.<br>Whenever a request is fired to the corporea network, be it    from an Index, Funnel,"
+        },
+        {
+            "type": "text",
+            "text": " etc, and there's no items in the network that can fulfil it this block will be triggered.<br>Of course, the block is only triggered if the item requested matches one of items in the &1Item Frames&0 about it.<br>When the block is triggered it'll emit a short redstone pulse. This can be used to do all sorts of things, such as craft the required item using &1Crafty Crates&0 or light up a lamp indicating that the inventory for a resource is out."
+        },
+        {
+            "type": "crafting",
+            "recipe": "botania:corporeainterceptor",
+            "title": "Crafting Recipe",
+            "text": "&oSo many automation prospects"
+        },
+        {
+            "type": "empty",
+            "draw_filler": false
+        }
+    ],
+    "read_by_default": true,
+    "sortnum": 5
+}

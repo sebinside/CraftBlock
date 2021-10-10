@@ -1,0 +1,12 @@
+{
+    "name": "SOON™️",
+    "category": "patchouli:0_overview",
+    "icon": "minecraft:fireworks",
+    "pages": [
+        {
+            "type": "empty"
+        }
+    ],
+    "read_by_default": true,
+    "sortnum": 1000
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Corporea Index",
+    "category": "patchouli:1_items",
+    "icon": "botania:corporeaindex",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "botania:corporeaindex",
+            "text": "The biggest ability of a &4Corporea Network&0 is the ability to vocally request items from it by name.<br>The &1Corporea Index&0 is an ender-crystal like block that can interface with a given &4Corporea Network&0 by having a $(l:1_items/spark)&1Corporea Spark&0$(/l) placed on top of it."
+        },
+        {
+            "type": "text",
+            "text": "Approaching the index will cause it to activate and show the radius in which it will stay activated.<br>While activated, the index will intercept any &4Chat Messages&0 sent by nearby players, taking them in as &4requests&0 and preventing them to be broadcasted to chat.<br>Items, whose name matches the request, are then requested from the network.<br>For example, writing <br>&8&o'iron ingot'&0&r will have the index look through the network for a single &1Iron Ingot&0 and"
+        },
+        {
+            "type": "text",
+            "text": "transport it towards itself, materializing it in the world.<br>Even more &4complex requests&0 are possible.<br2>To conveniently request items from your inventory (or even the &4JEI panel&0) press &4&l$(k:nei.options.keys.gui.botania_corporea_request)&0&r while hovering over it. For a full stack press &4&lSHIFT+$(k:nei.options.keys.gui.botania_corporea_request)&0&r."
+        },
+        {
+            "type": "crafting",
+            "recipe": "botania:corporeaindex",
+            "title": "Crafting Recipe",
+            "text": "&oA certain magical one at that"
+        }
+    ],
+    "read_by_default": true,
+    "sortnum": 2
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Corporea Spark",
+    "category": "patchouli:1_items",
+    "icon": "botania:corporeaspark",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "botania:corporeaspark",
+            "text": "This special spark can be placed on top of any &4Inventory&0, like a &1Chest&0 or a &1Dispenser&0 as opposed to &4Mana Containers&0.<br>When the spark is placed or polled, it will poll any &1Corporea Sparks&0 within a &815×15×15&0 area centered on the spark, adding them together to form a network if a $(l:1_items/master_spark)&1Master Corporea Spark&0$(/l) is present. "
+        },
+        {
+            "type": "text",
+            "text": "To place a Spark, right-click on a block. If right-click already has an action, shift right-click instead.<br2>When placed on an &4Inventory&0, it will &4provide access&0 to its contents to the Corporea network.<br>When placed on a &4Corporea block&0, it will allow it to &4pull&0 from the network's contents. "
+        },
+        {
+            "type": "crafting",
+            "recipe": "botania:corporeaspark_0",
+            "title": "Crafting Recipe",
+            "text": "&oA spark of ingenuity"
+        },
+        {
+            "type": "empty",
+            "draw_filler": false
+        }
+    ],
+    "read_by_default": true,
+    "sortnum": 0
+}
