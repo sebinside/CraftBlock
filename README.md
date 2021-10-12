@@ -3,7 +3,7 @@
 [![CurseForge](http://cf.way2muchnoise.eu/full_491420_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/craftblock)
 [![Curseforge](http://cf.way2muchnoise.eu/versions/Game%20Version_491420_latest.svg)](https://www.curseforge.com/minecraft/modpacks/craftblock)
 
-The official servers are avaiable [here at Nitrado](https://702.yt/nitradocraftblock)!
+The official servers are available [here at Nitrado](https://702.yt/nitradocraftblock)!
 
 This repository contains all **override files** for the [CraftBlock](https://www.curseforge.com/minecraft/modpacks/craftblock)-modpack and also the files for the [SoManyCoolAndFunnyAdvancements](https://www.curseforge.com/minecraft/mc-mods/somanycoolandfunnyadvancements)-mod.
 
@@ -18,16 +18,58 @@ Some examples for the planed progression:
 - Botania -> Astral Sorcery -> Embers
 - Hearth Well + Tinkers Construct -> TC Smeltery
 - Storage Drawers + OC + IE -> Refined Storage (without auto crafting) + OC Late Game -> Applied Energistics (with auto crafting)
-- Immersive Engineering + Embers + OpenComputers -> *Every other tech mod*
-- Unique Crops + Botania + Astral Sorcery -> *Every other magic mod*
+- Immersive Engineering + Embers + OpenComputers -> _Every other tech mod_
+- Unique Crops + Botania + Astral Sorcery -> _Every other magic mod_
 
 ## Installation
 
-To play the modpack just use CurseForge version: https://www.curseforge.com/minecraft/modpacks/craftblock. Alternatively, you can find the release zip files also in [releases](https://github.com/sebinside/CraftBlock/releases).
+To play the modpack just use CurseForge version: <https://www.curseforge.com/minecraft/modpacks/craftblock>. Alternatively, you can find the release zip files also in [releases](https://github.com/sebinside/CraftBlock/releases).
 
 This can be installed using the [CurseForge-Launcher](https://download.curseforge.com/) (bad) or [MultiMC](https://multimc.org/) (better).
 
 In order to use the current version of the **override files** or to help in development, just clone and override the files in the modpack folder afterwards.
+
+### Self-hosted server
+
+#### With [Java](https://java.com) installed on host
+
+You can find a `CraftBlock-Server-vX.Y.Z.zip` in [releases](https://github.com/sebinside/CraftBlock/releases). Extract the zip file into an empty folder.
+Execute the `startserver`-script (`.bat` on Windows / `.sh` on Unix) to set everything up and start the server on your local machine. The script will ask you to accept the EULA of Mojang.
+
+#### With [Docker](https://docker.com)
+
+`docker-compose.yml` (ensure to use the latest [release](https://github.com/sebinside/CraftBlock/releases) in `CF_SERVER_MOD`):
+
+```yml
+version: "3.9"
+
+services:
+  craftblock:
+    container_name: craftblock
+
+    image: itzg/minecraft-server:java8
+
+    stdin_open: true # docker run -i
+    tty: true # docker run -t
+
+    restart: unless-stopped
+
+    environment:
+      # EULA: "TRUE"
+      TYPE: "CURSEFORGE"
+      CF_SERVER_MOD: "https://github.com/sebinside/CraftBlock/releases/download/v1.4.0/CraftBlock-Server-v1.4.0.zip"
+
+    ports:
+      - "25565:25565"
+
+    volumes:
+      - "./data:/data:rw"
+      - "/etc/timezone:/etc/timezone:ro"
+```
+
+→ `docker-compose up`
+
+More information on the server configuration inside Docker at <https://github.com/itzg/docker-minecraft-server>.
 
 ## List of Mods
 
@@ -54,7 +96,7 @@ The modpack contains the following mods:
 - [Pam's HarvestCraft](https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft)
 - [Pam's Cookables](https://www.curseforge.com/minecraft/mc-mods/pams-cookables)
 - [Cooking for Blockheads](https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads)
-- [Quark](https://www.curseforge.com/minecraft/mc-mods/quark) 
+- [Quark](https://www.curseforge.com/minecraft/mc-mods/quark)
 - [BiblioCraft](https://www.curseforge.com/minecraft/mc-mods/bibliocraft)
 - [Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones)
 - [Akashic Tome](https://www.curseforge.com/minecraft/mc-mods/akashic-tome)
@@ -83,7 +125,7 @@ The modpack contains the following mods:
 - [More Overlays](https://www.curseforge.com/minecraft/mc-mods/more-overlays)
 - [Mouse Tweaks](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)
 - [ReAuth](https://www.curseforge.com/minecraft/mc-mods/reauth)
-- [AppleSkin](https://www.curseforge.com/minecraft/mc-mods/appleskin) 
+- [AppleSkin](https://www.curseforge.com/minecraft/mc-mods/appleskin)
 - [Controlling](https://www.curseforge.com/minecraft/mc-mods/controlling)
 - [Ding](https://www.curseforge.com/minecraft/mc-mods/ding)
 - [Inventory Tweaks](https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks)
