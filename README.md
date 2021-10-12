@@ -33,7 +33,7 @@ In order to use the current version of the **override files** or to help in deve
 
 #### With [Java](https://java.com) installed on host
 
-You can find a `CraftBlock-Server-vX.Y.Z.zip` in [releases](https://github.com/sebinside/CraftBlock/releases). Extract the zip file into an empty folder.
+You can find a `CraftBlock-Server-vX.Y.Z.zip` in [releases](https://github.com/sebinside/CraftBlock/releases). Extract the zip file into an empty folder.\
 Execute the `startserver`-script (`.bat` on Windows / `.sh` on Unix) to set everything up and start the server on your local machine. The script will ask you to accept the EULA of Mojang.
 
 #### With [Docker](https://docker.com)
