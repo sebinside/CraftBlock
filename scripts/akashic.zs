@@ -116,3 +116,5 @@ val sign_head = <tconstruct:sign_head>.withTag({Material: "paper"})
 recipes.addShapeless("tome", tome, [
     sign_head, <ore:dyeBlack>, <ore:feather>, <ore:leather>
 ]);
+// Akashic Tome update recipe
+recipes.addShapeless("tome_upgrade", tome, [<akashictome:tome>]);
