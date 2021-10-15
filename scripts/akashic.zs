@@ -5,11 +5,6 @@ static tome as IItemStack = <akashictome:tome>.withTag({
     "akashictome:is_morphing":1 as byte,
     "akashictome:data":{
         tconstruct:{
-            ForgeCaps:{
-                "astralsorcery:cap_item_amulet_holder":{
-                    
-                }
-            },
             id:"tconstruct:book",
             Count:1 as byte,
             tag:{
@@ -18,12 +13,6 @@ static tome as IItemStack = <akashictome:tome>.withTag({
             Damage:0 as short
         },
         botania:{
-            ForgeCaps:{
-                "astralsorcery:cap_item_amulet_holder":{
-                    AS_Amulet_HolderLeast:-6280410276035665025 as long,
-                    AS_Amulet_HolderMost:8692028266325887782 as long
-                }
-            },
             id:"botania:lexicon",
             Count:1 as byte,
             tag:{
@@ -37,11 +26,6 @@ static tome as IItemStack = <akashictome:tome>.withTag({
             Damage:0 as short
         },
         astralsorcery:{
-            ForgeCaps:{
-                "astralsorcery:cap_item_amulet_holder":{
-                    
-                }
-            },
             id:"astralsorcery:itemjournal",
             Count:1 as byte,
             tag:{
@@ -50,11 +34,6 @@ static tome as IItemStack = <akashictome:tome>.withTag({
             Damage:0 as short
         },
         theoneprobe:{
-            ForgeCaps:{
-                "astralsorcery:cap_item_amulet_holder":{
-                    
-                }
-            },
             id:"theoneprobe:probenote",
             Count:1 as byte,
             tag:{
@@ -63,12 +42,6 @@ static tome as IItemStack = <akashictome:tome>.withTag({
             Damage:0 as short
         },
         hwell:{
-            ForgeCaps:{
-                "astralsorcery:cap_item_amulet_holder":{
-                    AS_Amulet_HolderLeast:-6280410276035665025 as long,
-                    AS_Amulet_HolderMost:8692028266325887782 as long
-                }
-            },
             id:"patchouli:guide_book",
             Count:1 as byte,
             tag:{
@@ -83,12 +56,6 @@ static tome as IItemStack = <akashictome:tome>.withTag({
             Damage:0 as short
         },
         uniquecrops:{
-            ForgeCaps:{
-                "astralsorcery:cap_item_amulet_holder":{
-                    AS_Amulet_HolderLeast:-6280410276035665025 as long,
-                    AS_Amulet_HolderMost:8692028266325887782 as long
-                }
-            },
             id:"uniquecrops:generic",
             Count:1 as byte,
             tag:{
@@ -103,12 +70,6 @@ static tome as IItemStack = <akashictome:tome>.withTag({
             Damage:0 as short
         },
         immersiveengineering:{
-            ForgeCaps:{
-                "astralsorcery:cap_item_amulet_holder":{
-                    AS_Amulet_HolderLeast:-6280410276035665025 as long,
-                    AS_Amulet_HolderMost:8692028266325887782 as long
-                }
-            },
             id:"immersiveengineering:tool",
             Count:1 as byte,
             tag:{
@@ -130,12 +91,6 @@ static tome as IItemStack = <akashictome:tome>.withTag({
             Damage:4 as short
         },
         embers:{
-            ForgeCaps:{
-                "astralsorcery:cap_item_amulet_holder":{
-                    AS_Amulet_HolderLeast:-6280410276035665025 as long,
-                    AS_Amulet_HolderMost:8692028266325887782 as long
-                }
-            },
             id:"embers:codex",
             Count:1 as byte,
             tag:{
