@@ -19,3 +19,8 @@ val manasteelTools = [
 for tool in manasteelTools {
   tool.maxDamage = 30;
 }
+
+// Bowl of Water Hint
+mods.jei.JEI.addDescription(<minecraft:bucket>, [
+    "Use the wooden bowl to take a sip of water..."
+]);
