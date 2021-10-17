@@ -71,3 +71,10 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:storage:4>, [
 	[<botania:dye:5>, <botania:manaresource:4>, <botania:manaresource:7>, <minecraft:gold_ingot>, <minecraft:iron_ingot>, <harvestcraft:currypowderitem>, <quark:root_dye:2>], 
 	[<botania:dye:4>, <botania:dye:3>, <botania:dye:2>, <botania:dye:1>, <botania:dye>, <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust>]
 ]);
+
+//Handheld Advanced Crafting
+recipes.remove(<extendedcrafting:handheld_table>);
+recipes.addShaped("extendedcrafting_handheld_table", <extendedcrafting:handheld_table>, [
+	[null, <extendedcrafting:table_advanced>], 
+	[<ore:stickWood>, null]
+]);
