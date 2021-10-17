@@ -21,6 +21,8 @@
 !resources/contenttweaker/**/**
 !resources/waystones
 !resources/waystones/**
+!resources/minecraft
+!resources/minecraft/**
 
 # except changed config files (add manually)
 !config
