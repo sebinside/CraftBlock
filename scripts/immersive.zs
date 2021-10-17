@@ -1,4 +1,5 @@
 import scripts._base.disable;
+import crafttweaker.item.IItemStack;
 
 // Make hammer require plates
 recipes.remove(<immersiveengineering:tool>);
@@ -76,22 +77,30 @@ recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "components"
 recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "molds"}));
 recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "bullet"}));
 
+val immersive_manual = <immersiveengineering:tool:3>.withTag({
+    "akashictome:displayName": "Engineer's Manual",
+    "akashictome:definedMod": "immersiveengineering",
+    "akashictome:is_morphing": 1 as byte,
+    display: {
+        Name: "§rAkashic Tome (§aEngineer's Manual§r)"
+    }
+}) as IItemStack;
 mods.astralsorcery.Altar.addAttunementAltarRecipe("blueprint1", <immersiveengineering:blueprint>.withTag({blueprint: "components"}), 500, 300, [
-    <immersiveengineering:tool:3>, <bibliocraft:maptool>, <bibliocraft:biblioglasses>,
+    immersive_manual, <bibliocraft:maptool>, <bibliocraft:biblioglasses>,
     <minecraft:dye:0>, <ore:dustLapis>, <uniquecrops:generic:12>,
     <astralsorcery:itemcraftingcomponent:5>, <astralsorcery:itemcraftingcomponent:5>, <astralsorcery:itemcraftingcomponent:5>,
     <ore:plateSteel>, <immersiveengineering:wirecoil:5>, <minecraft:crafting_table>, <immersiveengineering:tool:0>
 ]);
 
 mods.astralsorcery.Altar.addAttunementAltarRecipe("blueprint2", <immersiveengineering:blueprint>.withTag({blueprint: "molds"}), 500, 300, [
-    <immersiveengineering:tool:3>, <bibliocraft:maptool>, <bibliocraft:biblioglasses>,
+    immersive_manual, <bibliocraft:maptool>, <bibliocraft:biblioglasses>,
     <minecraft:dye:0>, <ore:dustLapis>, <uniquecrops:generic:12>,
     <astralsorcery:itemcraftingcomponent:5>, <astralsorcery:itemcraftingcomponent:5>, <astralsorcery:itemcraftingcomponent:5>,
     <harvestcraft:espressoitem>, <minecraft:stone_pressure_plate>, <hwell:crushing_block>, <ore:craftingPiston>
 ]);
 
 mods.astralsorcery.Altar.addAttunementAltarRecipe("blueprint3", <immersiveengineering:blueprint>.withTag({blueprint: "bullet"}), 500, 300, [
-    <immersiveengineering:tool:3>, <bibliocraft:maptool>, <bibliocraft:biblioglasses>,
+    immersive_manual, <bibliocraft:maptool>, <bibliocraft:biblioglasses>,
     <minecraft:dye:0>, <ore:dustLapis>, <uniquecrops:generic:12>,
     <astralsorcery:itemcraftingcomponent:5>, <astralsorcery:itemcraftingcomponent:5>, <astralsorcery:itemcraftingcomponent:5>,
     <minecraft:spectral_arrow>, <minecraft:magma_cream>, <minecraft:dispenser>, <minecraft:tnt>
