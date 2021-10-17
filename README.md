@@ -103,6 +103,7 @@ The modpack contains the following mods:
 - [Hats](https://www.curseforge.com/minecraft/mc-mods/hats)
 - [Hat Stand](https://www.curseforge.com/minecraft/mc-mods/hat-stand)
 - [Morph-o-Tool](https://www.curseforge.com/minecraft/mc-mods/morph-o-tool)
+- [GraveStone Mod](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod)
 
 ### Utility Mods
 
