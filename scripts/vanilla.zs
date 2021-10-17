@@ -118,3 +118,11 @@ for i in 0 to 16 {
     mods.botania.ManaInfusion.addAlchemy(<minecraft:glass_pane>, <minecraft:stained_glass_pane>.withDamage(i), 50);
     mods.botania.ManaInfusion.addAlchemy(<minecraft:glass>, <minecraft:stained_glass>.withDamage(i), 50);
 }
+
+// Harder recipe for the Enchantment Table
+recipes.remove(<minecraft:enchanting_table>);
+recipes.addShaped("enchantment_table", <minecraft:enchanting_table>,[
+    [null, <akashictome:tome>, null], 
+	[<tconstruct:materials:16>, <ore:obsidian>, <tconstruct:materials:16>], 
+	[<ore:obsidian>, <tconstruct:materials:14>, <ore:obsidian>]
+]);
