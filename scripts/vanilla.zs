@@ -129,3 +129,6 @@ recipes.addShaped("enchantment_table", <minecraft:enchanting_table>,[
 	[<tconstruct:materials:16>, <ore:obsidian>, <tconstruct:materials:16>], 
 	[<ore:obsidian>, <tconstruct:materials:14>, <ore:obsidian>]
 ]);
+
+//octopus ink
+recipes.addShapeless("ink", <minecraft:dye>, [<ore:foodOctopusraw>, <ore:sword>.transformDamage(10)]);
