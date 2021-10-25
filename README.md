@@ -62,7 +62,7 @@ services:
     environment:
       # EULA: "TRUE"
       TYPE: "CURSEFORGE"
-      CF_SERVER_MOD: "https://github.com/sebinside/CraftBlock/releases/download/v1.4.0/CraftBlock-Server-v1.4.0.zip"
+      CF_SERVER_MOD: "https://github.com/sebinside/CraftBlock/releases/download/v1.5.0/CraftBlock-Server-v1.5.0.zip"
 
     ports:
       - "25565:25565"
