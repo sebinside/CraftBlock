@@ -1,3 +1,8 @@
+<p align="center">
+  <img src = "CB370.png"/>
+</p>
+
+
 # CraftBlock
 
 [![CurseForge](http://cf.way2muchnoise.eu/full_491420_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/craftblock)
