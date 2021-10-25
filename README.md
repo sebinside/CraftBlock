@@ -1,5 +1,5 @@
 <p align="center">
-  <img src = "CB370.png"/>
+  <img src = "CB250.png"/>
 </p>
 
 
