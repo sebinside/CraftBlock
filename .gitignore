@@ -23,6 +23,8 @@
 !resources/waystones/**
 !resources/patchouli
 !resources/patchouli/**
+!resources/minecraft
+!resources/minecraft/**
 
 # except changed config files (add manually)
 !config
