@@ -14,7 +14,7 @@
         },
         {
             "type": "crafting",
-            "recipe": "botania:corporeaspark_0",
+            "recipe": "crafttweaker:corporeaspark_0",
             "title": "Crafting Recipe",
             "text": "&oA spark of ingenuity"
         },

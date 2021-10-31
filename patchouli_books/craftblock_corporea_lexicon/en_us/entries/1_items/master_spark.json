@@ -10,7 +10,7 @@
         },
         {
             "type": "crafting",
-            "recipe": "botania:corporeaspark_1",
+            "recipe": "crafttweaker:corporeaspark_1",
             "title": "Crafting Recipe",
             "text": "&oLove-coloured"
         }

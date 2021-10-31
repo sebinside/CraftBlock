@@ -18,7 +18,7 @@
         },
         {
             "type": "crafting",
-            "recipe": "botania:corporeaindex",
+            "recipe": "crafttweaker:corporeaindex",
             "title": "Crafting Recipe",
             "text": "&oA certain magical one at that"
         }
