@@ -132,3 +132,9 @@ recipes.addShaped("enchantment_table", <minecraft:enchanting_table>,[
 
 //octopus ink
 recipes.addShapeless("ink", <minecraft:dye>, [<ore:foodOctopusraw>, <ore:sword>.transformDamage(10)]);
+
+// Add description for music discs
+moretweaker.jei.MoreJei.addDescription(<ore:record>, ["Obtained from Musical Plant crops."]);
+
+// Add note to nether star
+moretweaker.jei.MoreJei.addDescription(<minecraft:nether_star>, ["Kill a Wither.", "Come on, it's really not hard, right?"]);
