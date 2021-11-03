@@ -5,6 +5,9 @@ import crafttweaker.item.IItemStack;
 moretweaker.cfb.KitchenAppliances.addToasterRecipe(<embers:dust_ash>, <ore:foodToast>);
 moretweaker.jei.MoreJei.addDescription(<embers:dust_ash>, ["Ever wondered what happens if you toast a toast?"]);
 
+// Add description for alchemical waste
+moretweaker.jei.MoreJei.addDescription(<embers:alchemic_waste>, ["If you fail an Embers alchemy recipe, this is the result."]);
+
 // Remove embers' electrum
 val electrumItems = [
     <embers:ingot_electrum>,
