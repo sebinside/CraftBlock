@@ -17,8 +17,17 @@ recipes.addShaped("extendedcrafting_table_advanced", <extendedcrafting:table_adv
     [null, <embers:ashen_stone>, null]
 ]);
 
-// Remove Tier 3 and 4 crafting recipes just for now
+// New elite crafting table recipe
 recipes.remove(<extendedcrafting:table_elite>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:table_elite>, [
+	[<quark:duskbound_lantern>, <ore:blockBlackIron>, <refinedstorage:machine_casing>, <ore:blockBlackIron>, <quark:duskbound_lantern>], 
+	[<ore:blockBlackIron>, <botania:lens:8>, <waystones:warp_stone>, <astralsorcery:itemcoloredlens:5>, <ore:blockBlackIron>], 
+	[<embers:caster_orb>, <uniquecrops:vampiric_ointment>, <minecraft:beacon>, <ore:record>, <embers:codex>], 
+	[<ore:blockBlackIron>, <embers:dawnstone_anvil>, <embers:alchemic_waste>, <refinedstorage:storage_part:2>, <ore:blockBlackIron>], 
+	[<quark:duskbound_lantern>, <ore:blockBlackIron>, <refinedstorage:machine_casing>, <ore:blockBlackIron>, <quark:duskbound_lantern>]
+]);
+
+// Remove Tier 4 crafting recipe just for now
 recipes.remove(<extendedcrafting:table_ultimate>);
 
 // Way better luminessence recipe
