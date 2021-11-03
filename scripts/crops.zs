@@ -2,6 +2,9 @@
 recipes.remove(<uniquecrops:seedartisia>);
 mods.botania.Apothecary.addRecipe(<uniquecrops:seedartisia>, [<uniquecrops:seednormal>, <uniquecrops:seednormal>, <uniquecrops:seednormal>, <uniquecrops:seednormal>, <minecraft:crafting_table>]);
 
+// Add description for vampiric ointment
+moretweaker.jei.MoreJei.addDescription(<uniquecrops:vampiric_ointment>, ["Obtained from Succo plants."]);
+
 // Add note to essence
 moretweaker.jei.MoreJei.addDescription(<uniquecrops:generic:9>, ["Dropped from Feroxia crops."]);
 
