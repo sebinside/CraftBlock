@@ -24,3 +24,11 @@ for tool in manasteelTools {
 mods.jei.JEI.addDescription(<minecraft:bucket>, [
     "Use the wooden bowl to take a sip of water..."
 ]);
+
+//Like Handheld Advanced Crafting but for the Assembly Halo
+recipes.remove(<botania:craftinghalo>);
+recipes.addShaped("extendedcrafting_craftinghalo", <botania:craftinghalo>, [
+	[null, <ore:manaPearl>, null], 
+	[<ore:ingotManasteel>, <extendedcrafting:table_advanced>, <ore:ingotManasteel>],
+  [null, <ore:ingotManasteel>, null]
+]);
