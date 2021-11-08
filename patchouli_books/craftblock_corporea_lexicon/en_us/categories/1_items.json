@@ -1,6 +1,6 @@
 {
     "name": "Items",
     "description": "These elements are at the heart of any Corporea network:",
-    "icon": "botania:corporeaspark:1",
+    "icon": "botania:corporeacrystalcube",
     "sortnum": 1
 }

@@ -6,7 +6,7 @@
         {
             "type": "spotlight",
             "item": "botania:corporeacrystalcube",
-            "text": "Since it is a crystal cube and not a crystal ball, it does not show the future, but the present.<br>The &1Corporea Crystal Cube&0 acts as a visual medium to interact ith one's &4Corporea Network&0."
+            "text": "Since it is a crystal cube and not a crystal ball, it does not show the future, but the present.<br>The &1Corporea Crystal Cube&0 acts as a visual medium to interact with one's &4Corporea Network&0."
         },
         {
             "type": "text",
@@ -24,5 +24,5 @@
         }
     ],
     "read_by_default": true,
-    "sortnum": 3
+    "sortnum": 13
 }
