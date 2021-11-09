@@ -1,7 +1,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import crafttweaker.data.IData;
 
-static tome as IItemStack = <akashictome:tome>.withTag({
+static tome_nbt as IData = {
     "akashictome:is_morphing":1 as byte,
     "akashictome:data":{
         tconstruct:{
@@ -104,7 +105,10 @@ static tome as IItemStack = <akashictome:tome>.withTag({
             Damage:0 as short
         }
     }
-});
+};
+
+//static variable tome can be used by other scripts using scripts.akashic.tome
+static tome as IItemStack = <akashictome:tome>.withTag(tome_nbt);
 
 // Akashic Tome easy recipe
 recipes.remove(<akashictome:tome>);
@@ -116,5 +120,11 @@ val sign_head = <tconstruct:sign_head>.withTag({Material: "paper"})
 recipes.addShapeless("tome", tome, [
     sign_head, <ore:dyeBlack>, <ore:feather>, <ore:leather>
 ]);
+
 // Akashic Tome update recipe
-recipes.addShapeless("tome_upgrade", tome, [<akashictome:tome>]);
+recipes.addShapeless("tome_upgrade", tome, [<akashictome:tome>.marked("tome")],
+    //recipe function combining the old and the new nbt tags as output
+    function(output, inputs, cInfo) {
+        return <akashictome:tome>.withTag(inputs.tome.tag + tome_nbt);
+    }, null
+);
