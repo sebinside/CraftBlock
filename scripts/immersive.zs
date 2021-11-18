@@ -69,7 +69,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:wooden_de
     [null, null, <minecraft:carpet:0>, <minecraft:carpet:11>, <minecraft:carpet:0>], 
     [<minecraft:anvil:2>, <immersiveengineering:toolbox>, <astralsorcery:itemlinkingtool>, <minecraft:carpet:0>, <minecraft:carpet:11>], 
     [<ore:slabTreatedWood>, <ore:slabTreatedWood>, <ore:slabTreatedWood>, <ore:slabTreatedWood>, <ore:slabTreatedWood>], 
-    [<storagedrawers:basicdrawers:2>, <quark:gold_button>, null, null, <ore:fenceTreatedWood>]
+    [<storagedrawerskappa:basicdrawers_immersiveengineering_treated_wood:2>, <quark:gold_button>, null, null, <ore:fenceTreatedWood>]
 ]);
 
 // new blueprints
