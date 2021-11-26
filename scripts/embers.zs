@@ -1,5 +1,7 @@
 import scripts._base.disable;
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IItemTransformer;
+import crafttweaker.oredict.IOreDict;
 
 // Add easier ash pile recipe
 moretweaker.cfb.KitchenAppliances.addToasterRecipe(<embers:dust_ash>, <ore:foodToast>);
@@ -128,4 +130,33 @@ val tools = [
 for item in tools {
     mods.embers.DawnstoneAnvil.blacklistRepair(item);
     disable(item);
+}
+
+//Morphing Tool makes plates
+val hammer = <embers:tinker_hammer>.reuse();
+val metals = [
+    "copper", 
+    "lead", 
+    "silver", 
+    "dawnstone", 
+    "iron", 
+    "gold", 
+    "aluminum",
+    "bronze", 
+    "nickel", 
+    "tin"
+] as string[];
+
+for metal in metals {
+    val result = itemUtils.getItem("embers:plate_"+metal);
+    val ingot = oreDict.get("ingot"+ metal.substring(0,1).toUpperCase() + metal.substring(1));
+    if (metal == "aluminum") {
+        val ingot = ingot | <ore:ingotAluminium>;
+    }
+
+    print(metal);
+    recipes.removeByRecipeName(metal == "iron" || metal == "gold" ? "embers:plate_"+metal : "embers:ingot"+metal+"_plate");
+    recipes.addShapeless(metal+"plate", result, [
+        ingot, ingot, hammer
+    ]);
 }
