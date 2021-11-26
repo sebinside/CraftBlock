@@ -1,0 +1,22 @@
+{
+    "parent": "craftblock_advancements:orechid",
+    "display": {
+        "icon": {
+            "item": "botania:corporeaindex"
+        },
+        "title": "Talking with blocks",
+        "description": "Could you hand over the dirt, please"
+    },
+    "criteria": {
+        "item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "botania:corporeaindex"
+                    }
+                ]
+            }
+        }
+    }
+}

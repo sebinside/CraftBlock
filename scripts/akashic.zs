@@ -26,6 +26,18 @@ static tome_nbt as IData = {
             },
             Damage:0 as short
         },
+        patchouli:{
+            id:"patchouli:guide_book",
+            Count:1 as byte,
+            tag:{
+                "akashictome:displayName": "Lexica Corporea",
+                "akashictome:is_morphing":1 as byte,
+                display:{
+                    Name:"§rAkashic Tome (§aLexica Corporea§r)"
+                },
+                "patchouli:book": "patchouli:craftblock_corporea_lexicon"
+            },
+        },
         astralsorcery:{
             id:"astralsorcery:itemjournal",
             Count:1 as byte,
