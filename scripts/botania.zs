@@ -25,6 +25,19 @@ mods.jei.JEI.addDescription(<minecraft:bucket>, [
     "Use the wooden bowl to take a sip of water..."
 ]);
 
+
+// "Easier" Gourmaryllis recipe
+mods.botania.Apothecary.removeRecipe("gourmaryllis");
+mods.botania.Apothecary.addRecipe("gourmaryllis", [
+    <ore:petalLightGray>,
+    <ore:petalLightGray>,
+    <ore:petalYellow>,
+    <ore:petalYellow>,
+    <ore:petalRed>,
+    <ore:foodGourmetburger>,
+    <ore:runeSummerB>
+]);
+    
 //Corporea Network
 recipes.remove(<botania:corporeaspark:*>);
 recipes.addShapeless("corporeaspark_0", <botania:corporeaspark:0>, [

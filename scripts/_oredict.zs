@@ -24,3 +24,10 @@ import crafttweaker.item.IItemStack;
     <tconstruct:rapier:*>,
     <tconstruct:cleaver:*>
 ]);
+// pams harvestcraft gourmet burgers
+<ore:foodGourmetburger>.addItems([
+    <harvestcraft:gourmetporkburgeritem:*>,
+    <harvestcraft:gourmetmuttonburgeritem:*>,
+    <harvestcraft:gourmetbeefburgeritem:*>,
+    <harvestcraft:gourmetvenisonburgeritem:*>
+]);
