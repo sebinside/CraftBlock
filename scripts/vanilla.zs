@@ -132,3 +132,10 @@ recipes.addShaped("enchantment_table", <minecraft:enchanting_table>,[
 
 //octopus ink
 recipes.addShapeless("ink", <minecraft:dye>, [<ore:foodOctopusraw>, <ore:sword>.transformDamage(10)]);
+
+//coarse dirt override vanilla recipe
+recipes.remove(<minecraft:dirt:1>);
+recipes.addShaped("coarse_dirt", <minecraft:dirt:1> * 2, [
+    [<minecraft:dirt:0>, <hwell:dust>],
+    [<hwell:dust>, <minecraft:dirt:0>]
+]);

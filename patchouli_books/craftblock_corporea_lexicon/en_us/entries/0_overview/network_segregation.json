@@ -1,0 +1,19 @@
+{
+    "name": "Network segregation",
+    "category": "patchouli:0_overview",
+    "icon": "minecraft:paper",
+    "pages": [
+        {
+            "type": "text",
+            "title": "Network segregation",
+            "text": "If you want two separated corporea networks close to each other, you need a way to segregate them. <br2>This can be done by dying the sparks using &1Floral Powder&0."
+        },
+        {
+            "type": "image",
+            "images": ["patchouli:textures/images/network_segregation.png"],
+            "border": true
+        }
+    ],
+    "read_by_default": true,
+    "sortnum": 3
+}

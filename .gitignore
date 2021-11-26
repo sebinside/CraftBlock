@@ -21,6 +21,8 @@
 !resources/contenttweaker/**/**
 !resources/waystones
 !resources/waystones/**
+!resources/patchouli
+!resources/patchouli/**
 !resources/minecraft
 !resources/minecraft/**
 
@@ -45,6 +47,10 @@
 !config/harvestcraft.cfg
 !config/quark.cfg
 !config/morphtool.cfg
+
+# Patchouli books folder
+!patchouli_books
+!patchouli_books/**
 
 # advancements folder
 !advancements
