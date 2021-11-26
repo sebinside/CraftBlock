@@ -25,10 +25,46 @@ mods.jei.JEI.addDescription(<minecraft:bucket>, [
     "Use the wooden bowl to take a sip of water..."
 ]);
 
+
 //Like Handheld Advanced Crafting but for the Assembly Halo
 recipes.remove(<botania:craftinghalo>);
 recipes.addShaped("extendedcrafting_craftinghalo", <botania:craftinghalo>, [
 	[null, <ore:manaPearl>, null], 
 	[<ore:ingotManasteel>, <extendedcrafting:table_advanced>, <ore:ingotManasteel>],
   [null, <ore:ingotManasteel>, null]
+]);
+
+// "Easier" Gourmaryllis recipe
+mods.botania.Apothecary.removeRecipe("gourmaryllis");
+mods.botania.Apothecary.addRecipe("gourmaryllis", [
+    <ore:petalLightGray>,
+    <ore:petalLightGray>,
+    <ore:petalYellow>,
+    <ore:petalYellow>,
+    <ore:petalRed>,
+    <ore:foodGourmetburger>,
+    <ore:runeSummerB>
+]);
+    
+//Corporea Network
+recipes.remove(<botania:corporeaspark:*>);
+recipes.addShapeless("corporeaspark_0", <botania:corporeaspark:0>, [
+  <botania:spark>, <ore:runeManaB>, <hwell:shard_h>, <uniquecrops:dyedbonemeal:13>
+]);
+recipes.addShaped("corporeaspark_1", <botania:corporeaspark:1>, [
+	[<ore:ingotAsul>, <ore:gemLapis>, <ore:ingotAsul>], 
+	[<ore:gemLapis>, <botania:corporeaspark:0>, <ore:gemLapis>], 
+	[<ore:ingotAsul>, <ore:gemLapis>, <ore:ingotAsul>]
+]);
+recipes.remove(<botania:corporeaindex>);
+recipes.addShaped("corporeaindex", <botania:corporeaindex>, [
+	[<botania:corporeaspark:0>, <tconstruct:large_plate>.withTag({Material: "obsidian"}), <ore:blockGlassColorless>], 
+	[<hwell:raw_asul_block>, <storagedrawers:controller>, <hwell:raw_asul_block>], 
+	[<ore:blockGlassColorless>, <botania:corporeacrystalcube>, <botania:corporeaspark:0>]
+]);
+recipes.remove(<botania:corporeacrystalcube>);
+recipes.addShaped("corporeacrystalcube", <botania:corporeacrystalcube>, [
+	[<botania:corporeaspark:0>], 
+	[<ore:blockHearthWellCrystal>], 
+	[<minecraft:carpet:9>]
 ]);

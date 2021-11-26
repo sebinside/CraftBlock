@@ -1,0 +1,20 @@
+{
+    "name": "A simple network",
+    "category": "patchouli:0_overview",
+    "icon": "minecraft:paper",
+    "pages": [
+        {
+            "type": "text",
+            "title": "A simple network",
+            "text": "To define a new network place a $(l:1_items/master_spark)&1Master Corporea Spark&0$(/l) on top of an empty inventory. <br>This inventory will not be accessible from the network. <br2>Next add inventories to the network by placing $(l:1_items/spark)&5Corporea Sparks&0$(/l) on them. <br2>The maximum range between sparks is &415 blocks&0."
+        },
+        {
+            "type": "image",
+            "images": ["patchouli:textures/images/simple_network.png"],
+            "text": "To visualize the network, right click a spark with your &1Wand of the Forest&0.",
+            "border": true
+        }
+    ],
+    "read_by_default": true,
+    "sortnum": 0
+}

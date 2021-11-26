@@ -1,0 +1,17 @@
+{
+    "name": "Credits",
+    "category": "patchouli:9_appendix",
+    "icon": "minecraft:feather",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Lexica Corporea by &9ung3froren&r$(br2)Textures & Sounds from $(l:https://github.com/VazkiiMods/Botania)&9Botania&r$(/l) by Vazkii (modified)$(br2)Content based on &9Lexica Botania&r & $(l:https://ftb.fandom.com/wiki/)&9FTB Wiki&r$(/l)$(br)"
+        },
+        {
+            "type": "empty",
+            "draw_filler": false
+        }
+    ],
+    "read_by_default": true,
+    "sortnum": 99
+}
