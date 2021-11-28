@@ -70,3 +70,6 @@ mods.astralsorcery.Altar.addConstellationAltarRecipe("mypackname:shaped/internal
     <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>,
     <astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>
 ]);
+
+//disable overpowered perks
+mods.astralsorcery.PerkTree.disablePerk("astralsorcery:key_mantle_flight");
