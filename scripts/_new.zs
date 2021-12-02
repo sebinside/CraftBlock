@@ -12,3 +12,9 @@ kappa.register();
 // Morphing Rod
 val morph = VanillaFactory.createItem("morph_rod");
 morph.register();
+
+// Extended Crafting Table Base
+val table_base = VanillaFactory.createBlock("elite_table_base", <blockmaterial:iron>);
+table_base.fullBlock = false;
+table_base.blockLayer = "CUTOUT";
+table_base.register();
