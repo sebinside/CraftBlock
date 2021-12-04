@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "0": "contenttweaker:blocks/storage_black_iron",
+      "0": "extendedcrafting:blocks/storage_black_iron",
       "1": "contenttweaker:blocks/table_base_top",
       "2": "contenttweaker:blocks/table_base_side",
-      "particle": "contenttweaker:blocks/storage_black_iron"
+      "particle": "extendedcrafting:blocks/storage_black_iron"
     },
     "model": "contenttweaker:elite_table_base",
     "uvlock": true,
