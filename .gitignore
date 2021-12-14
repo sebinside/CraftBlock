@@ -28,6 +28,8 @@
 
 # except changed config files (add manually)
 !config
+!config/AppliedEnergistics2
+!config/AppliedEnergistics2/AppliedEnergistics2.cfg
 !config/blur.cfg
 !config/hwell.cfg
 #!config/splash.properties
