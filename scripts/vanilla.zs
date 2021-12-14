@@ -90,6 +90,14 @@ recipes.addShaped("hopper", <minecraft:hopper>,[
 	[null, <ore:ingotManasteel>, null]
 ]);
 
+// special piston offer
+recipes.remove(<minecraft:piston>);
+recipes.addShaped("piston", <minecraft:piston> * 2, [
+	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], 
+	[<ore:cobblestone>, <ore:gearIron>, <ore:cobblestone>], 
+	[<ore:cobblestone>, <ore:powderMana>, <ore:cobblestone>]
+]);
+
 // More wood
 recipes.addShapeless("wood0", <minecraft:planks:0> * 7, [<bibliocraft:framingsaw>, <minecraft:log:0>]);
 recipes.addShapeless("wood1", <minecraft:planks:1> * 7, [<bibliocraft:framingsaw>, <minecraft:log:1>]);
