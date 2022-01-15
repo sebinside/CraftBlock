@@ -1,5 +1,9 @@
 import crafttweaker.oredict.IOreDict;
 
+//More interesting cake transmutation
+mods.astralsorcery.LightTransmutation.removeTransmutation(<minecraft:cake>, false);
+mods.astralsorcery.LightTransmutation.addTransmutation(<minecraft:pumpkin>, <harvestcraft:pumpkincheesecake>, 1000.0);
+
 // Base metals are available via garden of glass
 mods.botania.Orechid.addOre(<ore:oreAquamarine>, 3000);
 
