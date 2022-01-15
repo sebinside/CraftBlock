@@ -159,9 +159,9 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/alta
     <contenttweaker:nether_star_shard>, <astralsorcery:itemcelestialcrystal>, <contenttweaker:nether_star_shard>,
     null, null, null, null, null, null, null, null, null, null, null, null,
     <contenttweaker:nether_star_shard>, <contenttweaker:nether_star_shard>, 
-    <contenttweaker:nether_star_shard>, <contenttweaker:nether_star_shard>
+    <contenttweaker:nether_star_shard>, <contenttweaker:nether_star_shard>,
     //Outer Items, indices 25+
-
+    <quark:soul_powder>, <ore:rodBlaze>, <minecraft:ghast_tear>, <ore:boneWithered>, <minecraft:magma_cream>
 ], "astralsorcery.constellation.lucerna");
 <entity:minecraft:wither>.removeDrop(<minecraft:nether_star>);
 <entity:minecraft:wither>.addDrop(<contenttweaker:nether_star_shard>, 9, 12);
