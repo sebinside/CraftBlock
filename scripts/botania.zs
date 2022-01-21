@@ -68,3 +68,42 @@ recipes.addShaped("corporeacrystalcube", <botania:corporeacrystalcube>, [
 	[<ore:blockHearthWellCrystal>], 
 	[<minecraft:carpet:9>]
 ]);
+
+//Natura Pylons
+recipes.remove(<botania:pylon:1>);
+mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/altar/botania_pylon", <botania:pylon:1>, 1200, 200, [
+    null, <ore:nuggetTerrasteel>, null, 
+    <ore:nuggetTerrasteel>, <botania:pylon:0>, <ore:nuggetTerrasteel>, 
+    null, <minecraft:ender_eye>, null,
+    null, null, null, null,
+    null, null, null, null, 
+    null, null, null, null,
+    null, null, null, null
+], "astralsorcery.constellation.aevitas");
+
+//Gaia Pylons
+recipes.remove(<botania:pylon:2>);
+mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/altar/botania_pylon", <botania:pylon:2>, 2400, 200, [
+    null, <ore:elvenPixieDust>, null, 
+    <ore:ingotElvenElementium>, <botania:pylon:0>, <ore:ingotElvenElementium>, 
+    null, <ore:elvenPixieDust>, null,
+    null, null, null, null,
+    null, null, null, null, 
+    null, null, null, null,
+    null, null, null, null
+], "astralsorcery.constellation.bootes");
+
+//Glimmering livingwood
+recipes.remove(<botania:livingwood:5>);
+mods.astralsorcery.StarlightInfusion.addInfusion(<botania:livingwood:0>, <botania:livingwood:5>, false, 0.05, 200);
+mods.astralsorcery.LightTransmutation.addTransmutation(<botania:livingwood:0>, <botania:livingwood:5>, 200);
+
+//Elven Gateway
+recipes.remove(<botania:alfheimportal>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <botania:alfheimportal>, [
+	[<ore:livingwood>, <ore:livingwood>, <ore:nuggetTerrasteel>, <ore:livingwood>, <ore:livingwood>], 
+	[<botania:livingwood:3>, <ore:runeWaterB>, <ore:nuggetTerrasteel>, <ore:runeSummerB>, <botania:livingwood:3>], 
+	[<ore:livingwood>, <ore:runeEarthB>, <botania:livingwood:5>, <ore:runeEarthB>, <ore:livingwood>], 
+	[<botania:livingwood:3>, <ore:runeAutumnB>, <ore:nuggetTerrasteel>, <ore:runeManaB>, <botania:livingwood:3>], 
+	[<ore:livingwood>, <ore:livingwood>, <ore:nuggetTerrasteel>, <ore:livingwood>, <ore:livingwood>]
+]);
