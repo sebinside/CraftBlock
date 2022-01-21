@@ -22,7 +22,7 @@ Some examples for the planed progression:
 
 - Botania -> Astral Sorcery -> Embers
 - Hearth Well + Tinkers Construct -> TC Smeltery
-- Storage Drawers + OC + IE -> Refined Storage (without auto crafting) + OC Late Game -> Applied Energistics (with auto crafting)
+- Storage Drawers + OC + IE -> Refined Storage (without auto crafting) + OC Late Game -> Applied Energistics (with auto crafting, Tier 3, requires nether star)
 - Immersive Engineering + Embers + OpenComputers -> _Every other tech mod_
 - Unique Crops + Botania + Astral Sorcery -> _Every other magic mod_
 
