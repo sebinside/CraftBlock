@@ -1,0 +1,20 @@
+{
+    "name": "Requesting items",
+    "category": "patchouli:0_overview",
+    "icon": "minecraft:paper",
+    "pages": [
+        {
+            "type": "text",
+            "title": "Requesting items",
+            "text": "When standing near the $(l:1_items/index)&1Corporea Index&0$(/l) you can request items from any inventory in the network, just by typing it in chat.<br2>But there is a simpler way. While looking at your inventory, recipes or &4JEI&0, hover over an item and press <br>  • &4&l$(k:nei.options.keys.gui.botania_corporea_request)&0&r to request &41&0 item<br>  • &4&lCTRL+SHIFT+$(k:nei.options.keys.gui.botania_corporea_request)&0&r for &416&0<br>  • &4&lCTRL+$(k:nei.options.keys.gui.botania_corporea_request)&0&r for &432&0<br>  • &4&lSHIFT+$(k:nei.options.keys.gui.botania_corporea_request)&0&r for &464&0"
+        },
+        {
+            "type": "image",
+            "images": ["patchouli:textures/images/index.png"],
+            "text": "You need to place a $(l:1_items/spark)&5Corporea Spark&0$(/l) on the index to link it to a network.",
+            "border": true
+        }
+    ],
+    "read_by_default": true,
+    "sortnum": 1
+}

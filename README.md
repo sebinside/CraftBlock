@@ -22,7 +22,7 @@ Some examples for the planed progression:
 
 - Botania -> Astral Sorcery -> Embers
 - Hearth Well + Tinkers Construct -> TC Smeltery
-- Storage Drawers + OC + IE -> Refined Storage (without auto crafting) + OC Late Game -> Applied Energistics (with auto crafting)
+- Storage Drawers + OC + IE -> Refined Storage (without auto crafting) + OC Late Game -> Applied Energistics (with auto crafting, Tier 3, requires nether star)
 - Immersive Engineering + Embers + OpenComputers -> _Every other tech mod_
 - Unique Crops + Botania + Astral Sorcery -> _Every other magic mod_
 
@@ -62,7 +62,7 @@ services:
     environment:
       # EULA: "TRUE"
       TYPE: "CURSEFORGE"
-      CF_SERVER_MOD: "https://github.com/sebinside/CraftBlock/releases/download/v1.5.0/CraftBlock-Server-v1.5.0.zip"
+      CF_SERVER_MOD: "https://github.com/sebinside/CraftBlock/releases/download/v1.6.1/CraftBlock-Server-v1.6.1.zip"
 
     ports:
       - "25565:25565"
@@ -96,6 +96,7 @@ The modpack contains the following mods:
 
 - [Extended Crafting](https://www.curseforge.com/minecraft/mc-mods/extended-crafting)
 - [Storage Drawers](https://www.curseforge.com/minecraft/mc-mods/storage-drawers)
+- [Storage Drawers KAPPA Addon](https://www.curseforge.com/minecraft/mc-mods/storagedrawerskappa)
 - [Iron Chests](https://www.curseforge.com/minecraft/mc-mods/iron-chests)
 - [OC Sensors](https://www.curseforge.com/minecraft/mc-mods/oc-sensors)
 - [Pam's HarvestCraft](https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft)

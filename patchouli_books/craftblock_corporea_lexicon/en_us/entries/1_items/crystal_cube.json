@@ -1,0 +1,28 @@
+{
+    "name": "Corporea Crystal Cube",
+    "category": "patchouli:1_items",
+    "icon": "botania:corporeacrystalcube",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "botania:corporeacrystalcube",
+            "text": "Since it is a crystal cube and not a crystal ball, it does not show the future, but the present.<br>The &1Corporea Crystal Cube&0 acts as a visual medium to interact with one's &4Corporea Network&0."
+        },
+        {
+            "type": "text",
+            "text": "Place a $(l:1_items/spark)&1Croporea Spark&0$(/l) on top of the cube to hook it up to a network.<br>Right clicking it with any sort of item will have it monitor that item, allowing someone who's looking at it see how many exist in the network.<br>Left clicking the block will request one of that item from the network. Shift-left clicking requests a whole stack."
+        },
+        {
+            "type": "text",
+            "text": "The &1Corporea Crystal Cube&0 can be used alongside a &1Redstone Comparator&0.<br>This will output the amount of items of the type it's looking for in the system.<br>However, the growth is logarithmic, meaning that each redstone level requires twice as many items as the previous one."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:corporeacrystalcube",
+            "title": "Crafting Recipe",
+            "text": "&oI can see forever"
+        }
+    ],
+    "read_by_default": true,
+    "sortnum": 13
+}

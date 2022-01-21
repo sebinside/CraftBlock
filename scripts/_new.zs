@@ -15,7 +15,6 @@ kappa.register();
 val morph = VanillaFactory.createItem("morph_rod");
 morph.register();
 
-
 // Molten Terrasteel
 val terrasteel_l = MaterialSystem.getMaterialBuilder().setName("Terrasteel").setColor(Color.fromHex("64EF33")).build().registerPart("molten").getData();
 terrasteel_l.addDataValue("temperature", 500);
@@ -49,3 +48,11 @@ alloy_i.register();
 val alloy_b = VanillaFactory.createBlock("botanic_alloy_block", <blockmaterial:iron>);
 alloy_b.beaconBase = true;
 alloy_b.register();
+
+// Nether Star shards & core
+val star_shard = VanillaFactory.createItem("nether_star_shard");
+star_shard.glowing = true;
+star_shard.register();
+val star_core = VanillaFactory.createItem("nether_star_core");
+star_core.glowing = true;
+star_core.register();
