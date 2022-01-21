@@ -2,7 +2,11 @@ import crafttweaker.oredict.IOreDict;
 
 //More interesting cake transmutation
 mods.astralsorcery.LightTransmutation.removeTransmutation(<minecraft:cake>, false);
-mods.astralsorcery.LightTransmutation.addTransmutation(<minecraft:pumpkin>, <harvestcraft:pumpkincheesecake>, 1000.0);
+for meta in 0 to 4 {    
+    //thanks to AstralSorcery's stupid ct integration we must register it for any possible block state 
+    mods.astralsorcery.LightTransmutation.addTransmutation(<minecraft:pumpkin>.withDamage(meta), <harvestcraft:pumpkincheesecake>, 1000.0);
+    //fixme the additional recipes show up in jei with a missing texture 
+}
 
 // Base metals are available via garden of glass
 mods.botania.Orechid.addOre(<ore:oreAquamarine>, 3000);
