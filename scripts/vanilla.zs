@@ -165,3 +165,6 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/alta
 ], "astralsorcery.constellation.lucerna");
 <entity:minecraft:wither>.removeDrop(<minecraft:nether_star>);
 <entity:minecraft:wither>.addDrop(<contenttweaker:nether_star_shard>, 9, 12);
+
+// Snow ball recipe
+recipes.addShapeless("snowballs", <minecraft:snowball> * 4, [<minecraft:snow>]);
