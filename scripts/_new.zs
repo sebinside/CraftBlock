@@ -27,7 +27,7 @@ elementium_l.addDataValue("temperature", 500);
 elementium_l.addDataValue("viscosity", 8000);
 elementium_l.addDataValue("luminosity", 9);
 
-// Molten Gaia Spirit
+// Molten Gaia Spirit Ingot
 val gaia_l = MaterialSystem.getMaterialBuilder().setName("Gaia Spirit").setColor(Color.fromHex("EEEEEE")).build().registerPart("molten").getData();
 gaia_l.addDataValue("temperature", 500);
 gaia_l.addDataValue("viscosity", 8000);
@@ -48,6 +48,12 @@ alloy_i.register();
 val alloy_b = VanillaFactory.createBlock("botanic_alloy_block", <blockmaterial:iron>);
 alloy_b.beaconBase = true;
 alloy_b.register();
+
+// Extended Crafting Table Base
+val table_base = VanillaFactory.createBlock("elite_table_base", <blockmaterial:iron>);
+table_base.fullBlock = false;
+table_base.blockLayer = "CUTOUT";
+table_base.register();
 
 // Nether Star shards & core
 val star_shard = VanillaFactory.createItem("nether_star_shard");
