@@ -13,6 +13,12 @@ kappa.register();
 val morph = VanillaFactory.createItem("morph_rod");
 morph.register();
 
+// Extended Crafting Table Base
+val table_base = VanillaFactory.createBlock("elite_table_base", <blockmaterial:iron>);
+table_base.fullBlock = false;
+table_base.blockLayer = "CUTOUT";
+table_base.register();
+
 // Nether Star shards & core
 val star_shard = VanillaFactory.createItem("nether_star_shard");
 star_shard.glowing = true;
