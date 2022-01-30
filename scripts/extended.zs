@@ -17,8 +17,11 @@ recipes.addShaped("extendedcrafting_table_advanced", <extendedcrafting:table_adv
     [null, <embers:ashen_stone>, null]
 ]);
 
-// Remove Tier 3 and 4 crafting recipes just for now
+// New elite crafting table recipe
 recipes.remove(<extendedcrafting:table_elite>);
+mods.tconstruct.Casting.addBasinRecipe(<extendedcrafting:table_elite>, <contenttweaker:elite_table_base>, <liquid:botanic_alloy>, 2592, true, 1200);
+
+// Remove Tier  4 crafting recipe just for now
 recipes.remove(<extendedcrafting:table_ultimate>);
 
 // Way better luminessence recipe

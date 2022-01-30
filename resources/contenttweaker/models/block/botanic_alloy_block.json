@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "0": "contenttweaker:blocks/botanic_alloy_block"
+  }
+}
