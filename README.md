@@ -2,6 +2,9 @@
   <img src = "CB250.png"/>
 </p>
 
+<p align="center">
+  <img src = "nitrado.png"/>
+</p>
 
 # CraftBlock
 
