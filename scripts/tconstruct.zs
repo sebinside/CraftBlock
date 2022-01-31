@@ -588,3 +588,8 @@ recipes.addShaped("tconstructController", <tconstruct:smeltery_controller>, [
 	[<embers:ashen_stone>, <ore:gemHearthWellNetherCrystal>, <embers:ashen_stone>], 
 	[<ore:blockBlackIron>, <cookingforblockheads:toaster>, <ore:blockBlackIron>]
 ]);
+
+// Veri funi Necrotic Bones crafting
+mods.embers.Alchemy.add(<tconstruct:materials:17>, [<minecraft:bone>, <uniquecrops:dyedbonemeal>, <embers:ashen_cloth>, <uniquecrops:dyedbonemeal>, <embers:ashen_cloth>], {
+    "primal": 384 .. 420
+});
