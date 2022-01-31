@@ -62,3 +62,7 @@ star_shard.register();
 val star_core = VanillaFactory.createItem("nether_star_core");
 star_core.glowing = true;
 star_core.register();
+
+// Primal Aspectus
+val aspectus_primal = VanillaFactory.createItem("aspectus_primal");
+aspectus_primal.register();
