@@ -17,14 +17,7 @@
 
 # except custom resources
 !resources
-!resources/contenttweaker
-!resources/contenttweaker/**/**
-!resources/waystones
-!resources/waystones/**
-!resources/patchouli
-!resources/patchouli/**
-!resources/minecraft
-!resources/minecraft/**
+!resources/**
 
 # except changed config files (add manually)
 !config
