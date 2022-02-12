@@ -1313,5 +1313,836 @@
             }
         ], 
         "silktouch": false
+    },
+    {
+        "block": "harvestcraft:tropicalgarden:0",
+        "distrib": "0,0.0;",
+        "silktouch": false,
+        "dropsList": [
+            {
+                "itemStack": "harvestcraft:bambooshootitem:0",
+                "fortunes": {
+                    "0": 0.2188,
+                    "1": 0.2168,
+                    "2": 0.2234,
+                    "3": 0.2089
+                }
+            },
+            {
+                "itemStack": "harvestcraft:curryleafitem:0",
+                "fortunes": {
+                    "0": 0.2177,
+                    "1": 0.2186,
+                    "2": 0.2142,
+                    "3": 0.2159
+                }
+            },
+            {
+                "itemStack": "harvestcraft:grapeitem:0",
+                "fortunes": {
+                    "0": 0.2076,
+                    "1": 0.2152,
+                    "2": 0.2152,
+                    "3": 0.213
+                }
+            },
+            {
+                "itemStack": "harvestcraft:taroitem:0",
+                "fortunes": {
+                    "0": 0.2079,
+                    "1": 0.2133,
+                    "2": 0.2099,
+                    "3": 0.2116
+                }
+            },
+            {
+                "itemStack": "harvestcraft:pineappleitem:0",
+                "fortunes": {
+                    "0": 0.2168,
+                    "1": 0.2107,
+                    "2": 0.2149,
+                    "3": 0.2181
+                }
+            },
+            {
+                "itemStack": "harvestcraft:sesameseedsitem:0",
+                "fortunes": {
+                    "0": 0.2185,
+                    "1": 0.2079,
+                    "2": 0.2102,
+                    "3": 0.2138
+                }
+            },
+            {
+                "itemStack": "harvestcraft:gingeritem:0",
+                "fortunes": {
+                    "0": 0.2197,
+                    "1": 0.212,
+                    "2": 0.2131,
+                    "3": 0.222
+                }
+            },
+            {
+                "itemStack": "harvestcraft:arrowrootitem:0",
+                "fortunes": {
+                    "0": 0.2075,
+                    "1": 0.211,
+                    "2": 0.2153,
+                    "3": 0.2122
+                }
+            },
+            {
+                "itemStack": "harvestcraft:cantaloupeitem:0",
+                "fortunes": {
+                    "0": 0.2191,
+                    "1": 0.2163,
+                    "2": 0.2136,
+                    "3": 0.2104
+                }
+            },
+            {
+                "itemStack": "harvestcraft:kiwiitem:0",
+                "fortunes": {
+                    "0": 0.2152,
+                    "1": 0.2183,
+                    "2": 0.2099,
+                    "3": 0.2085
+                }
+            },
+            {
+                "itemStack": "harvestcraft:soybeanitem:0",
+                "fortunes": {
+                    "0": 0.2116,
+                    "1": 0.2146,
+                    "2": 0.2141,
+                    "3": 0.2173
+                }
+            },
+            {
+                "itemStack": "harvestcraft:eggplantitem:0",
+                "fortunes": {
+                    "0": 0.2154,
+                    "1": 0.2118,
+                    "2": 0.2115,
+                    "3": 0.216
+                }
+            },
+            {
+                "itemStack": "harvestcraft:coffeebeanitem:0",
+                "fortunes": {
+                    "0": 0.2166,
+                    "1": 0.2115,
+                    "2": 0.2166,
+                    "3": 0.2194
+                }
+            },
+            {
+                "itemStack": "harvestcraft:kenafitem:0",
+                "fortunes": {
+                    "0": 0.2076,
+                    "1": 0.222,
+                    "2": 0.2181,
+                    "3": 0.2129
+                }
+            }
+        ],
+        "dim": "Dim 0: overworld"
+    },
+    {
+        "block": "harvestcraft:aridgarden:0",
+        "distrib": "0,0.0;",
+        "silktouch": false,
+        "dropsList": [
+            {
+                "itemStack": "harvestcraft:agaveitem:0",
+                "fortunes": {
+                    "0": 0.4246,
+                    "1": 0.4198,
+                    "2": 0.4331,
+                    "3": 0.4276
+                }
+            },
+            {
+                "itemStack": "harvestcraft:sisalitem:0",
+                "fortunes": {
+                    "0": 0.4308,
+                    "1": 0.4287,
+                    "2": 0.4246,
+                    "3": 0.437
+                }
+            },
+            {
+                "itemStack": "minecraft:cactus:0",
+                "fortunes": {
+                    "0": 0.4346,
+                    "1": 0.4189,
+                    "2": 0.425,
+                    "3": 0.4341
+                }
+            },
+            {
+                "itemStack": "harvestcraft:lentilitem:0",
+                "fortunes": {
+                    "0": 0.4304,
+                    "1": 0.4384,
+                    "2": 0.4352,
+                    "3": 0.4264
+                }
+            },
+            {
+                "itemStack": "harvestcraft:cactusfruititem:0",
+                "fortunes": {
+                    "0": 0.4313,
+                    "1": 0.4243,
+                    "2": 0.4288,
+                    "3": 0.4205
+                }
+            },
+            {
+                "itemStack": "harvestcraft:cassavaitem:0",
+                "fortunes": {
+                    "0": 0.4274,
+                    "1": 0.4343,
+                    "2": 0.4268,
+                    "3": 0.4276
+                }
+            },
+            {
+                "itemStack": "harvestcraft:chickpeaitem:0",
+                "fortunes": {
+                    "0": 0.4209,
+                    "1": 0.4356,
+                    "2": 0.4265,
+                    "3": 0.4268
+                }
+            }
+        ],
+        "dim": "Dim 0: overworld"
+    },
+    {
+        "block": "harvestcraft:windygarden:0",
+        "distrib": "0,0.0;",
+        "silktouch": false,
+        "dropsList": [
+            {
+                "itemStack": "harvestcraft:parsnipitem:0",
+                "fortunes": {
+                    "0": 0.1604,
+                    "1": 0.1581,
+                    "2": 0.1531,
+                    "3": 0.1586
+                }
+            },
+            {
+                "itemStack": "harvestcraft:flaxitem:0",
+                "fortunes": {
+                    "0": 0.1586,
+                    "1": 0.1649,
+                    "2": 0.1551,
+                    "3": 0.1564
+                }
+            },
+            {
+                "itemStack": "harvestcraft:cornitem:0",
+                "fortunes": {
+                    "0": 0.1536,
+                    "1": 0.1548,
+                    "2": 0.1549,
+                    "3": 0.1548
+                }
+            },
+            {
+                "itemStack": "harvestcraft:peanutitem:0",
+                "fortunes": {
+                    "0": 0.1596,
+                    "1": 0.1611,
+                    "2": 0.1577,
+                    "3": 0.1591
+                }
+            },
+            {
+                "itemStack": "harvestcraft:strawberryitem:0",
+                "fortunes": {
+                    "0": 0.1535,
+                    "1": 0.1571,
+                    "2": 0.1553,
+                    "3": 0.1549
+                }
+            },
+            {
+                "itemStack": "harvestcraft:lettuceitem:0",
+                "fortunes": {
+                    "0": 0.1592,
+                    "1": 0.1595,
+                    "2": 0.1658,
+                    "3": 0.1602
+                }
+            },
+            {
+                "itemStack": "minecraft:wheat:0",
+                "fortunes": {
+                    "0": 0.1577,
+                    "1": 0.1554,
+                    "2": 0.1553,
+                    "3": 0.1573
+                }
+            },
+            {
+                "itemStack": "harvestcraft:wintersquashitem:0",
+                "fortunes": {
+                    "0": 0.1612,
+                    "1": 0.1499,
+                    "2": 0.1595,
+                    "3": 0.1536
+                }
+            },
+            {
+                "itemStack": "harvestcraft:cucumberitem:0",
+                "fortunes": {
+                    "0": 0.1582,
+                    "1": 0.1565,
+                    "2": 0.1611,
+                    "3": 0.1589
+                }
+            },
+            {
+                "itemStack": "harvestcraft:elderberryitem:0",
+                "fortunes": {
+                    "0": 0.1598,
+                    "1": 0.1604,
+                    "2": 0.1548,
+                    "3": 0.16
+                }
+            },
+            {
+                "itemStack": "minecraft:carrot:0",
+                "fortunes": {
+                    "0": 0.1551,
+                    "1": 0.1595,
+                    "2": 0.159,
+                    "3": 0.1579
+                }
+            },
+            {
+                "itemStack": "harvestcraft:onionitem:0",
+                "fortunes": {
+                    "0": 0.162,
+                    "1": 0.1562,
+                    "2": 0.1583,
+                    "3": 0.1613
+                }
+            },
+            {
+                "itemStack": "minecraft:potato:0",
+                "fortunes": {
+                    "0": 0.1542,
+                    "1": 0.1611,
+                    "2": 0.1626,
+                    "3": 0.1587
+                }
+            },
+            {
+                "itemStack": "harvestcraft:amaranthitem:0",
+                "fortunes": {
+                    "0": 0.1618,
+                    "1": 0.1518,
+                    "2": 0.1542,
+                    "3": 0.1556
+                }
+            },
+            {
+                "itemStack": "harvestcraft:bellpepperitem:0",
+                "fortunes": {
+                    "0": 0.1569,
+                    "1": 0.1566,
+                    "2": 0.1576,
+                    "3": 0.1606
+                }
+            },
+            {
+                "itemStack": "harvestcraft:artichokeitem:0",
+                "fortunes": {
+                    "0": 0.1586,
+                    "1": 0.154,
+                    "2": 0.1568,
+                    "3": 0.1642
+                }
+            },
+            {
+                "itemStack": "harvestcraft:chilipepperitem:0",
+                "fortunes": {
+                    "0": 0.1581,
+                    "1": 0.1624,
+                    "2": 0.1604,
+                    "3": 0.1552
+                }
+            },
+            {
+                "itemStack": "harvestcraft:mustardseedsitem:0",
+                "fortunes": {
+                    "0": 0.1516,
+                    "1": 0.1598,
+                    "2": 0.1573,
+                    "3": 0.1556
+                }
+            },
+            {
+                "itemStack": "harvestcraft:barleyitem:0",
+                "fortunes": {
+                    "0": 0.1599,
+                    "1": 0.1609,
+                    "2": 0.1612,
+                    "3": 0.1571
+                }
+            }
+        ],
+        "dim": "Dim 0: overworld"
+    },
+    {
+        "block": "harvestcraft:frostgarden:0",
+        "distrib": "0,0.0;",
+        "silktouch": false,
+        "dropsList": [
+            {
+                "itemStack": "harvestcraft:ryeitem:0",
+                "fortunes": {
+                    "0": 0.1916,
+                    "1": 0.1851,
+                    "2": 0.189,
+                    "3": 0.1869
+                }
+            },
+            {
+                "itemStack": "harvestcraft:cottonitem:0",
+                "fortunes": {
+                    "0": 0.1947,
+                    "1": 0.1907,
+                    "2": 0.1849,
+                    "3": 0.1895
+                }
+            },
+            {
+                "itemStack": "harvestcraft:spinachitem:0",
+                "fortunes": {
+                    "0": 0.1912,
+                    "1": 0.1873,
+                    "2": 0.1893,
+                    "3": 0.1848
+                }
+            },
+            {
+                "itemStack": "harvestcraft:beetitem:0",
+                "fortunes": {
+                    "0": 0.1911,
+                    "1": 0.186,
+                    "2": 0.1842,
+                    "3": 0.1879
+                }
+            },
+            {
+                "itemStack": "harvestcraft:celeryitem:0",
+                "fortunes": {
+                    "0": 0.1894,
+                    "1": 0.1873,
+                    "2": 0.1876,
+                    "3": 0.1864
+                }
+            },
+            {
+                "itemStack": "harvestcraft:rutabagaitem:0",
+                "fortunes": {
+                    "0": 0.1855,
+                    "1": 0.1925,
+                    "2": 0.1839,
+                    "3": 0.1916
+                }
+            },
+            {
+                "itemStack": "harvestcraft:raspberryitem:0",
+                "fortunes": {
+                    "0": 0.1827,
+                    "1": 0.186,
+                    "2": 0.1968,
+                    "3": 0.1871
+                }
+            },
+            {
+                "itemStack": "harvestcraft:huckleberryitem:0",
+                "fortunes": {
+                    "0": 0.1892,
+                    "1": 0.1827,
+                    "2": 0.188,
+                    "3": 0.1907
+                }
+            },
+            {
+                "itemStack": "harvestcraft:kohlrabiitem:0",
+                "fortunes": {
+                    "0": 0.1856,
+                    "1": 0.1831,
+                    "2": 0.1893,
+                    "3": 0.1892
+                }
+            },
+            {
+                "itemStack": "harvestcraft:caulifloweritem:0",
+                "fortunes": {
+                    "0": 0.1829,
+                    "1": 0.1893,
+                    "2": 0.1807,
+                    "3": 0.1905
+                }
+            },
+            {
+                "itemStack": "harvestcraft:cabbageitem:0",
+                "fortunes": {
+                    "0": 0.1853,
+                    "1": 0.188,
+                    "2": 0.1851,
+                    "3": 0.1898
+                }
+            },
+            {
+                "itemStack": "harvestcraft:quinoaitem:0",
+                "fortunes": {
+                    "0": 0.1813,
+                    "1": 0.187,
+                    "2": 0.1896,
+                    "3": 0.1902
+                }
+            },
+            {
+                "itemStack": "minecraft:air:0",
+                "fortunes": {
+                    "0": 0.0,
+                    "1": 0.0,
+                    "2": 0.0,
+                    "3": 0.0
+                }
+            },
+            {
+                "itemStack": "harvestcraft:oatsitem:0",
+                "fortunes": {
+                    "0": 0.1836,
+                    "1": 0.1932,
+                    "2": 0.1896,
+                    "3": 0.182
+                }
+            },
+            {
+                "itemStack": "harvestcraft:broccoliitem:0",
+                "fortunes": {
+                    "0": 0.1846,
+                    "1": 0.1836,
+                    "2": 0.1915,
+                    "3": 0.1824
+                }
+            },
+            {
+                "itemStack": "harvestcraft:peasitem:0",
+                "fortunes": {
+                    "0": 0.1889,
+                    "1": 0.1927,
+                    "2": 0.1826,
+                    "3": 0.1884
+                }
+            }
+        ],
+        "dim": "Dim 0: overworld"
+    },
+    {
+        "block": "harvestcraft:shadedgarden:0",
+        "distrib": "0,0.0;",
+        "silktouch": false,
+        "dropsList": [
+            {
+                "itemStack": "harvestcraft:radishitem:0",
+                "fortunes": {
+                    "0": 0.195,
+                    "1": 0.2051,
+                    "2": 0.1969,
+                    "3": 0.1916
+                }
+            },
+            {
+                "itemStack": "harvestcraft:tomatoitem:0",
+                "fortunes": {
+                    "0": 0.2057,
+                    "1": 0.2049,
+                    "2": 0.2018,
+                    "3": 0.2029
+                }
+            },
+            {
+                "itemStack": "harvestcraft:scallionitem:0",
+                "fortunes": {
+                    "0": 0.2017,
+                    "1": 0.1966,
+                    "2": 0.1982,
+                    "3": 0.1971
+                }
+            },
+            {
+                "itemStack": "harvestcraft:garlicitem:0",
+                "fortunes": {
+                    "0": 0.2017,
+                    "1": 0.1996,
+                    "2": 0.1985,
+                    "3": 0.199
+                }
+            },
+            {
+                "itemStack": "harvestcraft:rhubarbitem:0",
+                "fortunes": {
+                    "0": 0.1996,
+                    "1": 0.1936,
+                    "2": 0.1975,
+                    "3": 0.1967
+                }
+            },
+            {
+                "itemStack": "harvestcraft:turnipitem:0",
+                "fortunes": {
+                    "0": 0.1986,
+                    "1": 0.1971,
+                    "2": 0.1982,
+                    "3": 0.1965
+                }
+            },
+            {
+                "itemStack": "harvestcraft:whitemushroomitem:0",
+                "fortunes": {
+                    "0": 0.2026,
+                    "1": 0.1969,
+                    "2": 0.2062,
+                    "3": 0.1984
+                }
+            },
+            {
+                "itemStack": "harvestcraft:sweetpotatoitem:0",
+                "fortunes": {
+                    "0": 0.2005,
+                    "1": 0.1979,
+                    "2": 0.1945,
+                    "3": 0.2021
+                }
+            },
+            {
+                "itemStack": "harvestcraft:tealeafitem:0",
+                "fortunes": {
+                    "0": 0.1926,
+                    "1": 0.1967,
+                    "2": 0.2053,
+                    "3": 0.211
+                }
+            },
+            {
+                "itemStack": "harvestcraft:spiceleafitem:0",
+                "fortunes": {
+                    "0": 0.1989,
+                    "1": 0.1997,
+                    "2": 0.1953,
+                    "3": 0.1978
+                }
+            },
+            {
+                "itemStack": "harvestcraft:juteitem:0",
+                "fortunes": {
+                    "0": 0.2049,
+                    "1": 0.2016,
+                    "2": 0.207,
+                    "3": 0.2049
+                }
+            },
+            {
+                "itemStack": "harvestcraft:leekitem:0",
+                "fortunes": {
+                    "0": 0.2012,
+                    "1": 0.2044,
+                    "2": 0.1949,
+                    "3": 0.2014
+                }
+            },
+            {
+                "itemStack": "harvestcraft:beanitem:0",
+                "fortunes": {
+                    "0": 0.2027,
+                    "1": 0.2062,
+                    "2": 0.2053,
+                    "3": 0.1974
+                }
+            },
+            {
+                "itemStack": "harvestcraft:blackberryitem:0",
+                "fortunes": {
+                    "0": 0.1997,
+                    "1": 0.2001,
+                    "2": 0.1957,
+                    "3": 0.2041
+                }
+            },
+            {
+                "itemStack": "harvestcraft:zucchiniitem:0",
+                "fortunes": {
+                    "0": 0.1946,
+                    "1": 0.1996,
+                    "2": 0.2047,
+                    "3": 0.1991
+                }
+            }
+        ],
+        "dim": "Dim 0: overworld"
+    },
+    {
+        "block": "harvestcraft:soggygarden:0",
+        "distrib": "0,0.0;",
+        "silktouch": false,
+        "dropsList": [
+            {
+                "itemStack": "harvestcraft:greengrapeitem:0",
+                "fortunes": {
+                    "0": 0.1961,
+                    "1": 0.1902,
+                    "2": 0.1877,
+                    "3": 0.1923
+                }
+            },
+            {
+                "itemStack": "harvestcraft:cottonitem:0",
+                "fortunes": {
+                    "0": 0.19,
+                    "1": 0.1871,
+                    "2": 0.1847,
+                    "3": 0.181
+                }
+            },
+            {
+                "itemStack": "harvestcraft:milletitem:0",
+                "fortunes": {
+                    "0": 0.1889,
+                    "1": 0.1844,
+                    "2": 0.1815,
+                    "3": 0.1901
+                }
+            },
+            {
+                "itemStack": "harvestcraft:cranberryitem:0",
+                "fortunes": {
+                    "0": 0.1862,
+                    "1": 0.1873,
+                    "2": 0.1899,
+                    "3": 0.1898
+                }
+            },
+            {
+                "itemStack": "harvestcraft:tomatilloitem:0",
+                "fortunes": {
+                    "0": 0.1839,
+                    "1": 0.1933,
+                    "2": 0.1879,
+                    "3": 0.1874
+                }
+            },
+            {
+                "itemStack": "harvestcraft:spiceleafitem:0",
+                "fortunes": {
+                    "0": 0.1833,
+                    "1": 0.19,
+                    "2": 0.1906,
+                    "3": 0.1892
+                }
+            },
+            {
+                "itemStack": "harvestcraft:jicamaitem:0",
+                "fortunes": {
+                    "0": 0.1893,
+                    "1": 0.1887,
+                    "2": 0.1873,
+                    "3": 0.1924
+                }
+            },
+            {
+                "itemStack": "harvestcraft:seaweeditem:0",
+                "fortunes": {
+                    "0": 0.1875,
+                    "1": 0.1868,
+                    "2": 0.1848,
+                    "3": 0.1866
+                }
+            },
+            {
+                "itemStack": "harvestcraft:waterchestnutitem:0",
+                "fortunes": {
+                    "0": 0.1897,
+                    "1": 0.1875,
+                    "2": 0.1863,
+                    "3": 0.1844
+                }
+            },
+            {
+                "itemStack": "harvestcraft:okraitem:0",
+                "fortunes": {
+                    "0": 0.1922,
+                    "1": 0.1834,
+                    "2": 0.185,
+                    "3": 0.192
+                }
+            },
+            {
+                "itemStack": "harvestcraft:blueberryitem:0",
+                "fortunes": {
+                    "0": 0.1889,
+                    "1": 0.1847,
+                    "2": 0.1853,
+                    "3": 0.1896
+                }
+            },
+            {
+                "itemStack": "harvestcraft:mulberryitem:0",
+                "fortunes": {
+                    "0": 0.1885,
+                    "1": 0.189,
+                    "2": 0.1907,
+                    "3": 0.1812
+                }
+            },
+            {
+                "itemStack": "harvestcraft:riceitem:0",
+                "fortunes": {
+                    "0": 0.1834,
+                    "1": 0.1802,
+                    "2": 0.1885,
+                    "3": 0.1827
+                }
+            },
+            {
+                "itemStack": "harvestcraft:kaleitem:0",
+                "fortunes": {
+                    "0": 0.1849,
+                    "1": 0.1937,
+                    "2": 0.185,
+                    "3": 0.1878
+                }
+            },
+            {
+                "itemStack": "harvestcraft:brusselsproutitem:0",
+                "fortunes": {
+                    "0": 0.1816,
+                    "1": 0.1876,
+                    "2": 0.1923,
+                    "3": 0.1833
+                }
+            },
+            {
+                "itemStack": "harvestcraft:asparagusitem:0",
+                "fortunes": {
+                    "0": 0.1856,
+                    "1": 0.1861,
+                    "2": 0.1925,
+                    "3": 0.1902
+                }
+            }
+        ],
+        "dim": "Dim 0: overworld"
     }
 ]
