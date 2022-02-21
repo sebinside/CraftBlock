@@ -47,6 +47,9 @@
 !config/harvestcraft.cfg
 !config/quark.cfg
 !config/morphtool.cfg
+!config/jeresources
+!config/jeresources/jeresources.cfg
+!config/jeresources/world-gen.json
 
 # Patchouli books folder
 !patchouli_books
