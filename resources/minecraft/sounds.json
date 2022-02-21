@@ -1,0 +1,7 @@
+{
+    "entity.snowman.spawn": {
+        "sounds": [
+            "doYouWannaBuildASnowman"
+        ]
+    }
+}
