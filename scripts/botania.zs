@@ -92,8 +92,8 @@ mods.botania.Apothecary.addRecipe("gourmaryllis", [
     
 //Corporea Network
 recipes.remove(<botania:corporeaspark:*>);
-recipes.addShapeless("corporeaspark_0", <botania:corporeaspark:0>, [
-  <botania:spark>, <ore:runeManaB>, <hwell:shard_h>, <uniquecrops:dyedbonemeal:13>
+recipes.addShapeless("corporeaspark_0", <botania:corporeaspark:0> * 2, [
+  <botania:spark>, <ore:runeManaB>.reuse(), <hwell:shard_h>, <uniquecrops:dyedbonemeal:13>
 ]);
 recipes.addShaped("corporeaspark_1", <botania:corporeaspark:1>, [
 	[<ore:ingotAsul>, <ore:gemLapis>, <ore:ingotAsul>], 
