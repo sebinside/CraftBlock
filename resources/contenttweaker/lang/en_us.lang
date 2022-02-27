@@ -6,3 +6,16 @@ tile.contenttweaker.botanic_alloy_block.name=Botanic Alloy Block
 tile.contenttweaker.elite_table_base.name=Elite Crafting Table Base
 item.contenttweaker.nether_star_shard.name=Nether Star Shard
 item.contenttweaker.nether_star_core.name=Nether Star Core
+material.manasteel.name=Manasteel
+material.terrasteel.name=Terrasteel
+material.elementium.name=Elementium
+material.livingwood.name=Livingwood
+material.dreamwood.name=Dreamwood
+material.manastring.name=Manastring
+modifier.mana.name=Mana
+modifier.mana.desc=§oBlue Power!§r\nConsumes mana to repair itself.
+modifier.aura.name=Aura I
+modifier.aura.desc=§oOut of nowhere!§r\nSlowly generates mana when held in hand.
+modifier.auragreater.name=Aura II
+modifier.auragreater.desc=§oMoooore Maaaana!§r\nGenerates mana when held in hand.\n5 times faster than at level I.
+

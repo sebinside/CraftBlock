@@ -1,4 +1,6 @@
 import crafttweaker.item.IItemStack;
+import scripts._base.addMoltenMetal;
+import scripts._base.addCompressionRecipes;
 
 // Deactiate pebble crafting
 recipes.removeShapeless(<minecraft:cobblestone>, [<ore:pebble>,<ore:pebble>,<ore:pebble>,<ore:pebble>]);
@@ -25,50 +27,49 @@ mods.jei.JEI.addDescription(<minecraft:bucket>, [
     "Use the wooden bowl to take a sip of water..."
 ]);
 
-// Terrasteel melting
-mods.tconstruct.Melting.addRecipe(<liquid:terrasteel> * 1296, <botania:storage:1>, 400 + 300);
-mods.tconstruct.Melting.addRecipe(<liquid:terrasteel> * 144, <botania:manaresource:4>, 200 + 300);
-mods.tconstruct.Melting.addRecipe(<liquid:terrasteel> * 16, <botania:manaresource:18>, 50 + 300);
+//Manasteel
+addMoltenMetal(<liquid:manasteel>, <botania:manaresource:17>, 75, 7, <botania:manaresource:0>, 200, 60, <botania:storage:0>, 400, 420);
+mods.tconstruct.Melting.addRecipe(<liquid:manasteel> * 576, <contenttweaker:material_part:14>, 500);
+mods.tconstruct.Melting.addRecipe(<liquid:manasteel> * 144, <contenttweaker:material_part:15>, 500);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:14>, <tconstruct:cast_custom:4>, <liquid:manasteel>, 576, false, 180);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:15>, <tconstruct:cast_custom:3>, <liquid:manasteel>, 144, false, 60);
+//For some strange reason these recipes already exist for terrasteel & manasteel but must be crated for elementium & botanic alloy
+//mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:material_part:14>, <botania:manaresource:0>, <immersiveengineering:mold:1>, 2400, 4);
+//mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:material_part:15>, <botania:manaresource:0>, <immersiveengineering:mold:0>, 2400);
 
-// Terrasteel casting
-mods.tconstruct.Casting.addBasinRecipe(<botania:storage:1>, null, <liquid:terrasteel>, 1296, false, 540);
-mods.tconstruct.Casting.addTableRecipe(<botania:manaresource:4>, <tconstruct:cast_custom>, <liquid:terrasteel>, 144, false, 60);
-mods.tconstruct.Casting.addTableRecipe(<botania:manaresource:18>, <tconstruct:cast_custom:1>, <liquid:terrasteel>, 16, false, 7);
 
-// Elementium melting
-mods.tconstruct.Melting.addRecipe(<liquid:elementium> * 1296, <botania:storage:2>, 350 + 300);
-mods.tconstruct.Melting.addRecipe(<liquid:elementium> * 144, <botania:manaresource:7>, 175 + 300);
-mods.tconstruct.Melting.addRecipe(<liquid:elementium> * 16, <botania:manaresource:19>, 75 + 300);
+// Terrasteel
+addMoltenMetal(<liquid:terrasteel>, <botania:manaresource:18>, 75, 7, <botania:manaresource:4>, 200, 60, <botania:storage:1>, 400, 420);
+mods.tconstruct.Melting.addRecipe(<liquid:terrasteel> * 576, <contenttweaker:material_part:16>, 500);
+mods.tconstruct.Melting.addRecipe(<liquid:terrasteel> * 144, <contenttweaker:material_part:17>, 500);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:16>, <tconstruct:cast_custom:4>, <liquid:terrasteel>, 576, false, 180);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:17>, <tconstruct:cast_custom:3>, <liquid:terrasteel>, 144, false, 60);
+//mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:material_part:16>, <botania:manaresource:4>, <immersiveengineering:mold:1>, 2400, 4);
+//mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:material_part:17>, <botania:manaresource:4>, <immersiveengineering:mold:0>, 2400);
 
-// Elementium casting
-mods.tconstruct.Casting.addBasinRecipe(<botania:storage:2>, null, <liquid:elementium>, 1296, false, 540);
-mods.tconstruct.Casting.addTableRecipe(<botania:manaresource:7>, <tconstruct:cast_custom>, <liquid:elementium>, 144, false, 60);
-mods.tconstruct.Casting.addTableRecipe(<botania:manaresource:19>, <tconstruct:cast_custom:1>, <liquid:elementium>, 16, false, 7);
+// Elementium 
+addMoltenMetal(<liquid:elementium>, <botania:manaresource:19>, 75, 7, <botania:manaresource:7>, 175, 60, <botania:storage:2>, 350, 420);
+mods.tconstruct.Melting.addRecipe(<liquid:elementium> * 576, <contenttweaker:material_part:18>, 500);
+mods.tconstruct.Melting.addRecipe(<liquid:elementium> * 144, <contenttweaker:material_part:19>, 500);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:18>, <tconstruct:cast_custom:4>, <liquid:elementium>, 576, false, 180);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:19>, <tconstruct:cast_custom:3>, <liquid:elementium>, 144, false, 60);
+mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:material_part:18>, <botania:manaresource:7>, <immersiveengineering:mold:1>, 2400, 4);
+mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:material_part:19>, <botania:manaresource:7>, <immersiveengineering:mold:0>, 2400);
 
-// Gaia spirit melting
-mods.tconstruct.Melting.addRecipe(<liquid:gaia_spirit> * 144, <botania:manaresource:14>, 200 + 300);
+// Gaia spirit
+addMoltenMetal(<liquid:gaia_spirit>, null, -1, -1, <botania:manaresource:14>, 200, 60, null, -1, -1);
 
-// Gaia spirit casting
-mods.tconstruct.Casting.addTableRecipe(<botania:manaresource:14>, <tconstruct:cast_custom>, <liquid:gaia_spirit>, 144, false, 60);
-
-// Botanic Alloy melting
-mods.tconstruct.Melting.addRecipe(<liquid:botanic_alloy> * 1296, <contenttweaker:botanic_alloy_block>, 700 + 300);
-mods.tconstruct.Melting.addRecipe(<liquid:botanic_alloy> * 144, <contenttweaker:botanic_alloy>, 400 + 300);
-
-// Botanic Alloy casting
-mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:botanic_alloy_block>, null, <liquid:botanic_alloy>, 1296, false, 540);
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:botanic_alloy>, <tconstruct:cast_custom>, <liquid:botanic_alloy>, 144, false, 60);
-
-// Botanic Alloy alloying
+// Botanic Alloy
 mods.tconstruct.Alloy.addRecipe(<liquid:botanic_alloy> * 2, [<liquid:gaia_spirit>, <liquid:terrasteel>, <liquid:elementium> * 2]);
+addMoltenMetal(<liquid:botanic_alloy>, <ore:nuggetBotanicAlloy>, 125, 7, <ore:ingotBotanicAlloy>, 400, 60, <ore:blockBotanicAlloy>, 700, 540);
+addCompressionRecipes("botanic_alloy", <ore:nuggetBotanicAlloy>, <ore:ingotBotanicAlloy>, <ore:blockBotanicAlloy>);
+mods.tconstruct.Melting.addRecipe(<liquid:botanic_alloy> * 576, <contenttweaker:material_part:20>, 500);
+mods.tconstruct.Melting.addRecipe(<liquid:botanic_alloy> * 144, <contenttweaker:material_part:21>, 500);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:20>, <tconstruct:cast_custom:4>, <liquid:botanic_alloy>, 576, false, 180);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:21>, <tconstruct:cast_custom:3>, <liquid:botanic_alloy>, 144, false, 60);
+mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:material_part:20>, <ore:ingotBotanicAlloy>, <immersiveengineering:mold:1>, 2400, 4);
+mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:material_part:21>, <ore:ingotBotanicAlloy>, <immersiveengineering:mold:0>, 2400);
 
-// Botanic Alloy crafting
-recipes.addShaped("botanicAlloyCompressIngot", <contenttweaker:botanic_alloy_block>, [
-    [<contenttweaker:botanic_alloy>, <contenttweaker:botanic_alloy>, <contenttweaker:botanic_alloy>],
-    [<contenttweaker:botanic_alloy>, <contenttweaker:botanic_alloy>, <contenttweaker:botanic_alloy>],
-    [<contenttweaker:botanic_alloy>, <contenttweaker:botanic_alloy>, <contenttweaker:botanic_alloy>]
-]);
-recipes.addShapeless("botanicAlloyDecompressBlock", <contenttweaker:botanic_alloy> * 9, [<contenttweaker:botanic_alloy_block>]);
 
 //Like Handheld Advanced Crafting but for the Assembly Halo
 recipes.remove(<botania:craftinghalo>);

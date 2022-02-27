@@ -31,3 +31,7 @@ import crafttweaker.item.IItemStack;
     <harvestcraft:gourmetbeefburgeritem:*>,
     <harvestcraft:gourmetvenisonburgeritem:*>
 ]);
+
+// botanic alloy 
+<ore:ingotBotanicAlloy>.add(<contenttweaker:botanic_alloy>);
+<ore:blockBotanicAlloy>.add(<contenttweaker:botanic_alloy_block>);
