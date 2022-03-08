@@ -588,3 +588,27 @@ recipes.addShaped("tconstructController", <tconstruct:smeltery_controller>, [
 	[<embers:ashen_stone>, <ore:gemHearthWellNetherCrystal>, <embers:ashen_stone>], 
 	[<ore:blockBlackIron>, <cookingforblockheads:toaster>, <ore:blockBlackIron>]
 ]);
+
+// Slime saplings
+recipes.addShaped("slimesapling0", <tconstruct:slime_sapling>, [
+    [<hwell:shard_o>, <botania:shinyflower:3>, <hwell:shard_o>],
+    [<ore:slimeballGreen>, <ore:treeSapling>, <ore:slimeballGreen>],
+    [null, <botania:specialflower>.withTag({type: "narslimmus"}), null]
+]);
+
+recipes.addShaped("slimesapling1", <tconstruct:slime_sapling:1>, [
+    [<hwell:shard_h>, <botania:shinyflower:10>, <hwell:shard_h>],
+    [<tconstruct:edible:1>, <tconstruct:slime_sapling>, <tconstruct:edible:1>],
+    [null, <botania:specialflower>.withTag({type: "arcanerose"}), null]
+]);
+
+recipes.addShaped("slimesapling2", <tconstruct:slime_sapling:2>, [
+    [<embers:shard_ember>, <botania:shinyflower:1>, <embers:shard_ember>],
+    [<tconstruct:edible:2>, <tconstruct:slime_sapling:1>, <tconstruct:edible:2>],
+    [null, <botania:specialflower>.withTag({type: "thermalily"}), null]
+]);
+
+// Slimy dirt
+mods.tconstruct.Drying.addRecipe(<tconstruct:slime_dirt>, <tconstruct:soil:1>, 18000);
+mods.tconstruct.Drying.addRecipe(<tconstruct:slime_dirt:1>, <tconstruct:soil:2>, 18000);
+mods.tconstruct.Drying.addRecipe(<tconstruct:slime_dirt:3>, <tconstruct:soil:5>, 18000);

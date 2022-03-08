@@ -64,15 +64,18 @@ for item in items {
     disable(item);
 }
 
+// Remove Crystaltine Ingot recipe
+mods.extendedcrafting.TableCrafting.remove(<extendedcrafting:material:24>);
+
 // Better Ultimate Ingot
-mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:storage:4>, [
-	[<minecraft:dye:5>, <minecraft:dye:6>, <minecraft:dye:7>, <minecraft:dye:8>, <minecraft:dye:9>, <minecraft:dye:10>, <minecraft:dye:12>], 
-	[<botania:dye:9>, <botania:dye:10>, <botania:dye:11>, <botania:dye:12>, <botania:dye:13>, <botania:dye:14>, <minecraft:dye:13>], 
-	[<botania:dye:8>, <hwell:asul_ingot>, <tconstruct:ingots>, <tconstruct:ingots:1>, <tconstruct:ingots:2>, <botania:dye:15>, <minecraft:dye:14>], 
-	[<botania:dye:7>, <embers:ingot_dawnstone>, <minecraft:yellow_flower>, <minecraft:red_flower>, <embers:ingot_silver>, <botania:manaresource:23>, <quark:root_dye>], 
-	[<botania:dye:6>, <botania:manaresource>, <minecraft:red_flower:1>, <minecraft:red_flower:8>, <embers:ingot_nickel>, <harvestcraft:cocoapowderitem>, <quark:root_dye:1>], 
-	[<botania:dye:5>, <botania:manaresource:4>, <botania:manaresource:7>, <minecraft:gold_ingot>, <minecraft:iron_ingot>, <harvestcraft:currypowderitem>, <quark:root_dye:2>], 
-	[<botania:dye:4>, <botania:dye:3>, <botania:dye:2>, <botania:dye:1>, <botania:dye>, <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust>]
+mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:material:32> * 2, [
+	[<ore:ingotElvenElementium>, <ore:ingotArdite>, <ore:ingotBrickNether>, <ore:ingotBlackIron>, <ore:ingotBrickNether>, <ore:ingotArdite>, <ore:ingotElvenElementium>],
+	[<botania:dye:14>, <tconstruct:materials:11>, <embers:ember_cluster>, <uniquecrops:dyedbonemeal:1>, <embers:ember_cluster>, <tconstruct:materials:11>, <botania:dye:14>],
+	[<ore:ingotTerrasteel>, <ore:ingotUranium>, <extendedcrafting:material:36>, <ore:ingotHOPGraphite>, <extendedcrafting:material:36>, <ore:ingotUranium>, <ore:ingotTerrasteel>],
+	[<botania:dye:5>, <tconstruct:materials:9>, <ore:gemEmerald>, <contenttweaker:aspectus_primal>, <ore:gemEmerald>, <tconstruct:materials:9>, <botania:dye:5>],
+	[<contenttweaker:botanic_alloy>, <ore:ingotAsul>, <extendedcrafting:material:48>, <ore:ingotHeavy>, <extendedcrafting:material:48>, <ore:ingotAsul>, <contenttweaker:botanic_alloy>],
+	[<botania:dye:3>, <tconstruct:materials:10>, <ore:ingotMetaldiamond>, <minecraft:dye:4>, <ore:ingotMetaldiamond>, <tconstruct:materials:10>, <botania:dye:3>],
+	[<ore:ingotKnightslime>, <ore:ingotManyullyn>, <ore:ingotSoulsteel>, <ore:ingotSteel>, <ore:ingotSoulsteel>, <ore:ingotManyullyn>, <ore:ingotKnightslime>]
 ]);
 
 //Handheld Advanced Crafting
@@ -81,3 +84,8 @@ recipes.addShaped("extendedcrafting_handheld_table", <extendedcrafting:handheld_
 	[null, <extendedcrafting:table_advanced>], 
 	[<ore:stickWood>, null]
 ]);
+
+// Enhanced Ender Ingot
+mods.embers.Alchemy.add(<extendedcrafting:material:48> * 2, [<contenttweaker:nether_star_core>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <extendedcrafting:material:36>, <extendedcrafting:material:36>], {
+    "primal": 450 .. 480
+});
