@@ -50,6 +50,14 @@ recipes.addShaped("emberBoiler", <embers:boiler>, [
 	[<embers:block_caminite_brick>, <ore:blockConstantan>, <embers:block_caminite_brick>]
 ]);
 
+//Auto Breaker is hardcore
+recipes.remove(<embers:breaker>);
+recipes.addShaped("emberBreaker", <embers:breaker>, [
+	[null, <hwell:grinding_wheel_iron>, null], 
+	[<ore:ingotLead>, <embers:mech_core>, <ore:ingotLead>], 
+	[<ore:ingotLead>, <embers:crystal_ember>, <ore:ingotLead>]
+]);
+
 // Two new caminite recipes
 recipes.remove(<embers:blend_caminite>);
 recipes.addShapeless("caminiteHard", <embers:blend_caminite> * 3, [<minecraft:clay_ball>, <minecraft:clay_ball>, <ore:itemSlag>, <ore:itemSlag>, <minecraft:sand>]);

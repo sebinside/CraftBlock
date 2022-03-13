@@ -1,0 +1,9 @@
+{
+  "parent": "extendedcrafting:block/table_elite",
+  "textures": {
+    "particle": "extendedcrafting:blocks/storage_black_iron",
+    "0": "extendedcrafting:blocks/storage_black_iron",
+    "1": "contenttweaker:blocks/table_base_top",
+    "2": "contenttweaker:blocks/table_base_side"
+  }
+}

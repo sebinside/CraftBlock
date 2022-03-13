@@ -118,7 +118,7 @@ recipes.addShaped("enderchest", <minecraft:ender_chest>, [
 moretweaker.jei.MoreJei.addDescription(<minecraft:blaze_rod>, ["Spoiler: Empty rod + powder"]);
 
 //Blaze powder info
-mods.jei.JEI.addDescription(<minecraft:blaze_powder>, ["Build a blazing friend from two Iron Bars and a Fel Pumpkin"]);
+moretweaker.jei.MoreJei.addDescription(<minecraft:blaze_powder>, ["Build a blazing friend from two Iron Bars and a Fel Pumpkin"]);
 
 // Rainbow wool info
 moretweaker.jei.MoreJei.addDescription(<skatekappa:rainbow_wool>, ["Legends are told that naming sheep 'derNiklaas' makes them go full rainbow."]);
@@ -147,3 +147,24 @@ recipes.addShaped("coarse_dirt", <minecraft:dirt:1> * 2, [
     [<minecraft:dirt:0>, <hwell:dust>],
     [<hwell:dust>, <minecraft:dirt:0>]
 ]);
+
+
+// Nether Star crafting
+<ore:nuggetNetherStar>.add(<contenttweaker:nether_star_shard>);
+mods.astralsorcery.StarlightInfusion.addInfusion(<contenttweaker:nether_star_shard>, <contenttweaker:nether_star_core>, true, 1, 200);
+mods.astralsorcery.Lightwell.addLiquefaction(<contenttweaker:nether_star_shard>, <liquid:astralsorcery.liquidstarlight>, 1.5, 200, 0xBE98F0);
+mods.astralsorcery.Altar.addTraitAltarRecipe("astralsorcery:shaped/internal/altar/nether_star", <minecraft:nether_star>, 7020, 200, [
+    <contenttweaker:nether_star_shard>, <astralsorcery:itemcelestialcrystal>, <contenttweaker:nether_star_shard>,
+    <astralsorcery:itemcelestialcrystal>, <contenttweaker:nether_star_core>, <astralsorcery:itemcelestialcrystal>,
+    <contenttweaker:nether_star_shard>, <astralsorcery:itemcelestialcrystal>, <contenttweaker:nether_star_shard>,
+    null, null, null, null, null, null, null, null, null, null, null, null,
+    <contenttweaker:nether_star_shard>, <contenttweaker:nether_star_shard>, 
+    <contenttweaker:nether_star_shard>, <contenttweaker:nether_star_shard>,
+    //Outer Items, indices 25+
+    <quark:soul_powder>, <ore:rodBlaze>, <minecraft:ghast_tear>, <ore:boneWithered>, <minecraft:magma_cream>
+], "astralsorcery.constellation.lucerna");
+<entity:minecraft:wither>.removeDrop(<minecraft:nether_star>);
+<entity:minecraft:wither>.addDrop(<contenttweaker:nether_star_shard>, 9, 12);
+
+// Snow ball recipe
+recipes.addShapeless("snowballs", <minecraft:snowball> * 4, [<minecraft:snow>]);
