@@ -232,3 +232,20 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <hwell:precision_grinder_empty>
 	[<hwell:asul_machine_case>, <ore:gearCopper>, <ore:cropChilipepper>, <ore:gearCopper>, <hwell:asul_machine_case>], 
 	[<ore:livingrock>, <astralsorcery:blockblackmarble>, <ore:blockHeavy>, <astralsorcery:blockblackmarble>, <ore:livingrock>]
 ]);
+
+// Scorched grit now requires red sand
+recipes.remove(<hwell:scorch_grit>);
+recipes.addShaped(<hwell:scorch_grit> * 4, [
+    [<minecraft:sand:1>, <minecraft:sand:1>, <minecraft:sand:1>],
+    [<minecraft:sand:1>, <hwell:shard_p>, <minecraft:sand:1>],
+    [<minecraft:sand:1>, <minecraft:sand:1>, <minecraft:sand:1>]
+]);
+
+// New gaseous sand recipe
+recipes.remove(<hwell:gaseous_sand>);
+mods.embers.Stamper.add(<hwell:gaseous_sand>, <fluid:gas_dwarf> * 250, <embers:stamp_flat>, <hwell:scorch_grit>);
+
+// Nerfed gaseous glass recipe
+furnace.remove(<hwell:gaseous_glass>);
+mods.immersiveengineering.Crusher.removeRecipesForInput(<minecraft:sandstone>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<hwell:gaseous_glass> * 2, <hwell:gaseous_sand>, <immersiveengineering:material:24>, 600, 512, [<hwell:fuel_dust> * 8, <ore:crystalFluix> * 2]);

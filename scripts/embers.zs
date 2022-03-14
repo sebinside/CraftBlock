@@ -168,3 +168,8 @@ for metal in metals {
         ingot, ingot, hammer
     ]);
 }
+
+// Require IE mixer for dwarven oil
+mods.embers.Mixer.remove(<liquid:oil_dwarf> * 10);
+mods.embers.Mixer.remove(<liquid:oil_dwarf> * 30);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:oil_dwarf> * 8, <liquid:oil_soul> * 16, <liquid:biodiesel> * 8, 16000);
