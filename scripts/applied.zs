@@ -135,9 +135,9 @@ recipes.addShaped(<appliedenergistics2:inscriber>, [
 ]);
 
 // New processor recipes
-mods.appliedenergistics2.Inscriber.addRecipe(<appliedenergistics2:material:23>, <ore:quartzRed>, true, <refinedstorage:processor:3>, <opencomputers:component:3>);
-mods.appliedenergistics2.Inscriber.addRecipe(<appliedenergistics2:material:22>, <ore:quartzRed>, true, <refinedstorage:processor:4>, <opencomputers:component:4>);
-mods.appliedenergistics2.Inscriber.addRecipe(<appliedenergistics2:material:24>, <ore:quartzRed>, true, <refinedstorage:processor:5>, <opencomputers:component:5>);
+mods.appliedenergistics2.Inscriber.addRecipe(<appliedenergistics2:material:23>, <ore:quartzRed>, false, <refinedstorage:processor:3>, <opencomputers:component:3>);
+mods.appliedenergistics2.Inscriber.addRecipe(<appliedenergistics2:material:22>, <ore:quartzRed>, false, <refinedstorage:processor:4>, <opencomputers:component:4>);
+mods.appliedenergistics2.Inscriber.addRecipe(<appliedenergistics2:material:24>, <ore:quartzRed>, false, <refinedstorage:processor:5>, <opencomputers:component:5>);
 
 
 # Energy / controller blocks
