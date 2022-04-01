@@ -50,7 +50,22 @@ for item in baubles {
     disable(item);
 }
 
+// Ruined Bricks recipe for cropworld portal
+recipes.addShaped(<uniquecrops:ruinedbricks> * 8, [
+    [<tconstruct:brownstone:10>, <embers:wildfire_core>, <tconstruct:brownstone:10>],
+    [<uniquecrops:generic:17>, <botania:alfheimportal>, <uniquecrops:generic:17>],
+    [<tconstruct:brownstone:10>, <embers:wildfire_core>, <tconstruct:brownstone:10>]
+]);
+recipes.addShaped(<uniquecrops:ruinedbrickscarved> * 4, [
+    [<uniquecrops:ruinedbricks>, <uniquecrops:ruinedbricks>],
+    [<uniquecrops:ruinedbricks>, <uniquecrops:ruinedbricks>]
+]);
+recipes.addShapeless(<uniquecrops:ruinedbricks>, [<uniquecrops:ruinedbrickscarved>]);
+
 // Add notes for beginners
 moretweaker.jei.MoreJei.addDescription(<uniquecrops:generic:11>, ["Dropped from Invisibilia crops."]);
 moretweaker.jei.MoreJei.addDescription(<uniquecrops:seednormal>, ["Dropped from breaking grass."]);
 moretweaker.jei.MoreJei.addDescription(<uniquecrops:seedferoxia>, ["Might be a good idea to backup those..."]);
+moretweaker.jei.MoreJei.addDescription(<uniquecrops:flywood_sapling>, ["Can only be found in the Cropworld Dimension."]);
+moretweaker.jei.MoreJei.addDescription(<uniquecrops:useless_lump>, ["Made with the Cocito.", "Seems it's not that useless anyway..."]);
+moretweaker.jei.MoreJei.addDescription(<uniquecrops:generic:30>, ["Play now! On the new §2Itero Supercrop§r!"]);
