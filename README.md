@@ -2,16 +2,10 @@
   <img src = "CB250.png"/>
 </p>
 
-<p align="center">
-  <img src = "nitrado.png"/>
-</p>
-
 # CraftBlock
 
 [![CurseForge](http://cf.way2muchnoise.eu/full_491420_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/craftblock)
 [![Curseforge](http://cf.way2muchnoise.eu/versions/Game%20Version_491420_latest.svg)](https://www.curseforge.com/minecraft/modpacks/craftblock)
-
-The official servers are available [here at Nitrado](https://702.yt/nitradocraftblock)!
 
 This repository contains all **override files** for the [CraftBlock](https://www.curseforge.com/minecraft/modpacks/craftblock)-modpack and also the files for the [SoManyCoolAndFunnyAdvancements](https://www.curseforge.com/minecraft/mc-mods/somanycoolandfunnyadvancements)-mod.
 
