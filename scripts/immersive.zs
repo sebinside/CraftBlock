@@ -130,3 +130,18 @@ recipes.addShaped("connector_probe", <immersiveengineering:connector:13>, [
     [<ore:paneGlass>, <ore:oc:materialCircuitBoardPrinted>, <ore:paneGlass>], 
     [null, <ore:gemQuartz>, null]
 ]);
+
+// Remove way too easy concrete recipes
+recipes.removeByRecipeName("immersiveengineering:stone_decoration/concrete");
+recipes.removeByRecipeName("immersiveengineering:stone_decoration/concrete2");
+recipes.removeByRecipeName("immersiveengineering:stone_decoration/concrete_leaded");
+
+// Obtainment description for concrete
+moretweaker.jei.MoreJei.addDescription(<immersiveengineering:stone_decoration:5>, ["Let Liquid Concrete chill on the floor for a bit."]);
+
+// Harder concrete recipe in the mixer
+mods.immersiveengineering.Mixer.removeRecipe(<liquid:concrete>);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:concrete> * 500, <liquid:clay> * 500, [<ore:dustNiter>, <ore:itemSlag>, <tconstruct:soil>, <tconstruct:soil>], 16000);
+
+// Make leaded concrete require casting
+mods.tconstruct.Casting.addBasinRecipe(<immersiveengineering:stone_decoration:7>, <immersiveengineering:stone_decoration:5>, <liquid:lead>, 576, true);
